@@ -1,0 +1,9 @@
+._*
+.*
+!.gitignore
+*~
+.DS_Store
+*#
+#*
+*.bk
+*.orig
