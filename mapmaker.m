@@ -6,14 +6,18 @@ f=fopen('megt90n000cb.img');
 mapinfo = struct('west',0,'east',360,'north',90,'south',-90);
 W = 1440;
 H = 720;
+jump = 5;
 % source: http://toolserver.org/~geohack/geohack.php?pagename=Mars_Science_Laboratory&params=4.5895_S_137.4417_E_globe:Mars
 curiosity = struct('north',-4.5895,'east',137.4417);
 A=flipud(fread(f,[W,H],'*int16',0,'b')');
 fclose(f);
+A=A(1:jump:end,1:jump:end);
+W = W/jump;
+H = H/jump;
 x0 = [
     floor((curiosity.east - mapinfo.west) / (mapinfo.east - mapinfo.west) * W)
     floor((curiosity.north - mapinfo.south) / (mapinfo.north - mapinfo.south) * H)];
-figure;
+figure(1);
 imagesc(A);
 figure(gcf);
 set(gca,'YDir','normal');
@@ -39,16 +43,18 @@ for i = 1:W % E/W
 end
 
 %% Show stats
-figure;
+figure(2);
+subplot(2,1,1);
 imagesc(control);
 figure(gcf);
 set(gca,'YDir','normal');
-figure;
+subplot(2,1,2);
 imagesc(cost);
 figure(gcf);
 set(gca,'YDir','normal');
 
 %% Prep iteration
+multiplier = [1,sqrt(2),1,sqrt(2),1,sqrt(2),1,sqrt(2)]';
 nextx = zeros(8,H,W);
 u_cost = zeros(8,H,W);
 for i = 1:W
@@ -67,13 +73,16 @@ for i = 1:W
         nx_x = nx_xs(:,2)+(nx_xs(:,1)-1)*H;
         nextx(:,j,i) = nx_x;
         next_h = A(nx_x);
-        u_cost(:,j,i) = (double(h-h).^2 + 1).*multiplier;
+        % small linear cost fcn gives nice cost map
+        %u_cost(:,j,i) = (abs(double(next_h-h)/200) + 1).*multiplier;
+        
+        % medium square cost fcn gives nicer flow field
+        u_cost(:,j,i) = ((double(next_h-h)/1000).^2 + 1).*multiplier;
     end
 end
 
 %% Value iteration of the actual costs
-multiplier = [1,sqrt(2),1,sqrt(2),1,sqrt(2),1,sqrt(2)]';
-for iter = 1:1
+for iter = 1:50
     prevcost = cost;
     for i = 1:W
         for j = 1:H
@@ -88,15 +97,16 @@ for iter = 1:1
             end
         end
     end
+    if mod(iter,jump)==0 || true
+        %% Show stats
+        figure(2);
+        subplot(2,1,1);
+        imagesc(control);
+        figure(gcf);
+        set(gca,'YDir','normal');
+        subplot(2,1,2);
+        imagesc(cost);
+        figure(gcf);
+        set(gca,'YDir','normal');
+    end
 end
-
-
-%% Show stats
-figure;
-imagesc(control);
-figure(gcf);
-set(gca,'YDir','normal');
-figure;
-imagesc(cost);
-figure(gcf);
-set(gca,'YDir','normal');
