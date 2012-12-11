@@ -35,7 +35,7 @@ cost = zeros(H,W);
 control = zeros(H,W);
 for i = 1:W % E/W
     for j = 1:H % N/S
-        ci = mod(floor(atan2(x0(2)-j, x0(1)-i) / 2 / pi * 8 + 4.5),8)+1;
+        ci = mod(floor(atan2(x0(2)-j, x0(1)-i) / 2 / pi * 8 + 5.5),8)+1;
         costi = hypot(j-x0(2), i-x0(1));
         control(j,i) = ci;
         cost(j,i) = costi;
@@ -82,6 +82,7 @@ for i = 1:W
 end
 
 %% Value iteration of the actual costs
+tic
 for iter = 1:50
     prevcost = cost;
     for i = 1:W
@@ -110,3 +111,4 @@ for iter = 1:50
         set(gca,'YDir','normal');
     end
 end
+toc
