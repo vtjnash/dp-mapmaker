@@ -1,0 +1,65 @@
+cost = (((next_h-h)/1000).^2 + 1).*dist_multiplier
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 64, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+probably reached convergance 434.35540551815257
+total viters: 20
+elapsed time: 0.47744083404541016 seconds
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 32, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+probably reached convergance 709.7675648615877
+total viters: 29
+elapsed time: 0.7836811542510986 seconds
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 16, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+probably reached convergance 2298.0628920316053
+total viters: 47
+elapsed time: 1.6059319972991943 seconds
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 8, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+probably reached convergance 8471.843150804469
+total viters: 97
+elapsed time: 6.80545711517334 seconds
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+probably reached convergance 32494.210908045745
+total viters: 183
+elapsed time: 42.28184914588928 seconds
+
+julia> require("mapmaker"); x=mapmaker.main();
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+^Ctotal viters: 0
+elapsed time: 7.367841005325317 seconds
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 2, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+probably reached convergance 127218.78444765447
+total viters: 361
+elapsed time: 308.5767958164215 seconds
+
+julia> 
+

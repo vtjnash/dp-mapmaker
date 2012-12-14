@@ -1,0 +1,114 @@
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 32, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+  viteration 1 elapsed time: 0.02146291732788086 seconds
+  viteration 2 elapsed time: 0.02331995964050293 seconds
+  viteration 3 elapsed time: 0.028068065643310547 seconds
+  viteration 4 elapsed time: 0.02301311492919922 seconds
+  viteration 5 elapsed time: 0.048922061920166016 seconds
+  viteration 6 elapsed time: 0.023057937622070312 seconds
+  viteration 7 elapsed time: 0.05102396011352539 seconds
+  viteration 8 elapsed time: 0.023746013641357422 seconds
+  viteration 9 elapsed time: 0.027946949005126953 seconds
+  viteration 10 elapsed time: 0.023939132690429688 seconds
+  viteration 11 elapsed time: 0.029505014419555664 seconds
+  viteration 12 elapsed time: 0.027881145477294922 seconds
+  viteration 13 elapsed time: 0.026273012161254883 seconds
+  viteration 14 elapsed time: 0.04083704948425293 seconds
+  viteration 15 elapsed time: 0.026333093643188477 seconds
+  viteration 16 elapsed time: 0.027827978134155273 seconds
+  viteration 17 elapsed time: 0.02772808074951172 seconds
+  viteration 18 elapsed time: 0.025046110153198242 seconds
+  viteration 19 elapsed time: 0.026501893997192383 seconds
+  viteration 20 elapsed time: 0.026340007781982422 seconds
+  viteration 21 elapsed time: 0.02660822868347168 seconds
+  viteration 22 elapsed time: 0.04349398612976074 seconds
+  viteration 23 elapsed time: 0.030771970748901367 seconds
+  viteration 24 elapsed time: 0.03709816932678223 seconds
+  viteration 25 elapsed time: 0.029016971588134766 seconds
+  viteration 26 elapsed time: 0.03575491905212402 seconds
+  viteration 27 elapsed time: 0.027437925338745117 seconds
+  viteration 28 elapsed time: 0.025842905044555664 seconds
+  viteration 29 elapsed time: 0.044593095779418945 seconds
+  viteration 30 elapsed time: 0.02684807777404785 seconds
+  viteration 31 elapsed time: 0.02900385856628418 seconds
+probably reached convergance 787.9631847428501
+viter total elapsed time: 0.937108039855957 seconds
+elapsed time: 1.069037914276123 seconds
+
+julia> 
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 16, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+  viteration 1 elapsed time: 0.04069805145263672 seconds
+  viteration 2 elapsed time: 0.04722189903259277 seconds
+  viteration 3 elapsed time: 0.050440073013305664 seconds
+  viteration 4 elapsed time: 0.05926012992858887 seconds
+  viteration 5 elapsed time: 0.047020912170410156 seconds
+  viteration 6 elapsed time: 0.04924607276916504 seconds
+  viteration 7 elapsed time: 0.06868791580200195 seconds
+  viteration 8 elapsed time: 0.06488490104675293 seconds
+  viteration 9 elapsed time: 0.040567874908447266 seconds
+  viteration 10 elapsed time: 0.04192709922790527 seconds
+  viteration 11 elapsed time: 0.04598808288574219 seconds
+  viteration 12 elapsed time: 0.06268811225891113 seconds
+  viteration 13 elapsed time: 0.036972999572753906 seconds
+  viteration 14 elapsed time: 0.03684115409851074 seconds
+  viteration 15 elapsed time: 0.04012608528137207 seconds
+  viteration 16 elapsed time: 0.06111407279968262 seconds
+  viteration 17 elapsed time: 0.04295921325683594 seconds
+  viteration 18 elapsed time: 0.04477715492248535 seconds
+  viteration 19 elapsed time: 0.0611729621887207 seconds
+  viteration 20 elapsed time: 0.044909000396728516 seconds
+  viteration 21 elapsed time: 0.04385495185852051 seconds
+  viteration 22 elapsed time: 0.0403749942779541 seconds
+  viteration 23 elapsed time: 0.06075096130371094 seconds
+  viteration 24 elapsed time: 0.03879213333129883 seconds
+  viteration 25 elapsed time: 0.03649187088012695 seconds
+  viteration 26 elapsed time: 0.03619790077209473 seconds
+  viteration 27 elapsed time: 0.061837196350097656 seconds
+  viteration 28 elapsed time: 0.036691904067993164 seconds
+  viteration 29 elapsed time: 0.05005288124084473 seconds
+  viteration 30 elapsed time: 0.04599905014038086 seconds
+  viteration 31 elapsed time: 0.05776095390319824 seconds
+  viteration 32 elapsed time: 0.033576011657714844 seconds
+  viteration 33 elapsed time: 0.033854007720947266 seconds
+  viteration 34 elapsed time: 0.039073944091796875 seconds
+  viteration 35 elapsed time: 0.062088966369628906 seconds
+  viteration 36 elapsed time: 0.048985958099365234 seconds
+  viteration 37 elapsed time: 0.04503297805786133 seconds
+  viteration 38 elapsed time: 0.04621386528015137 seconds
+  viteration 39 elapsed time: 0.06960582733154297 seconds
+  viteration 40 elapsed time: 0.03251504898071289 seconds
+  viteration 41 elapsed time: 0.03471994400024414 seconds
+  viteration 42 elapsed time: 0.04739713668823242 seconds
+  viteration 43 elapsed time: 0.0376429557800293 seconds
+  viteration 44 elapsed time: 0.041246891021728516 seconds
+  viteration 45 elapsed time: 0.0324549674987793 seconds
+  viteration 46 elapsed time: 0.05702495574951172 seconds
+  viteration 47 elapsed time: 0.033473968505859375 seconds
+  viteration 48 elapsed time: 0.04466605186462402 seconds
+  viteration 49 elapsed time: 0.03416895866394043 seconds
+  viteration 50 elapsed time: 0.06630802154541016 seconds
+  viteration 51 elapsed time: 0.040498971939086914 seconds
+  viteration 52 elapsed time: 0.042639970779418945 seconds
+  viteration 53 elapsed time: 0.041188955307006836 seconds
+probably reached convergance 2626.5951801199276
+viter total elapsed time: 2.469430923461914 seconds
+elapsed time: 2.6313679218292236 seconds
+
+julia> 
+
+
+
+main conditions: 
+    jump: 2, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:10000
+total viters: 372
+total piters: 0
+elapsed time: 295.75580191612244 seconds

@@ -1,0 +1,328 @@
+cost = (((next_h-h)/1000).^2 + 1).*dist_multiplier
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 32, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1
+piteration 1 elapsed time: 0.0318598747253418 seconds
+  viteration 1 elapsed time: 0.025105953216552734 seconds
+viter total elapsed time: 0.02513909339904785 seconds
+piteration 2 elapsed time: 0.029455184936523438 seconds
+  viteration 1 elapsed time: 0.0441439151763916 seconds
+viter total elapsed time: 0.04416680335998535 seconds
+piteration 3 elapsed time: 0.03279590606689453 seconds
+  viteration 1 elapsed time: 0.03708386421203613 seconds
+viter total elapsed time: 0.03711295127868652 seconds
+piteration 4 elapsed time: 0.03274703025817871 seconds
+  viteration 1 elapsed time: 0.03292989730834961 seconds
+viter total elapsed time: 0.03295493125915527 seconds
+piteration 5 elapsed time: 0.03383994102478027 seconds
+  viteration 1 elapsed time: 0.029701948165893555 seconds
+viter total elapsed time: 0.029727935791015625 seconds
+piteration 6 elapsed time: 0.030451059341430664 seconds
+  viteration 1 elapsed time: 0.028994083404541016 seconds
+viter total elapsed time: 0.02901601791381836 seconds
+piteration 7 elapsed time: 0.05391693115234375 seconds
+  viteration 1 elapsed time: 0.02922511100769043 seconds
+viter total elapsed time: 0.029256105422973633 seconds
+piteration 8 elapsed time: 0.026018857955932617 seconds
+  viteration 1 elapsed time: 0.03455090522766113 seconds
+viter total elapsed time: 0.03457188606262207 seconds
+piteration 9 elapsed time: 0.02383279800415039 seconds
+  viteration 1 elapsed time: 0.02927088737487793 seconds
+viter total elapsed time: 0.02928900718688965 seconds
+piteration 10 elapsed time: 0.026507139205932617 seconds
+  viteration 1 elapsed time: 0.028242111206054688 seconds
+viter total elapsed time: 0.028268098831176758 seconds
+piteration 11 elapsed time: 0.04595613479614258 seconds
+  viteration 1 elapsed time: 0.026340961456298828 seconds
+probably reached convergance 709.7675648615877
+viter total elapsed time: 0.026939868927001953 seconds
+reached convergance 709.7675648615877
+elapsed time: 0.8343918323516846 seconds
+
+julia> 
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 16, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1
+piteration 1 elapsed time: 0.10955309867858887 seconds
+  viteration 1 elapsed time: 0.036717891693115234 seconds
+viter total elapsed time: 0.03673696517944336 seconds
+piteration 2 elapsed time: 0.06428098678588867 seconds
+  viteration 1 elapsed time: 0.03422212600708008 seconds
+viter total elapsed time: 0.03423595428466797 seconds
+piteration 3 elapsed time: 0.059561967849731445 seconds
+  viteration 1 elapsed time: 0.05070900917053223 seconds
+viter total elapsed time: 0.050727128982543945 seconds
+piteration 4 elapsed time: 0.057563066482543945 seconds
+  viteration 1 elapsed time: 0.036473989486694336 seconds
+viter total elapsed time: 0.03649306297302246 seconds
+piteration 5 elapsed time: 0.059953927993774414 seconds
+  viteration 1 elapsed time: 0.03774881362915039 seconds
+viter total elapsed time: 0.0377659797668457 seconds
+piteration 6 elapsed time: 0.08164501190185547 seconds
+  viteration 1 elapsed time: 0.06244611740112305 seconds
+viter total elapsed time: 0.06246495246887207 seconds
+piteration 7 elapsed time: 0.06604599952697754 seconds
+  viteration 1 elapsed time: 0.032362937927246094 seconds
+viter total elapsed time: 0.03238201141357422 seconds
+piteration 8 elapsed time: 0.07047581672668457 seconds
+  viteration 1 elapsed time: 0.058923959732055664 seconds
+viter total elapsed time: 0.058943986892700195 seconds
+piteration 9 elapsed time: 0.06525897979736328 seconds
+  viteration 1 elapsed time: 0.033902883529663086 seconds
+viter total elapsed time: 0.033921003341674805 seconds
+piteration 10 elapsed time: 0.06349992752075195 seconds
+  viteration 1 elapsed time: 0.03179001808166504 seconds
+viter total elapsed time: 0.03180813789367676 seconds
+piteration 11 elapsed time: 0.059278011322021484 seconds
+  viteration 1 elapsed time: 0.04686999320983887 seconds
+viter total elapsed time: 0.046888113021850586 seconds
+piteration 12 elapsed time: 0.06892895698547363 seconds
+  viteration 1 elapsed time: 0.03549003601074219 seconds
+viter total elapsed time: 0.0355069637298584 seconds
+piteration 13 elapsed time: 0.06451106071472168 seconds
+  viteration 1 elapsed time: 0.0545039176940918 seconds
+viter total elapsed time: 0.0545809268951416 seconds
+piteration 14 elapsed time: 0.06406998634338379 seconds
+  viteration 1 elapsed time: 0.04027605056762695 seconds
+viter total elapsed time: 0.04029393196105957 seconds
+piteration 15 elapsed time: 0.06113100051879883 seconds
+  viteration 1 elapsed time: 0.0347898006439209 seconds
+viter total elapsed time: 0.03480982780456543 seconds
+piteration 16 elapsed time: 0.06632184982299805 seconds
+  viteration 1 elapsed time: 0.06252193450927734 seconds
+probably reached convergance 2298.0628920316053
+viter total elapsed time: 0.06398606300354004 seconds
+reached convergance 2298.0628920316053
+elapsed time: 1.9361991882324219 seconds
+
+julia> 
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 8, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1
+piteration 1 elapsed time: 0.6355080604553223 seconds
+  viteration 1 elapsed time: 0.08559703826904297 seconds
+viter total elapsed time: 0.08561301231384277 seconds
+piteration 2 elapsed time: 0.589569091796875 seconds
+  viteration 1 elapsed time: 0.08554410934448242 seconds
+viter total elapsed time: 0.0856781005859375 seconds
+piteration 3 elapsed time: 0.6027071475982666 seconds
+  viteration 1 elapsed time: 0.07961583137512207 seconds
+viter total elapsed time: 0.07963395118713379 seconds
+piteration 4 elapsed time: 0.5982480049133301 seconds
+  viteration 1 elapsed time: 0.10596704483032227 seconds
+viter total elapsed time: 0.10598587989807129 seconds
+piteration 5 elapsed time: 0.5838541984558105 seconds
+  viteration 1 elapsed time: 0.08683490753173828 seconds
+viter total elapsed time: 0.08685111999511719 seconds
+piteration 6 elapsed time: 0.6593000888824463 seconds
+  viteration 1 elapsed time: 0.08775806427001953 seconds
+viter total elapsed time: 0.08777523040771484 seconds
+piteration 7 elapsed time: 0.6015439033508301 seconds
+  viteration 1 elapsed time: 0.10006880760192871 seconds
+viter total elapsed time: 0.10008788108825684 seconds
+piteration 8 elapsed time: 0.6400110721588135 seconds
+  viteration 1 elapsed time: 0.08179283142089844 seconds
+viter total elapsed time: 0.08181285858154297 seconds
+piteration 9 elapsed time: 0.5836689472198486 seconds
+  viteration 1 elapsed time: 0.08463191986083984 seconds
+viter total elapsed time: 0.08464908599853516 seconds
+piteration 10 elapsed time: 0.5751490592956543 seconds
+  viteration 1 elapsed time: 0.08671998977661133 seconds
+viter total elapsed time: 0.08673501014709473 seconds
+piteration 11 elapsed time: 0.6701390743255615 seconds
+  viteration 1 elapsed time: 0.06906890869140625 seconds
+viter total elapsed time: 0.06908392906188965 seconds
+piteration 12 elapsed time: 0.6307358741760254 seconds
+  viteration 1 elapsed time: 0.0693972110748291 seconds
+viter total elapsed time: 0.06941509246826172 seconds
+piteration 13 elapsed time: 0.6580519676208496 seconds
+  viteration 1 elapsed time: 0.07738995552062988 seconds
+viter total elapsed time: 0.07741117477416992 seconds
+piteration 14 elapsed time: 0.6132378578186035 seconds
+  viteration 1 elapsed time: 0.061860084533691406 seconds
+viter total elapsed time: 0.06187605857849121 seconds
+piteration 15 elapsed time: 0.5742390155792236 seconds
+  viteration 1 elapsed time: 0.058454036712646484 seconds
+viter total elapsed time: 0.0584719181060791 seconds
+piteration 16 elapsed time: 0.5632162094116211 seconds
+  viteration 1 elapsed time: 0.058949947357177734 seconds
+viter total elapsed time: 0.05896902084350586 seconds
+piteration 17 elapsed time: 0.6680140495300293 seconds
+  viteration 1 elapsed time: 0.08094406127929688 seconds
+viter total elapsed time: 0.08096909523010254 seconds
+piteration 18 elapsed time: 0.6591291427612305 seconds
+  viteration 1 elapsed time: 0.07301902770996094 seconds
+viter total elapsed time: 0.07304096221923828 seconds
+piteration 19 elapsed time: 0.6582529544830322 seconds
+  viteration 1 elapsed time: 0.0710301399230957 seconds
+viter total elapsed time: 0.07105112075805664 seconds
+piteration 20 elapsed time: 0.610353946685791 seconds
+  viteration 1 elapsed time: 0.0813601016998291 seconds
+viter total elapsed time: 0.08137893676757812 seconds
+piteration 21 elapsed time: 0.6449220180511475 seconds
+  viteration 1 elapsed time: 0.08904099464416504 seconds
+viter total elapsed time: 0.08905577659606934 seconds
+piteration 22 elapsed time: 0.6321811676025391 seconds
+  viteration 1 elapsed time: 0.08153009414672852 seconds
+viter total elapsed time: 0.08155107498168945 seconds
+piteration 23 elapsed time: 0.6328930854797363 seconds
+  viteration 1 elapsed time: 0.08919000625610352 seconds
+viter total elapsed time: 0.08920812606811523 seconds
+piteration 24 elapsed time: 0.6024110317230225 seconds
+  viteration 1 elapsed time: 0.08295702934265137 seconds
+probably reached convergance 8471.843150804469
+viter total elapsed time: 0.08514213562011719 seconds
+reached convergance 8471.843150804469
+elapsed time: 17.052581071853638 seconds
+
+julia> 
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1
+piteration 1 elapsed time: 9.729736089706421 seconds
+  viteration 1 elapsed time: 0.30630993843078613 seconds
+viter total elapsed time: 0.30632686614990234 seconds
+piteration 2 elapsed time: 10.142033815383911 seconds
+  viteration 1 elapsed time: 0.2786710262298584 seconds
+viter total elapsed time: 0.2786850929260254 seconds
+piteration 3 elapsed time: 9.77510404586792 seconds
+  viteration 1 elapsed time: 0.2736949920654297 seconds
+viter total elapsed time: 0.2737128734588623 seconds
+piteration 4 elapsed time: 9.905961036682129 seconds
+  viteration 1 elapsed time: 0.23868894577026367 seconds
+viter total elapsed time: 0.23870587348937988 seconds
+piteration 5 elapsed time: 9.859847068786621 seconds
+  viteration 1 elapsed time: 0.2873368263244629 seconds
+viter total elapsed time: 0.2873539924621582 seconds
+piteration 6 elapsed time: 10.107136011123657 seconds
+  viteration 1 elapsed time: 0.2936580181121826 seconds
+viter total elapsed time: 0.29367804527282715 seconds
+piteration 7 elapsed time: 10.185408115386963 seconds
+  viteration 1 elapsed time: 0.25644493103027344 seconds
+viter total elapsed time: 0.25646305084228516 seconds
+piteration 8 elapsed time: 9.876951932907104 seconds
+  viteration 1 elapsed time: 0.27022385597229004 seconds
+viter total elapsed time: 0.27024102210998535 seconds
+piteration 9 elapsed time: 10.179025888442993 seconds
+  viteration 1 elapsed time: 0.31482505798339844 seconds
+viter total elapsed time: 0.31484389305114746 seconds
+piteration 10 elapsed time: 10.098989009857178 seconds
+  viteration 1 elapsed time: 0.30702805519104004 seconds
+viter total elapsed time: 0.30704402923583984 seconds
+piteration 11 elapsed time: 12.342535018920898 seconds
+  viteration 1 elapsed time: 0.3110659122467041 seconds
+viter total elapsed time: 0.3110849857330322 seconds
+piteration 12 elapsed time: 13.1802499294281 seconds
+  viteration 1 elapsed time: 0.44858717918395996 seconds
+viter total elapsed time: 0.44860315322875977 seconds
+piteration 13 elapsed time: 10.472583055496216 seconds
+  viteration 1 elapsed time: 0.36690497398376465 seconds
+viter total elapsed time: 0.36692094802856445 seconds
+piteration 14 elapsed time: 10.062252044677734 seconds
+  viteration 1 elapsed time: 0.2799489498138428 seconds
+viter total elapsed time: 0.27996397018432617 seconds
+piteration 15 elapsed time: 9.61918020248413 seconds
+  viteration 1 elapsed time: 0.2688179016113281 seconds
+viter total elapsed time: 0.2688407897949219 seconds
+piteration 16 elapsed time: 9.681097984313965 seconds
+  viteration 1 elapsed time: 0.33884406089782715 seconds
+viter total elapsed time: 0.3388631343841553 seconds
+piteration 17 elapsed time: 10.138359069824219 seconds
+  viteration 1 elapsed time: 0.2962150573730469 seconds
+viter total elapsed time: 0.2962331771850586 seconds
+piteration 18 elapsed time: 10.081654787063599 seconds
+  viteration 1 elapsed time: 0.2828550338745117 seconds
+viter total elapsed time: 0.28287410736083984 seconds
+piteration 19 elapsed time: 9.26148796081543 seconds
+  viteration 1 elapsed time: 0.2519340515136719 seconds
+viter total elapsed time: 0.2519490718841553 seconds
+piteration 20 elapsed time: 9.278963804244995 seconds
+  viteration 1 elapsed time: 0.31520605087280273 seconds
+viter total elapsed time: 0.31522297859191895 seconds
+piteration 21 elapsed time: 8.930437088012695 seconds
+  viteration 1 elapsed time: 0.22882890701293945 seconds
+viter total elapsed time: 0.22884607315063477 seconds
+piteration 22 elapsed time: 9.58755111694336 seconds
+  viteration 1 elapsed time: 0.24682998657226562 seconds
+viter total elapsed time: 0.24685096740722656 seconds
+piteration 23 elapsed time: 8.674971103668213 seconds
+  viteration 1 elapsed time: 0.2297070026397705 seconds
+viter total elapsed time: 0.2297210693359375 seconds
+piteration 24 elapsed time: 8.474961042404175 seconds
+  viteration 1 elapsed time: 0.2900421619415283 seconds
+viter total elapsed time: 0.2900581359863281 seconds
+piteration 25 elapsed time: 8.32389211654663 seconds
+  viteration 1 elapsed time: 0.2341771125793457 seconds
+viter total elapsed time: 0.23419189453125 seconds
+piteration 26 elapsed time: 8.765876054763794 seconds
+  viteration 1 elapsed time: 0.25805187225341797 seconds
+viter total elapsed time: 0.2580680847167969 seconds
+piteration 27 elapsed time: 8.39679503440857 seconds
+  viteration 1 elapsed time: 0.23189592361450195 seconds
+viter total elapsed time: 0.23191189765930176 seconds
+piteration 28 elapsed time: 7.801727056503296 seconds
+  viteration 1 elapsed time: 0.221466064453125 seconds
+viter total elapsed time: 0.2214808464050293 seconds
+piteration 29 elapsed time: 7.834356069564819 seconds
+  viteration 1 elapsed time: 0.22114896774291992 seconds
+viter total elapsed time: 0.22116494178771973 seconds
+piteration 30 elapsed time: 7.773390054702759 seconds
+  viteration 1 elapsed time: 0.21620893478393555 seconds
+viter total elapsed time: 0.21622800827026367 seconds
+piteration 31 elapsed time: 7.877373933792114 seconds
+  viteration 1 elapsed time: 0.22069811820983887 seconds
+viter total elapsed time: 0.22071409225463867 seconds
+piteration 32 elapsed time: 7.755272150039673 seconds
+  viteration 1 elapsed time: 0.2089250087738037 seconds
+viter total elapsed time: 0.20894098281860352 seconds
+piteration 33 elapsed time: 7.834069013595581 seconds
+  viteration 1 elapsed time: 0.21832585334777832 seconds
+viter total elapsed time: 0.21834206581115723 seconds
+piteration 34 elapsed time: 7.816078186035156 seconds
+  viteration 1 elapsed time: 0.22292804718017578 seconds
+viter total elapsed time: 0.22294306755065918 seconds
+piteration 35 elapsed time: 7.739053964614868 seconds
+  viteration 1 elapsed time: 0.20382094383239746 seconds
+viter total elapsed time: 0.20383596420288086 seconds
+piteration 36 elapsed time: 7.77462100982666 seconds
+  viteration 1 elapsed time: 0.22292399406433105 seconds
+viter total elapsed time: 0.22294211387634277 seconds
+piteration 37 elapsed time: 7.787904977798462 seconds
+  viteration 1 elapsed time: 0.2267930507659912 seconds
+viter total elapsed time: 0.22680997848510742 seconds
+piteration 38 elapsed time: 7.649986982345581 seconds
+  viteration 1 elapsed time: 0.22174596786499023 seconds
+viter total elapsed time: 0.22176098823547363 seconds
+piteration 39 elapsed time: 7.772605895996094 seconds
+  viteration 1 elapsed time: 0.21966099739074707 seconds
+viter total elapsed time: 0.21967601776123047 seconds
+piteration 40 elapsed time: 7.746767044067383 seconds
+  viteration 1 elapsed time: 0.22257184982299805 seconds
+viter total elapsed time: 0.22258901596069336 seconds
+piteration 41 elapsed time: 7.71997594833374 seconds
+  viteration 1 elapsed time: 0.22069120407104492 seconds
+viter total elapsed time: 0.22070717811584473 seconds
+piteration 42 elapsed time: 7.765724182128906 seconds
+  viteration 1 elapsed time: 0.2215261459350586 seconds
+viter total elapsed time: 0.221541166305542 seconds
+piteration 43 elapsed time: 7.768847942352295 seconds
+  viteration 1 elapsed time: 0.21848607063293457 seconds
+probably reached convergance 32494.210908045745
+viter total elapsed time: 0.23007702827453613 seconds
+reached convergance 32494.210908045745
+elapsed time: 401.3690519332886 seconds
+
+julia> 
+

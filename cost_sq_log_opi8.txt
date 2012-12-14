@@ -1,0 +1,2585 @@
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e-9
+    piter: 0, viter: 1:1000
+  viteration 1 elapsed time: 0.21474599838256836 seconds
+  viteration 2 elapsed time: 0.08325982093811035 seconds
+  viteration 3 elapsed time: 0.13602304458618164 seconds
+  viteration 4 elapsed time: 0.08081316947937012 seconds
+  viteration 5 elapsed time: 0.08466696739196777 seconds
+  viteration 6 elapsed time: 0.13064098358154297 seconds
+  viteration 7 elapsed time: 0.08341288566589355 seconds
+  viteration 8 elapsed time: 0.13277196884155273 seconds
+  viteration 9 elapsed time: 0.08189988136291504 seconds
+  viteration 10 elapsed time: 0.13503718376159668 seconds
+  viteration 11 elapsed time: 0.08052802085876465 seconds
+  viteration 12 elapsed time: 0.08420300483703613 seconds
+  viteration 13 elapsed time: 0.13191604614257812 seconds
+  viteration 14 elapsed time: 0.0833430290222168 seconds
+  viteration 15 elapsed time: 0.13315105438232422 seconds
+  viteration 16 elapsed time: 0.0818490982055664 seconds
+  viteration 17 elapsed time: 0.1342170238494873 seconds
+  viteration 18 elapsed time: 0.08057785034179688 seconds
+  viteration 19 elapsed time: 0.08434891700744629 seconds
+  viteration 20 elapsed time: 0.1324310302734375 seconds
+  viteration 21 elapsed time: 0.08331799507141113 seconds
+  viteration 22 elapsed time: 0.1334550380706787 seconds
+  viteration 23 elapsed time: 0.08155107498168945 seconds
+  viteration 24 elapsed time: 0.13533902168273926 seconds
+  viteration 25 elapsed time: 0.08075594902038574 seconds
+  viteration 26 elapsed time: 0.08402490615844727 seconds
+  viteration 27 elapsed time: 0.1318068504333496 seconds
+  viteration 28 elapsed time: 0.08304905891418457 seconds
+  viteration 29 elapsed time: 0.1333940029144287 seconds
+  viteration 30 elapsed time: 0.08177399635314941 seconds
+  viteration 31 elapsed time: 0.13393592834472656 seconds
+  viteration 32 elapsed time: 0.08073592185974121 seconds
+  viteration 33 elapsed time: 0.08415818214416504 seconds
+  viteration 34 elapsed time: 0.13126492500305176 seconds
+  viteration 35 elapsed time: 0.08297109603881836 seconds
+  viteration 36 elapsed time: 0.13260412216186523 seconds
+  viteration 37 elapsed time: 0.08149886131286621 seconds
+  viteration 38 elapsed time: 0.1341249942779541 seconds
+  viteration 39 elapsed time: 0.08098816871643066 seconds
+  viteration 40 elapsed time: 0.08392786979675293 seconds
+  viteration 41 elapsed time: 0.13145899772644043 seconds
+  viteration 42 elapsed time: 0.08269286155700684 seconds
+  viteration 43 elapsed time: 0.13341808319091797 seconds
+  viteration 44 elapsed time: 0.08182311058044434 seconds
+  viteration 45 elapsed time: 0.1346430778503418 seconds
+  viteration 46 elapsed time: 0.08091211318969727 seconds
+  viteration 47 elapsed time: 0.08391094207763672 seconds
+  viteration 48 elapsed time: 0.13184213638305664 seconds
+  viteration 49 elapsed time: 0.08273983001708984 seconds
+  viteration 50 elapsed time: 0.13421392440795898 seconds
+  viteration 51 elapsed time: 0.0816640853881836 seconds
+  viteration 52 elapsed time: 0.13463282585144043 seconds
+  viteration 53 elapsed time: 0.08074188232421875 seconds
+  viteration 54 elapsed time: 0.08440303802490234 seconds
+  viteration 55 elapsed time: 0.13265681266784668 seconds
+  viteration 56 elapsed time: 0.08260989189147949 seconds
+  viteration 57 elapsed time: 0.13499689102172852 seconds
+  viteration 58 elapsed time: 0.08143210411071777 seconds
+  viteration 59 elapsed time: 0.13468384742736816 seconds
+  viteration 60 elapsed time: 0.08088207244873047 seconds
+  viteration 61 elapsed time: 0.08395981788635254 seconds
+  viteration 62 elapsed time: 0.13227319717407227 seconds
+  viteration 63 elapsed time: 0.08282899856567383 seconds
+  viteration 64 elapsed time: 0.13262081146240234 seconds
+  viteration 65 elapsed time: 0.08141613006591797 seconds
+  viteration 66 elapsed time: 0.13573503494262695 seconds
+  viteration 67 elapsed time: 0.08096098899841309 seconds
+  viteration 68 elapsed time: 0.07288217544555664 seconds
+  viteration 69 elapsed time: 0.11621809005737305 seconds
+  viteration 70 elapsed time: 0.0696408748626709 seconds
+  viteration 71 elapsed time: 0.12044692039489746 seconds
+  viteration 72 elapsed time: 0.06826400756835938 seconds
+  viteration 73 elapsed time: 0.11890292167663574 seconds
+  viteration 74 elapsed time: 0.06824207305908203 seconds
+  viteration 75 elapsed time: 0.0755009651184082 seconds
+  viteration 76 elapsed time: 0.11949396133422852 seconds
+  viteration 77 elapsed time: 0.07066917419433594 seconds
+  viteration 78 elapsed time: 0.11922407150268555 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 8.151984930038452 seconds
+elapsed time: 8.751860857009888 seconds
+
+jameson@julia:~/dp-mapmaker$ ../julia/julia -L mapmaker.jl -e "mapmaker.main()"
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:1
+piteration 1 elapsed time: 0.4363100528717041 seconds
+  viteration 1 elapsed time: 0.1484699249267578 seconds
+viter total elapsed time: 0.14863085746765137 seconds
+piteration 2 elapsed time: 0.4158949851989746 seconds
+  viteration 1 elapsed time: 0.0382380485534668 seconds
+viter total elapsed time: 0.038350820541381836 seconds
+piteration 3 elapsed time: 0.42118096351623535 seconds
+  viteration 1 elapsed time: 0.0768289566040039 seconds
+viter total elapsed time: 0.07697200775146484 seconds
+piteration 4 elapsed time: 0.41765308380126953 seconds
+  viteration 1 elapsed time: 0.03793191909790039 seconds
+viter total elapsed time: 0.03803110122680664 seconds
+piteration 5 elapsed time: 0.41846299171447754 seconds
+  viteration 1 elapsed time: 0.0730280876159668 seconds
+viter total elapsed time: 0.07317805290222168 seconds
+piteration 6 elapsed time: 0.4167289733886719 seconds
+  viteration 1 elapsed time: 0.038088083267211914 seconds
+viter total elapsed time: 0.038197994232177734 seconds
+piteration 7 elapsed time: 0.41785597801208496 seconds
+  viteration 1 elapsed time: 0.07249093055725098 seconds
+viter total elapsed time: 0.07263803482055664 seconds
+piteration 8 elapsed time: 0.41724491119384766 seconds
+  viteration 1 elapsed time: 0.03821706771850586 seconds
+viter total elapsed time: 0.03830409049987793 seconds
+piteration 9 elapsed time: 0.41648101806640625 seconds
+  viteration 1 elapsed time: 0.07323408126831055 seconds
+viter total elapsed time: 0.07338404655456543 seconds
+piteration 10 elapsed time: 0.4180610179901123 seconds
+  viteration 1 elapsed time: 0.03828907012939453 seconds
+viter total elapsed time: 0.03840494155883789 seconds
+piteration 11 elapsed time: 0.4164550304412842 seconds
+  viteration 1 elapsed time: 0.0739438533782959 seconds
+viter total elapsed time: 0.07409095764160156 seconds
+piteration 12 elapsed time: 0.41612696647644043 seconds
+  viteration 1 elapsed time: 0.039346933364868164 seconds
+viter total elapsed time: 0.03946805000305176 seconds
+piteration 13 elapsed time: 0.42376112937927246 seconds
+  viteration 1 elapsed time: 0.07327604293823242 seconds
+viter total elapsed time: 0.07341909408569336 seconds
+piteration 14 elapsed time: 0.417665958404541 seconds
+  viteration 1 elapsed time: 0.03827214241027832 seconds
+viter total elapsed time: 0.03837394714355469 seconds
+piteration 15 elapsed time: 0.4550750255584717 seconds
+  viteration 1 elapsed time: 0.037384986877441406 seconds
+viter total elapsed time: 0.03748798370361328 seconds
+piteration 16 elapsed time: 0.369143009185791 seconds
+  viteration 1 elapsed time: 0.035323143005371094 seconds
+viter total elapsed time: 0.03543400764465332 seconds
+piteration 17 elapsed time: 0.3840641975402832 seconds
+  viteration 1 elapsed time: 0.03165006637573242 seconds
+viter total elapsed time: 0.03174996376037598 seconds
+piteration 18 elapsed time: 0.3492250442504883 seconds
+  viteration 1 elapsed time: 0.0664520263671875 seconds
+viter total elapsed time: 0.06660294532775879 seconds
+piteration 19 elapsed time: 0.34729790687561035 seconds
+  viteration 1 elapsed time: 0.03142690658569336 seconds
+viter total elapsed time: 0.031529903411865234 seconds
+piteration 20 elapsed time: 0.3482239246368408 seconds
+  viteration 1 elapsed time: 0.06714391708374023 seconds
+viter total elapsed time: 0.06729984283447266 seconds
+piteration 21 elapsed time: 0.34795093536376953 seconds
+  viteration 1 elapsed time: 0.03145098686218262 seconds
+viter total elapsed time: 0.031555891036987305 seconds
+piteration 22 elapsed time: 0.3472909927368164 seconds
+  viteration 1 elapsed time: 0.06667208671569824 seconds
+viter total elapsed time: 0.06681299209594727 seconds
+piteration 23 elapsed time: 0.34720301628112793 seconds
+  viteration 1 elapsed time: 0.031744956970214844 seconds
+viter total elapsed time: 0.031845808029174805 seconds
+piteration 24 elapsed time: 0.347991943359375 seconds
+  viteration 1 elapsed time: 0.06792688369750977 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.09801983833312988 seconds
+reached convergance 5538.843892736077
+elapsed time: 11.352734088897705 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:2
+piteration 1 elapsed time: 0.34839487075805664 seconds
+  viteration 1 elapsed time: 0.031823158264160156 seconds
+  viteration 2 elapsed time: 0.06888413429260254 seconds
+viter total elapsed time: 0.10095596313476562 seconds
+piteration 2 elapsed time: 0.3482339382171631 seconds
+  viteration 1 elapsed time: 0.03153800964355469 seconds
+  viteration 2 elapsed time: 0.032829999923706055 seconds
+viter total elapsed time: 0.06457185745239258 seconds
+piteration 3 elapsed time: 0.38443994522094727 seconds
+  viteration 1 elapsed time: 0.03141498565673828 seconds
+  viteration 2 elapsed time: 0.03232216835021973 seconds
+viter total elapsed time: 0.06394100189208984 seconds
+piteration 4 elapsed time: 0.3815619945526123 seconds
+  viteration 1 elapsed time: 0.03142595291137695 seconds
+  viteration 2 elapsed time: 0.03234505653381348 seconds
+viter total elapsed time: 0.06399297714233398 seconds
+piteration 5 elapsed time: 0.349498987197876 seconds
+  viteration 1 elapsed time: 0.06799793243408203 seconds
+  viteration 2 elapsed time: 0.032453060150146484 seconds
+viter total elapsed time: 0.10068583488464355 seconds
+piteration 6 elapsed time: 0.3467569351196289 seconds
+  viteration 1 elapsed time: 0.06640505790710449 seconds
+  viteration 2 elapsed time: 0.032196998596191406 seconds
+viter total elapsed time: 0.09884405136108398 seconds
+piteration 7 elapsed time: 0.3463871479034424 seconds
+  viteration 1 elapsed time: 0.06717205047607422 seconds
+  viteration 2 elapsed time: 0.03214716911315918 seconds
+viter total elapsed time: 0.09955906867980957 seconds
+piteration 8 elapsed time: 0.3473019599914551 seconds
+  viteration 1 elapsed time: 0.06768012046813965 seconds
+  viteration 2 elapsed time: 0.03192710876464844 seconds
+viter total elapsed time: 0.09984111785888672 seconds
+piteration 9 elapsed time: 0.34812498092651367 seconds
+  viteration 1 elapsed time: 0.06699800491333008 seconds
+  viteration 2 elapsed time: 0.0317988395690918 seconds
+viter total elapsed time: 0.09903502464294434 seconds
+piteration 10 elapsed time: 0.34761905670166016 seconds
+  viteration 1 elapsed time: 0.06893396377563477 seconds
+  viteration 2 elapsed time: 0.0316159725189209 seconds
+viter total elapsed time: 0.10079312324523926 seconds
+piteration 11 elapsed time: 0.34769487380981445 seconds
+  viteration 1 elapsed time: 0.06980705261230469 seconds
+  viteration 2 elapsed time: 0.03145098686218262 seconds
+viter total elapsed time: 0.10149598121643066 seconds
+piteration 12 elapsed time: 0.34705185890197754 seconds
+  viteration 1 elapsed time: 0.06772708892822266 seconds
+  viteration 2 elapsed time: 0.03143501281738281 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.12202000617980957 seconds
+piteration 13 elapsed time: 0.3622920513153076 seconds
+  viteration 1 elapsed time: 0.03223085403442383 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.09287595748901367 seconds
+reached convergance 5538.843892736077
+elapsed time: 5.935767889022827 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:3
+piteration 1 elapsed time: 0.39348578453063965 seconds
+  viteration 1 elapsed time: 0.03150510787963867 seconds
+  viteration 2 elapsed time: 0.03249001502990723 seconds
+  viteration 3 elapsed time: 0.0692598819732666 seconds
+viter total elapsed time: 0.13359808921813965 seconds
+piteration 2 elapsed time: 0.3496668338775635 seconds
+  viteration 1 elapsed time: 0.0322270393371582 seconds
+  viteration 2 elapsed time: 0.06813502311706543 seconds
+  viteration 3 elapsed time: 0.03202700614929199 seconds
+viter total elapsed time: 0.1327219009399414 seconds
+piteration 3 elapsed time: 0.3486599922180176 seconds
+  viteration 1 elapsed time: 0.06726288795471191 seconds
+  viteration 2 elapsed time: 0.03190493583679199 seconds
+  viteration 3 elapsed time: 0.06902813911437988 seconds
+viter total elapsed time: 0.1685948371887207 seconds
+piteration 4 elapsed time: 0.3482959270477295 seconds
+  viteration 1 elapsed time: 0.031553030014038086 seconds
+  viteration 2 elapsed time: 0.06932210922241211 seconds
+  viteration 3 elapsed time: 0.031394004821777344 seconds
+viter total elapsed time: 0.13261008262634277 seconds
+piteration 5 elapsed time: 0.347459077835083 seconds
+  viteration 1 elapsed time: 0.032183170318603516 seconds
+  viteration 2 elapsed time: 0.06796693801879883 seconds
+  viteration 3 elapsed time: 0.03225588798522949 seconds
+viter total elapsed time: 0.1327660083770752 seconds
+piteration 6 elapsed time: 0.3472719192504883 seconds
+  viteration 1 elapsed time: 0.06836700439453125 seconds
+  viteration 2 elapsed time: 0.032037973403930664 seconds
+  viteration 3 elapsed time: 0.06779718399047852 seconds
+viter total elapsed time: 0.1685791015625 seconds
+piteration 7 elapsed time: 0.3476839065551758 seconds
+  viteration 1 elapsed time: 0.03199005126953125 seconds
+  viteration 2 elapsed time: 0.06738996505737305 seconds
+  viteration 3 elapsed time: 0.03142094612121582 seconds
+viter total elapsed time: 0.13115596771240234 seconds
+piteration 8 elapsed time: 0.347012996673584 seconds
+  viteration 1 elapsed time: 0.06701111793518066 seconds
+  viteration 2 elapsed time: 0.031414031982421875 seconds
+  viteration 3 elapsed time: 0.03229403495788574 seconds
+viter total elapsed time: 0.1310560703277588 seconds
+piteration 9 elapsed time: 0.38352513313293457 seconds
+  viteration 1 elapsed time: 0.031371116638183594 seconds
+  viteration 2 elapsed time: 0.032273054122924805 seconds
+  viteration 3 elapsed time: 0.06860780715942383 seconds
+viter total elapsed time: 0.1325850486755371 seconds
+piteration 10 elapsed time: 0.34732913970947266 seconds
+  viteration 1 elapsed time: 0.03217291831970215 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.05567312240600586 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.959474086761475 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:4
+piteration 1 elapsed time: 0.3534989356994629 seconds
+  viteration 1 elapsed time: 0.06830906867980957 seconds
+  viteration 2 elapsed time: 0.032217979431152344 seconds
+  viteration 3 elapsed time: 0.07021307945251465 seconds
+  viteration 4 elapsed time: 0.03148984909057617 seconds
+viter total elapsed time: 0.2026839256286621 seconds
+piteration 2 elapsed time: 0.34966397285461426 seconds
+  viteration 1 elapsed time: 0.06745409965515137 seconds
+  viteration 2 elapsed time: 0.0314030647277832 seconds
+  viteration 3 elapsed time: 0.03248286247253418 seconds
+  viteration 4 elapsed time: 0.06743192672729492 seconds
+viter total elapsed time: 0.1992630958557129 seconds
+piteration 3 elapsed time: 0.34946703910827637 seconds
+  viteration 1 elapsed time: 0.03232312202453613 seconds
+  viteration 2 elapsed time: 0.06819796562194824 seconds
+  viteration 3 elapsed time: 0.03230619430541992 seconds
+  viteration 4 elapsed time: 0.06858205795288086 seconds
+viter total elapsed time: 0.20190215110778809 seconds
+piteration 4 elapsed time: 0.35061001777648926 seconds
+  viteration 1 elapsed time: 0.032034873962402344 seconds
+  viteration 2 elapsed time: 0.06811380386352539 seconds
+  viteration 3 elapsed time: 0.03152894973754883 seconds
+  viteration 4 elapsed time: 0.03258514404296875 seconds
+viter total elapsed time: 0.16473078727722168 seconds
+piteration 5 elapsed time: 0.3863260746002197 seconds
+  viteration 1 elapsed time: 0.0314640998840332 seconds
+  viteration 2 elapsed time: 0.03250408172607422 seconds
+  viteration 3 elapsed time: 0.06751203536987305 seconds
+  viteration 4 elapsed time: 0.03238415718078613 seconds
+viter total elapsed time: 0.16430997848510742 seconds
+piteration 6 elapsed time: 0.3482239246368408 seconds
+  viteration 1 elapsed time: 0.06724905967712402 seconds
+  viteration 2 elapsed time: 0.03215289115905762 seconds
+  viteration 3 elapsed time: 0.0691690444946289 seconds
+  viteration 4 elapsed time: 0.03163313865661621 seconds
+viter total elapsed time: 0.20069217681884766 seconds
+piteration 7 elapsed time: 0.34867405891418457 seconds
+  viteration 1 elapsed time: 0.06801295280456543 seconds
+  viteration 2 elapsed time: 0.03169417381286621 seconds
+  viteration 3 elapsed time: 0.0325620174407959 seconds
+  viteration 4 elapsed time: 0.06765508651733398 seconds
+viter total elapsed time: 0.2004239559173584 seconds
+piteration 8 elapsed time: 0.3484940528869629 seconds
+  viteration 1 elapsed time: 0.03212594985961914 seconds
+  viteration 2 elapsed time: 0.06728696823120117 seconds
+  viteration 3 elapsed time: 0.03230619430541992 seconds
+probably reached convergance 5538.846568354484
+viter total elapsed time: 0.15481209754943848 seconds
+piteration 9 elapsed time: 0.36382603645324707 seconds
+  viteration 1 elapsed time: 0.06695699691772461 seconds
+  viteration 2 elapsed time: 0.031852006912231445 seconds
+probably reached convergance 5538.845914445649
+viter total elapsed time: 0.12218785285949707 seconds
+piteration 10 elapsed time: 0.363476037979126 seconds
+  viteration 1 elapsed time: 0.06730413436889648 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.0903160572052002 seconds
+reached convergance 5538.843892736077
+elapsed time: 5.380079984664917 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:5
+piteration 1 elapsed time: 0.3483848571777344 seconds
+  viteration 1 elapsed time: 0.03225994110107422 seconds
+  viteration 2 elapsed time: 0.06856012344360352 seconds
+  viteration 3 elapsed time: 0.0317380428314209 seconds
+  viteration 4 elapsed time: 0.0697791576385498 seconds
+  viteration 5 elapsed time: 0.031488895416259766 seconds
+viter total elapsed time: 0.23439788818359375 seconds
+piteration 2 elapsed time: 0.34862184524536133 seconds
+  viteration 1 elapsed time: 0.03233194351196289 seconds
+  viteration 2 elapsed time: 0.06646418571472168 seconds
+  viteration 3 elapsed time: 0.032257080078125 seconds
+  viteration 4 elapsed time: 0.06792998313903809 seconds
+  viteration 5 elapsed time: 0.031926870346069336 seconds
+viter total elapsed time: 0.23148488998413086 seconds
+piteration 3 elapsed time: 0.3479290008544922 seconds
+  viteration 1 elapsed time: 0.06713509559631348 seconds
+  viteration 2 elapsed time: 0.03186202049255371 seconds
+  viteration 3 elapsed time: 0.070281982421875 seconds
+  viteration 4 elapsed time: 0.03151988983154297 seconds
+  viteration 5 elapsed time: 0.03228282928466797 seconds
+viter total elapsed time: 0.2336721420288086 seconds
+piteration 4 elapsed time: 0.34876298904418945 seconds
+  viteration 1 elapsed time: 0.06719517707824707 seconds
+  viteration 2 elapsed time: 0.03223299980163574 seconds
+  viteration 3 elapsed time: 0.0676279067993164 seconds
+  viteration 4 elapsed time: 0.031991004943847656 seconds
+  viteration 5 elapsed time: 0.06998586654663086 seconds
+viter total elapsed time: 0.2696690559387207 seconds
+piteration 5 elapsed time: 0.34918808937072754 seconds
+  viteration 1 elapsed time: 0.031722068786621094 seconds
+  viteration 2 elapsed time: 0.06889510154724121 seconds
+  viteration 3 elapsed time: 0.03156399726867676 seconds
+  viteration 4 elapsed time: 0.03239107131958008 seconds
+  viteration 5 elapsed time: 0.06775689125061035 seconds
+viter total elapsed time: 0.23293495178222656 seconds
+piteration 6 elapsed time: 0.3484158515930176 seconds
+  viteration 1 elapsed time: 0.0324559211730957 seconds
+  viteration 2 elapsed time: 0.06818795204162598 seconds
+  viteration 3 elapsed time: 0.03210282325744629 seconds
+  viteration 4 elapsed time: 0.06977415084838867 seconds
+  viteration 5 elapsed time: 0.03173685073852539 seconds
+viter total elapsed time: 0.23483586311340332 seconds
+piteration 7 elapsed time: 0.3481910228729248 seconds
+  viteration 1 elapsed time: 0.06872797012329102 seconds
+  viteration 2 elapsed time: 0.03135991096496582 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.12323999404907227 seconds
+piteration 8 elapsed time: 0.36359715461730957 seconds
+  viteration 1 elapsed time: 0.06814813613891602 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.09253406524658203 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.57398796081543 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:6
+piteration 1 elapsed time: 0.3487370014190674 seconds
+  viteration 1 elapsed time: 0.0315248966217041 seconds
+  viteration 2 elapsed time: 0.03259897232055664 seconds
+  viteration 3 elapsed time: 0.06723690032958984 seconds
+  viteration 4 elapsed time: 0.03227806091308594 seconds
+  viteration 5 elapsed time: 0.06843304634094238 seconds
+  viteration 6 elapsed time: 0.03194403648376465 seconds
+viter total elapsed time: 0.26470208168029785 seconds
+piteration 2 elapsed time: 0.3494760990142822 seconds
+  viteration 1 elapsed time: 0.06706786155700684 seconds
+  viteration 2 elapsed time: 0.03186202049255371 seconds
+  viteration 3 elapsed time: 0.06862306594848633 seconds
+  viteration 4 elapsed time: 0.03138399124145508 seconds
+  viteration 5 elapsed time: 0.03237199783325195 seconds
+  viteration 6 elapsed time: 0.06759786605834961 seconds
+viter total elapsed time: 0.29965996742248535 seconds
+piteration 3 elapsed time: 0.3477790355682373 seconds
+  viteration 1 elapsed time: 0.03240799903869629 seconds
+  viteration 2 elapsed time: 0.06766605377197266 seconds
+  viteration 3 elapsed time: 0.03207707405090332 seconds
+  viteration 4 elapsed time: 0.06912589073181152 seconds
+  viteration 5 elapsed time: 0.031719207763671875 seconds
+  viteration 6 elapsed time: 0.03250718116760254 seconds
+viter total elapsed time: 0.2662041187286377 seconds
+piteration 4 elapsed time: 0.38597893714904785 seconds
+  viteration 1 elapsed time: 0.03147315979003906 seconds
+  viteration 2 elapsed time: 0.03229188919067383 seconds
+  viteration 3 elapsed time: 0.06682300567626953 seconds
+  viteration 4 elapsed time: 0.03224992752075195 seconds
+  viteration 5 elapsed time: 0.0680701732635498 seconds
+  viteration 6 elapsed time: 0.03179597854614258 seconds
+viter total elapsed time: 0.2633650302886963 seconds
+piteration 5 elapsed time: 0.3484079837799072 seconds
+  viteration 1 elapsed time: 0.0675041675567627 seconds
+  viteration 2 elapsed time: 0.03159189224243164 seconds
+  viteration 3 elapsed time: 0.06962800025939941 seconds
+  viteration 4 elapsed time: 0.03132510185241699 seconds
+  viteration 5 elapsed time: 0.03220009803771973 seconds
+  viteration 6 elapsed time: 0.06735110282897949 seconds
+viter total elapsed time: 0.30034804344177246 seconds
+piteration 6 elapsed time: 0.3486628532409668 seconds
+  viteration 1 elapsed time: 0.03210806846618652 seconds
+  viteration 2 elapsed time: 0.06782197952270508 seconds
+  viteration 3 elapsed time: 0.03171086311340332 seconds
+probably reached convergance 5538.847393718571
+viter total elapsed time: 0.15569615364074707 seconds
+piteration 7 elapsed time: 0.3631420135498047 seconds
+  viteration 1 elapsed time: 0.06702399253845215 seconds
+  viteration 2 elapsed time: 0.03164792060852051 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.12277984619140625 seconds
+piteration 8 elapsed time: 0.3660409450531006 seconds
+  viteration 1 elapsed time: 0.06737208366394043 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.09262895584106445 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.742379903793335 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:7
+piteration 1 elapsed time: 0.34867310523986816 seconds
+  viteration 1 elapsed time: 0.03203606605529785 seconds
+  viteration 2 elapsed time: 0.06918811798095703 seconds
+  viteration 3 elapsed time: 0.03148198127746582 seconds
+  viteration 4 elapsed time: 0.03244495391845703 seconds
+  viteration 5 elapsed time: 0.06845402717590332 seconds
+  viteration 6 elapsed time: 0.03220796585083008 seconds
+  viteration 7 elapsed time: 0.0692131519317627 seconds
+viter total elapsed time: 0.33588385581970215 seconds
+piteration 2 elapsed time: 0.3485450744628906 seconds
+  viteration 1 elapsed time: 0.03226184844970703 seconds
+  viteration 2 elapsed time: 0.0671689510345459 seconds
+  viteration 3 elapsed time: 0.031591176986694336 seconds
+  viteration 4 elapsed time: 0.07014679908752441 seconds
+  viteration 5 elapsed time: 0.03153204917907715 seconds
+  viteration 6 elapsed time: 0.0324101448059082 seconds
+  viteration 7 elapsed time: 0.06856203079223633 seconds
+viter total elapsed time: 0.33452701568603516 seconds
+piteration 3 elapsed time: 0.34897804260253906 seconds
+  viteration 1 elapsed time: 0.03229808807373047 seconds
+  viteration 2 elapsed time: 0.06772613525390625 seconds
+  viteration 3 elapsed time: 0.031852006912231445 seconds
+  viteration 4 elapsed time: 0.0687718391418457 seconds
+  viteration 5 elapsed time: 0.03144502639770508 seconds
+  viteration 6 elapsed time: 0.03258204460144043 seconds
+  viteration 7 elapsed time: 0.06784987449645996 seconds
+viter total elapsed time: 0.3333740234375 seconds
+piteration 4 elapsed time: 0.34747886657714844 seconds
+  viteration 1 elapsed time: 0.03226208686828613 seconds
+  viteration 2 elapsed time: 0.0668940544128418 seconds
+  viteration 3 elapsed time: 0.0321807861328125 seconds
+  viteration 4 elapsed time: 0.06863594055175781 seconds
+  viteration 5 elapsed time: 0.03179788589477539 seconds
+  viteration 6 elapsed time: 0.0687108039855957 seconds
+  viteration 7 elapsed time: 0.03154397010803223 seconds
+viter total elapsed time: 0.33286309242248535 seconds
+piteration 5 elapsed time: 0.34696292877197266 seconds
+  viteration 1 elapsed time: 0.032299041748046875 seconds
+  viteration 2 elapsed time: 0.06767582893371582 seconds
+  viteration 3 elapsed time: 0.032299041748046875 seconds
+  viteration 4 elapsed time: 0.06903409957885742 seconds
+  viteration 5 elapsed time: 0.031954050064086914 seconds
+  viteration 6 elapsed time: 0.06858301162719727 seconds
+  viteration 7 elapsed time: 0.03142213821411133 seconds
+viter total elapsed time: 0.3340890407562256 seconds
+piteration 6 elapsed time: 0.3468508720397949 seconds
+  viteration 1 elapsed time: 0.06793904304504395 seconds
+  viteration 2 elapsed time: 0.03160977363586426 seconds
+  viteration 3 elapsed time: 0.032412052154541016 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.15491008758544922 seconds
+piteration 7 elapsed time: 0.40144991874694824 seconds
+  viteration 1 elapsed time: 0.03138613700866699 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.05492711067199707 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.487119913101196 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:8
+piteration 1 elapsed time: 0.34812307357788086 seconds
+  viteration 1 elapsed time: 0.03241395950317383 seconds
+  viteration 2 elapsed time: 0.06813406944274902 seconds
+  viteration 3 elapsed time: 0.032369136810302734 seconds
+  viteration 4 elapsed time: 0.06824994087219238 seconds
+  viteration 5 elapsed time: 0.03188300132751465 seconds
+  viteration 6 elapsed time: 0.0679008960723877 seconds
+  viteration 7 elapsed time: 0.03153109550476074 seconds
+  viteration 8 elapsed time: 0.03218793869018555 seconds
+viter total elapsed time: 0.36560487747192383 seconds
+piteration 2 elapsed time: 0.38709402084350586 seconds
+  viteration 1 elapsed time: 0.03142881393432617 seconds
+  viteration 2 elapsed time: 0.032183170318603516 seconds
+  viteration 3 elapsed time: 0.06789088249206543 seconds
+  viteration 4 elapsed time: 0.03209400177001953 seconds
+  viteration 5 elapsed time: 0.06988978385925293 seconds
+  viteration 6 elapsed time: 0.031610965728759766 seconds
+  viteration 7 elapsed time: 0.03243112564086914 seconds
+  viteration 8 elapsed time: 0.06760001182556152 seconds
+viter total elapsed time: 0.36605095863342285 seconds
+piteration 3 elapsed time: 0.34717297554016113 seconds
+  viteration 1 elapsed time: 0.0323641300201416 seconds
+  viteration 2 elapsed time: 0.06669402122497559 seconds
+  viteration 3 elapsed time: 0.032215118408203125 seconds
+  viteration 4 elapsed time: 0.06927990913391113 seconds
+  viteration 5 elapsed time: 0.03191781044006348 seconds
+  viteration 6 elapsed time: 0.07024908065795898 seconds
+  viteration 7 elapsed time: 0.03156089782714844 seconds
+  viteration 8 elapsed time: 0.03227686882019043 seconds
+viter total elapsed time: 0.36748313903808594 seconds
+piteration 4 elapsed time: 0.38529419898986816 seconds
+  viteration 1 elapsed time: 0.0316319465637207 seconds
+  viteration 2 elapsed time: 0.03233218193054199 seconds
+  viteration 3 elapsed time: 0.06822919845581055 seconds
+  viteration 4 elapsed time: 0.03230905532836914 seconds
+  viteration 5 elapsed time: 0.06847810745239258 seconds
+  viteration 6 elapsed time: 0.03164482116699219 seconds
+  viteration 7 elapsed time: 0.06906485557556152 seconds
+  viteration 8 elapsed time: 0.031374216079711914 seconds
+viter total elapsed time: 0.36599183082580566 seconds
+piteration 5 elapsed time: 0.3479030132293701 seconds
+  viteration 1 elapsed time: 0.032238006591796875 seconds
+  viteration 2 elapsed time: 0.06835818290710449 seconds
+  viteration 3 elapsed time: 0.03220510482788086 seconds
+  viteration 4 elapsed time: 0.06971192359924316 seconds
+probably reached convergance 5538.8612628304
+viter total elapsed time: 0.2262279987335205 seconds
+piteration 6 elapsed time: 0.3649768829345703 seconds
+  viteration 1 elapsed time: 0.03208494186401367 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.05636191368103027 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.047313928604126 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:9
+piteration 1 elapsed time: 0.34935712814331055 seconds
+  viteration 1 elapsed time: 0.06884098052978516 seconds
+  viteration 2 elapsed time: 0.0319828987121582 seconds
+  viteration 3 elapsed time: 0.06973409652709961 seconds
+  viteration 4 elapsed time: 0.031533002853393555 seconds
+  viteration 5 elapsed time: 0.032366037368774414 seconds
+  viteration 6 elapsed time: 0.06791090965270996 seconds
+  viteration 7 elapsed time: 0.032138824462890625 seconds
+  viteration 8 elapsed time: 0.06845617294311523 seconds
+  viteration 9 elapsed time: 0.031915903091430664 seconds
+viter total elapsed time: 0.43595004081726074 seconds
+piteration 2 elapsed time: 0.34885478019714355 seconds
+  viteration 1 elapsed time: 0.06862592697143555 seconds
+  viteration 2 elapsed time: 0.031771183013916016 seconds
+  viteration 3 elapsed time: 0.06907987594604492 seconds
+  viteration 4 elapsed time: 0.03137707710266113 seconds
+  viteration 5 elapsed time: 0.032366037368774414 seconds
+  viteration 6 elapsed time: 0.06873202323913574 seconds
+  viteration 7 elapsed time: 0.03226900100708008 seconds
+  viteration 8 elapsed time: 0.06834101676940918 seconds
+  viteration 9 elapsed time: 0.03176999092102051 seconds
+viter total elapsed time: 0.4353928565979004 seconds
+piteration 3 elapsed time: 0.3476541042327881 seconds
+  viteration 1 elapsed time: 0.0678560733795166 seconds
+  viteration 2 elapsed time: 0.03167605400085449 seconds
+  viteration 3 elapsed time: 0.032649993896484375 seconds
+  viteration 4 elapsed time: 0.06807398796081543 seconds
+  viteration 5 elapsed time: 0.032170772552490234 seconds
+  viteration 6 elapsed time: 0.06802678108215332 seconds
+  viteration 7 elapsed time: 0.03199005126953125 seconds
+  viteration 8 elapsed time: 0.06786203384399414 seconds
+  viteration 9 elapsed time: 0.03145480155944824 seconds
+viter total elapsed time: 0.4328739643096924 seconds
+piteration 4 elapsed time: 0.3479030132293701 seconds
+  viteration 1 elapsed time: 0.06877613067626953 seconds
+  viteration 2 elapsed time: 0.031443119049072266 seconds
+  viteration 3 elapsed time: 0.03247213363647461 seconds
+  viteration 4 elapsed time: 0.0677480697631836 seconds
+  viteration 5 elapsed time: 0.032131195068359375 seconds
+  viteration 6 elapsed time: 0.06835007667541504 seconds
+  viteration 7 elapsed time: 0.03167319297790527 seconds
+  viteration 8 elapsed time: 0.06934499740600586 seconds
+  viteration 9 elapsed time: 0.03137993812561035 seconds
+viter total elapsed time: 0.4343900680541992 seconds
+piteration 5 elapsed time: 0.34862709045410156 seconds
+  viteration 1 elapsed time: 0.03226304054260254 seconds
+  viteration 2 elapsed time: 0.06748390197753906 seconds
+probably reached convergance 5538.880070664482
+viter total elapsed time: 0.1230008602142334 seconds
+piteration 6 elapsed time: 0.36495399475097656 seconds
+  viteration 1 elapsed time: 0.03223919868469238 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.05573320388793945 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.13954496383667 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:10
+piteration 1 elapsed time: 0.38458704948425293 seconds
+  viteration 1 elapsed time: 0.033987998962402344 seconds
+  viteration 2 elapsed time: 0.03244590759277344 seconds
+  viteration 3 elapsed time: 0.07006597518920898 seconds
+  viteration 4 elapsed time: 0.03201889991760254 seconds
+  viteration 5 elapsed time: 0.06817007064819336 seconds
+  viteration 6 elapsed time: 0.031723976135253906 seconds
+  viteration 7 elapsed time: 0.032418012619018555 seconds
+  viteration 8 elapsed time: 0.06795978546142578 seconds
+  viteration 9 elapsed time: 0.03223705291748047 seconds
+  viteration 10 elapsed time: 0.06760692596435547 seconds
+viter total elapsed time: 0.4698209762573242 seconds
+piteration 2 elapsed time: 0.3479011058807373 seconds
+  viteration 1 elapsed time: 0.032296180725097656 seconds
+  viteration 2 elapsed time: 0.06765985488891602 seconds
+  viteration 3 elapsed time: 0.031800031661987305 seconds
+  viteration 4 elapsed time: 0.06883716583251953 seconds
+  viteration 5 elapsed time: 0.03157305717468262 seconds
+  viteration 6 elapsed time: 0.03229093551635742 seconds
+  viteration 7 elapsed time: 0.06825113296508789 seconds
+  viteration 8 elapsed time: 0.03220510482788086 seconds
+  viteration 9 elapsed time: 0.06934595108032227 seconds
+  viteration 10 elapsed time: 0.03190803527832031 seconds
+viter total elapsed time: 0.4673581123352051 seconds
+piteration 3 elapsed time: 0.34564208984375 seconds
+  viteration 1 elapsed time: 0.06668305397033691 seconds
+  viteration 2 elapsed time: 0.0317838191986084 seconds
+  viteration 3 elapsed time: 0.06930804252624512 seconds
+  viteration 4 elapsed time: 0.03148007392883301 seconds
+  viteration 5 elapsed time: 0.0323481559753418 seconds
+  viteration 6 elapsed time: 0.06871891021728516 seconds
+  viteration 7 elapsed time: 0.03215599060058594 seconds
+  viteration 8 elapsed time: 0.0677177906036377 seconds
+  viteration 9 elapsed time: 0.03170204162597656 seconds
+  viteration 10 elapsed time: 0.032366037368774414 seconds
+viter total elapsed time: 0.46542811393737793 seconds
+piteration 4 elapsed time: 0.3820781707763672 seconds
+  viteration 1 elapsed time: 0.03140401840209961 seconds
+  viteration 2 elapsed time: 0.03234696388244629 seconds
+  viteration 3 elapsed time: 0.06633305549621582 seconds
+  viteration 4 elapsed time: 0.03226304054260254 seconds
+  viteration 5 elapsed time: 0.0672600269317627 seconds
+  viteration 6 elapsed time: 0.03184103965759277 seconds
+  viteration 7 elapsed time: 0.06804299354553223 seconds
+  viteration 8 elapsed time: 0.03135514259338379 seconds
+  viteration 9 elapsed time: 0.03220391273498535 seconds
+  viteration 10 elapsed time: 0.06712889671325684 seconds
+viter total elapsed time: 0.4613678455352783 seconds
+piteration 5 elapsed time: 0.34596896171569824 seconds
+  viteration 1 elapsed time: 0.03224897384643555 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.056294918060302734 seconds
+reached convergance 5538.843892736077
+elapsed time: 3.8448619842529297 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:11
+piteration 1 elapsed time: 0.3487589359283447 seconds
+  viteration 1 elapsed time: 0.0683298110961914 seconds
+  viteration 2 elapsed time: 0.03234696388244629 seconds
+  viteration 3 elapsed time: 0.06888413429260254 seconds
+  viteration 4 elapsed time: 0.03195786476135254 seconds
+  viteration 5 elapsed time: 0.06903791427612305 seconds
+  viteration 6 elapsed time: 0.03156304359436035 seconds
+  viteration 7 elapsed time: 0.03239083290100098 seconds
+  viteration 8 elapsed time: 0.06806492805480957 seconds
+  viteration 9 elapsed time: 0.03225588798522949 seconds
+  viteration 10 elapsed time: 0.0675971508026123 seconds
+  viteration 11 elapsed time: 0.03189492225646973 seconds
+viter total elapsed time: 0.5356991291046143 seconds
+piteration 2 elapsed time: 0.3453669548034668 seconds
+  viteration 1 elapsed time: 0.06801009178161621 seconds
+  viteration 2 elapsed time: 0.03173708915710449 seconds
+  viteration 3 elapsed time: 0.07071495056152344 seconds
+  viteration 4 elapsed time: 0.03152799606323242 seconds
+  viteration 5 elapsed time: 0.032308101654052734 seconds
+  viteration 6 elapsed time: 0.06886816024780273 seconds
+  viteration 7 elapsed time: 0.03209805488586426 seconds
+  viteration 8 elapsed time: 0.06909394264221191 seconds
+  viteration 9 elapsed time: 0.03176307678222656 seconds
+  viteration 10 elapsed time: 0.03252100944519043 seconds
+  viteration 11 elapsed time: 0.06811714172363281 seconds
+viter total elapsed time: 0.5380990505218506 seconds
+piteration 3 elapsed time: 0.3458678722381592 seconds
+  viteration 1 elapsed time: 0.03224611282348633 seconds
+  viteration 2 elapsed time: 0.0681610107421875 seconds
+  viteration 3 elapsed time: 0.03224778175354004 seconds
+  viteration 4 elapsed time: 0.06799721717834473 seconds
+  viteration 5 elapsed time: 0.031830787658691406 seconds
+  viteration 6 elapsed time: 0.07004690170288086 seconds
+  viteration 7 elapsed time: 0.031523942947387695 seconds
+  viteration 8 elapsed time: 0.032302141189575195 seconds
+  viteration 9 elapsed time: 0.0675201416015625 seconds
+  viteration 10 elapsed time: 0.03224802017211914 seconds
+  viteration 11 elapsed time: 0.0678720474243164 seconds
+viter total elapsed time: 0.5353059768676758 seconds
+piteration 4 elapsed time: 0.347675085067749 seconds
+  viteration 1 elapsed time: 0.032208919525146484 seconds
+  viteration 2 elapsed time: 0.06749415397644043 seconds
+  viteration 3 elapsed time: 0.031661033630371094 seconds
+  viteration 4 elapsed time: 0.06847310066223145 seconds
+  viteration 5 elapsed time: 0.03158402442932129 seconds
+  viteration 6 elapsed time: 0.032259225845336914 seconds
+  viteration 7 elapsed time: 0.06790804862976074 seconds
+  viteration 8 elapsed time: 0.03213787078857422 seconds
+  viteration 9 elapsed time: 0.0687868595123291 seconds
+  viteration 10 elapsed time: 0.031517982482910156 seconds
+  viteration 11 elapsed time: 0.06875181198120117 seconds
+viter total elapsed time: 0.5341169834136963 seconds
+piteration 5 elapsed time: 0.34694600105285645 seconds
+  viteration 1 elapsed time: 0.03152894973754883 seconds
+  viteration 2 elapsed time: 0.03238105773925781 seconds
+probably reached convergance 5538.845914445649
+viter total elapsed time: 0.08724594116210938 seconds
+piteration 6 elapsed time: 0.3991260528564453 seconds
+  viteration 1 elapsed time: 0.03143310546875 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.054682016372680664 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.537307977676392 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:12
+piteration 1 elapsed time: 0.34960198402404785 seconds
+  viteration 1 elapsed time: 0.032302141189575195 seconds
+  viteration 2 elapsed time: 0.06822991371154785 seconds
+  viteration 3 elapsed time: 0.032353878021240234 seconds
+  viteration 4 elapsed time: 0.06864786148071289 seconds
+  viteration 5 elapsed time: 0.03184795379638672 seconds
+  viteration 6 elapsed time: 0.06809401512145996 seconds
+  viteration 7 elapsed time: 0.0315241813659668 seconds
+  viteration 8 elapsed time: 0.03221392631530762 seconds
+  viteration 9 elapsed time: 0.06757712364196777 seconds
+  viteration 10 elapsed time: 0.03221893310546875 seconds
+  viteration 11 elapsed time: 0.06798696517944336 seconds
+  viteration 12 elapsed time: 0.03194093704223633 seconds
+viter total elapsed time: 0.5663111209869385 seconds
+piteration 2 elapsed time: 0.3452789783477783 seconds
+  viteration 1 elapsed time: 0.06758999824523926 seconds
+  viteration 2 elapsed time: 0.031709909439086914 seconds
+  viteration 3 elapsed time: 0.06783580780029297 seconds
+  viteration 4 elapsed time: 0.03151106834411621 seconds
+  viteration 5 elapsed time: 0.03236794471740723 seconds
+  viteration 6 elapsed time: 0.06768202781677246 seconds
+  viteration 7 elapsed time: 0.03199195861816406 seconds
+  viteration 8 elapsed time: 0.06919384002685547 seconds
+  viteration 9 elapsed time: 0.03177285194396973 seconds
+  viteration 10 elapsed time: 0.0682229995727539 seconds
+  viteration 11 elapsed time: 0.03151702880859375 seconds
+  viteration 12 elapsed time: 0.032273054122924805 seconds
+viter total elapsed time: 0.5650880336761475 seconds
+piteration 3 elapsed time: 0.34776997566223145 seconds
+  viteration 1 elapsed time: 0.06778097152709961 seconds
+  viteration 2 elapsed time: 0.0322270393371582 seconds
+  viteration 3 elapsed time: 0.06880807876586914 seconds
+  viteration 4 elapsed time: 0.031929969787597656 seconds
+  viteration 5 elapsed time: 0.06991910934448242 seconds
+  viteration 6 elapsed time: 0.0316319465637207 seconds
+  viteration 7 elapsed time: 0.03246712684631348 seconds
+  viteration 8 elapsed time: 0.0677180290222168 seconds
+  viteration 9 elapsed time: 0.0323328971862793 seconds
+  viteration 10 elapsed time: 0.06737709045410156 seconds
+  viteration 11 elapsed time: 0.0320439338684082 seconds
+  viteration 12 elapsed time: 0.06796717643737793 seconds
+viter total elapsed time: 0.603646993637085 seconds
+piteration 4 elapsed time: 0.3470461368560791 seconds
+  viteration 1 elapsed time: 0.03152918815612793 seconds
+  viteration 2 elapsed time: 0.06805801391601562 seconds
+  viteration 3 elapsed time: 0.03142499923706055 seconds
+  viteration 4 elapsed time: 0.03229093551635742 seconds
+  viteration 5 elapsed time: 0.0681760311126709 seconds
+  viteration 6 elapsed time: 0.032128095626831055 seconds
+  viteration 7 elapsed time: 0.06871700286865234 seconds
+  viteration 8 elapsed time: 0.03162193298339844 seconds
+  viteration 9 elapsed time: 0.06837010383605957 seconds
+  viteration 10 elapsed time: 0.03136491775512695 seconds
+probably reached convergance 5538.887934706501
+viter total elapsed time: 0.4876880645751953 seconds
+piteration 5 elapsed time: 0.36342716217041016 seconds
+  viteration 1 elapsed time: 0.03222799301147461 seconds
+  viteration 2 elapsed time: 0.06821703910827637 seconds
+probably reached convergance 5538.845914445649
+viter total elapsed time: 0.12600994110107422 seconds
+piteration 6 elapsed time: 0.367656946182251 seconds
+  viteration 1 elapsed time: 0.03214216232299805 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.05519509315490723 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.639819145202637 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:13
+piteration 1 elapsed time: 0.38268303871154785 seconds
+  viteration 1 elapsed time: 0.03418993949890137 seconds
+  viteration 2 elapsed time: 0.03250908851623535 seconds
+  viteration 3 elapsed time: 0.06879305839538574 seconds
+  viteration 4 elapsed time: 0.03201603889465332 seconds
+  viteration 5 elapsed time: 0.0682821273803711 seconds
+  viteration 6 elapsed time: 0.031517982482910156 seconds
+  viteration 7 elapsed time: 0.03257417678833008 seconds
+  viteration 8 elapsed time: 0.06720113754272461 seconds
+  viteration 9 elapsed time: 0.03222513198852539 seconds
+  viteration 10 elapsed time: 0.06836986541748047 seconds
+  viteration 11 elapsed time: 0.031950950622558594 seconds
+  viteration 12 elapsed time: 0.06810617446899414 seconds
+  viteration 13 elapsed time: 0.031501054763793945 seconds
+viter total elapsed time: 0.6007680892944336 seconds
+piteration 2 elapsed time: 0.34616708755493164 seconds
+  viteration 1 elapsed time: 0.06802988052368164 seconds
+  viteration 2 elapsed time: 0.03148317337036133 seconds
+  viteration 3 elapsed time: 0.032412052154541016 seconds
+  viteration 4 elapsed time: 0.06761813163757324 seconds
+  viteration 5 elapsed time: 0.03217482566833496 seconds
+  viteration 6 elapsed time: 0.06918501853942871 seconds
+  viteration 7 elapsed time: 0.03184795379638672 seconds
+  viteration 8 elapsed time: 0.06796503067016602 seconds
+  viteration 9 elapsed time: 0.03149986267089844 seconds
+  viteration 10 elapsed time: 0.032205820083618164 seconds
+  viteration 11 elapsed time: 0.0681760311126709 seconds
+  viteration 12 elapsed time: 0.03224587440490723 seconds
+  viteration 13 elapsed time: 0.06802701950073242 seconds
+viter total elapsed time: 0.6344189643859863 seconds
+piteration 3 elapsed time: 0.3458120822906494 seconds
+  viteration 1 elapsed time: 0.03217291831970215 seconds
+  viteration 2 elapsed time: 0.0669560432434082 seconds
+  viteration 3 elapsed time: 0.03156590461730957 seconds
+  viteration 4 elapsed time: 0.03257298469543457 seconds
+  viteration 5 elapsed time: 0.0681309700012207 seconds
+  viteration 6 elapsed time: 0.03224587440490723 seconds
+  viteration 7 elapsed time: 0.06768298149108887 seconds
+  viteration 8 elapsed time: 0.032012939453125 seconds
+  viteration 9 elapsed time: 0.06845903396606445 seconds
+  viteration 10 elapsed time: 0.03154397010803223 seconds
+  viteration 11 elapsed time: 0.03243207931518555 seconds
+  viteration 12 elapsed time: 0.06789302825927734 seconds
+  viteration 13 elapsed time: 0.03204679489135742 seconds
+viter total elapsed time: 0.5972428321838379 seconds
+piteration 4 elapsed time: 0.3456709384918213 seconds
+  viteration 1 elapsed time: 0.06645798683166504 seconds
+  viteration 2 elapsed time: 0.03211092948913574 seconds
+  viteration 3 elapsed time: 0.06789398193359375 seconds
+  viteration 4 elapsed time: 0.03166985511779785 seconds
+probably reached convergance 5538.872357041707
+viter total elapsed time: 0.2240149974822998 seconds
+piteration 5 elapsed time: 0.36217188835144043 seconds
+  viteration 1 elapsed time: 0.06676793098449707 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.08930802345275879 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.0461649894714355 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:14
+piteration 1 elapsed time: 0.3487699031829834 seconds
+  viteration 1 elapsed time: 0.032299041748046875 seconds
+  viteration 2 elapsed time: 0.06834197044372559 seconds
+  viteration 3 elapsed time: 0.03165912628173828 seconds
+  viteration 4 elapsed time: 0.032557010650634766 seconds
+  viteration 5 elapsed time: 0.06787896156311035 seconds
+  viteration 6 elapsed time: 0.03229522705078125 seconds
+  viteration 7 elapsed time: 0.06802797317504883 seconds
+  viteration 8 elapsed time: 0.03182816505432129 seconds
+  viteration 9 elapsed time: 0.06952786445617676 seconds
+  viteration 10 elapsed time: 0.031616926193237305 seconds
+  viteration 11 elapsed time: 0.03232097625732422 seconds
+  viteration 12 elapsed time: 0.06887197494506836 seconds
+  viteration 13 elapsed time: 0.03216886520385742 seconds
+  viteration 14 elapsed time: 0.06813693046569824 seconds
+viter total elapsed time: 0.6693179607391357 seconds
+piteration 2 elapsed time: 0.34528493881225586 seconds
+  viteration 1 elapsed time: 0.03222322463989258 seconds
+  viteration 2 elapsed time: 0.06722903251647949 seconds
+  viteration 3 elapsed time: 0.03162503242492676 seconds
+  viteration 4 elapsed time: 0.0682229995727539 seconds
+  viteration 5 elapsed time: 0.03146791458129883 seconds
+  viteration 6 elapsed time: 0.03223705291748047 seconds
+  viteration 7 elapsed time: 0.06878781318664551 seconds
+  viteration 8 elapsed time: 0.03219008445739746 seconds
+  viteration 9 elapsed time: 0.06871294975280762 seconds
+  viteration 10 elapsed time: 0.031677961349487305 seconds
+  viteration 11 elapsed time: 0.03243899345397949 seconds
+  viteration 12 elapsed time: 0.07049202919006348 seconds
+  viteration 13 elapsed time: 0.03223299980163574 seconds
+  viteration 14 elapsed time: 0.06781315803527832 seconds
+viter total elapsed time: 0.6690080165863037 seconds
+piteration 3 elapsed time: 0.34529614448547363 seconds
+  viteration 1 elapsed time: 0.03224897384643555 seconds
+  viteration 2 elapsed time: 0.06821012496948242 seconds
+  viteration 3 elapsed time: 0.031896114349365234 seconds
+  viteration 4 elapsed time: 0.06858611106872559 seconds
+  viteration 5 elapsed time: 0.03161287307739258 seconds
+  viteration 6 elapsed time: 0.03237795829772949 seconds
+  viteration 7 elapsed time: 0.06760406494140625 seconds
+  viteration 8 elapsed time: 0.03223395347595215 seconds
+  viteration 9 elapsed time: 0.06774616241455078 seconds
+  viteration 10 elapsed time: 0.03183794021606445 seconds
+  viteration 11 elapsed time: 0.06953692436218262 seconds
+  viteration 12 elapsed time: 0.031430959701538086 seconds
+  viteration 13 elapsed time: 0.03220510482788086 seconds
+  viteration 14 elapsed time: 0.0671999454498291 seconds
+viter total elapsed time: 0.6664109230041504 seconds
+piteration 4 elapsed time: 0.3453400135040283 seconds
+  viteration 1 elapsed time: 0.03225898742675781 seconds
+  viteration 2 elapsed time: 0.06743192672729492 seconds
+  viteration 3 elapsed time: 0.03206014633178711 seconds
+probably reached convergance 5538.878883228094
+viter total elapsed time: 0.15700101852416992 seconds
+piteration 5 elapsed time: 0.36285996437072754 seconds
+  viteration 1 elapsed time: 0.06703305244445801 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.09024500846862793 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.12019681930542 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:15
+piteration 1 elapsed time: 0.34863901138305664 seconds
+  viteration 1 elapsed time: 0.032341957092285156 seconds
+  viteration 2 elapsed time: 0.06852579116821289 seconds
+  viteration 3 elapsed time: 0.031844139099121094 seconds
+  viteration 4 elapsed time: 0.07027697563171387 seconds
+  viteration 5 elapsed time: 0.03139495849609375 seconds
+  viteration 6 elapsed time: 0.032095909118652344 seconds
+  viteration 7 elapsed time: 0.06913185119628906 seconds
+  viteration 8 elapsed time: 0.03198814392089844 seconds
+  viteration 9 elapsed time: 0.06807494163513184 seconds
+  viteration 10 elapsed time: 0.03154397010803223 seconds
+  viteration 11 elapsed time: 0.06803107261657715 seconds
+  viteration 12 elapsed time: 0.03153800964355469 seconds
+  viteration 13 elapsed time: 0.03217601776123047 seconds
+  viteration 14 elapsed time: 0.06776094436645508 seconds
+  viteration 15 elapsed time: 0.03200101852416992 seconds
+viter total elapsed time: 0.7004837989807129 seconds
+piteration 2 elapsed time: 0.34595203399658203 seconds
+  viteration 1 elapsed time: 0.06756091117858887 seconds
+  viteration 2 elapsed time: 0.03180408477783203 seconds
+  viteration 3 elapsed time: 0.06910395622253418 seconds
+  viteration 4 elapsed time: 0.031434059143066406 seconds
+  viteration 5 elapsed time: 0.03229188919067383 seconds
+  viteration 6 elapsed time: 0.06778287887573242 seconds
+  viteration 7 elapsed time: 0.03207111358642578 seconds
+  viteration 8 elapsed time: 0.06841707229614258 seconds
+  viteration 9 elapsed time: 0.031855106353759766 seconds
+  viteration 10 elapsed time: 0.0677480697631836 seconds
+  viteration 11 elapsed time: 0.031494140625 seconds
+  viteration 12 elapsed time: 0.03217887878417969 seconds
+  viteration 13 elapsed time: 0.06731605529785156 seconds
+  viteration 14 elapsed time: 0.03213095664978027 seconds
+  viteration 15 elapsed time: 0.06827592849731445 seconds
+viter total elapsed time: 0.7332680225372314 seconds
+piteration 3 elapsed time: 0.3459489345550537 seconds
+  viteration 1 elapsed time: 0.03221392631530762 seconds
+  viteration 2 elapsed time: 0.06810903549194336 seconds
+  viteration 3 elapsed time: 0.03158402442932129 seconds
+  viteration 4 elapsed time: 0.0687258243560791 seconds
+  viteration 5 elapsed time: 0.03155684471130371 seconds
+  viteration 6 elapsed time: 0.032173871994018555 seconds
+  viteration 7 elapsed time: 0.06831216812133789 seconds
+  viteration 8 elapsed time: 0.03191018104553223 seconds
+  viteration 9 elapsed time: 0.06840801239013672 seconds
+  viteration 10 elapsed time: 0.031453847885131836 seconds
+  viteration 11 elapsed time: 0.06797194480895996 seconds
+  viteration 12 elapsed time: 0.031202077865600586 seconds
+  viteration 13 elapsed time: 0.03206205368041992 seconds
+  viteration 14 elapsed time: 0.06870603561401367 seconds
+  viteration 15 elapsed time: 0.03184008598327637 seconds
+viter total elapsed time: 0.6979968547821045 seconds
+piteration 4 elapsed time: 0.34620189666748047 seconds
+  viteration 1 elapsed time: 0.0663609504699707 seconds
+  viteration 2 elapsed time: 0.03180503845214844 seconds
+  viteration 3 elapsed time: 0.06769609451293945 seconds
+  viteration 4 elapsed time: 0.03131103515625 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.22184991836547852 seconds
+piteration 5 elapsed time: 0.3625640869140625 seconds
+  viteration 1 elapsed time: 0.06737589836120605 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.09120392799377441 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.311645030975342 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:16
+piteration 1 elapsed time: 0.34978389739990234 seconds
+  viteration 1 elapsed time: 0.031646013259887695 seconds
+  viteration 2 elapsed time: 0.032714128494262695 seconds
+  viteration 3 elapsed time: 0.06794118881225586 seconds
+  viteration 4 elapsed time: 0.032382965087890625 seconds
+  viteration 5 elapsed time: 0.0686790943145752 seconds
+  viteration 6 elapsed time: 0.03190183639526367 seconds
+  viteration 7 elapsed time: 0.06949210166931152 seconds
+  viteration 8 elapsed time: 0.03146696090698242 seconds
+  viteration 9 elapsed time: 0.03236818313598633 seconds
+  viteration 10 elapsed time: 0.06807589530944824 seconds
+  viteration 11 elapsed time: 0.0322110652923584 seconds
+  viteration 12 elapsed time: 0.0688469409942627 seconds
+  viteration 13 elapsed time: 0.032073974609375 seconds
+  viteration 14 elapsed time: 0.06928396224975586 seconds
+  viteration 15 elapsed time: 0.03147602081298828 seconds
+  viteration 16 elapsed time: 0.03237509727478027 seconds
+viter total elapsed time: 0.7348480224609375 seconds
+piteration 2 elapsed time: 0.38168787956237793 seconds
+  viteration 1 elapsed time: 0.03152585029602051 seconds
+  viteration 2 elapsed time: 0.032318115234375 seconds
+  viteration 3 elapsed time: 0.0677030086517334 seconds
+  viteration 4 elapsed time: 0.032269954681396484 seconds
+  viteration 5 elapsed time: 0.06815886497497559 seconds
+  viteration 6 elapsed time: 0.031701087951660156 seconds
+  viteration 7 elapsed time: 0.07021689414978027 seconds
+  viteration 8 elapsed time: 0.031478166580200195 seconds
+  viteration 9 elapsed time: 0.03230690956115723 seconds
+  viteration 10 elapsed time: 0.06886696815490723 seconds
+  viteration 11 elapsed time: 0.03217601776123047 seconds
+  viteration 12 elapsed time: 0.06802201271057129 seconds
+  viteration 13 elapsed time: 0.0316770076751709 seconds
+  viteration 14 elapsed time: 0.06869292259216309 seconds
+  viteration 15 elapsed time: 0.031359195709228516 seconds
+  viteration 16 elapsed time: 0.03232598304748535 seconds
+viter total elapsed time: 0.7326629161834717 seconds
+piteration 3 elapsed time: 0.34697723388671875 seconds
+  viteration 1 elapsed time: 0.06685709953308105 seconds
+  viteration 2 elapsed time: 0.03223395347595215 seconds
+  viteration 3 elapsed time: 0.06876993179321289 seconds
+  viteration 4 elapsed time: 0.03183579444885254 seconds
+  viteration 5 elapsed time: 0.06923985481262207 seconds
+  viteration 6 elapsed time: 0.0313870906829834 seconds
+  viteration 7 elapsed time: 0.03235602378845215 seconds
+  viteration 8 elapsed time: 0.06798100471496582 seconds
+  viteration 9 elapsed time: 0.03221583366394043 seconds
+  viteration 10 elapsed time: 0.06801390647888184 seconds
+  viteration 11 elapsed time: 0.03178095817565918 seconds
+  viteration 12 elapsed time: 0.06835603713989258 seconds
+  viteration 13 elapsed time: 0.03141593933105469 seconds
+  viteration 14 elapsed time: 0.03232908248901367 seconds
+  viteration 15 elapsed time: 0.06919407844543457 seconds
+  viteration 16 elapsed time: 0.032179832458496094 seconds
+viter total elapsed time: 0.768010139465332 seconds
+piteration 4 elapsed time: 0.3452420234680176 seconds
+  viteration 1 elapsed time: 0.06619715690612793 seconds
+  viteration 2 elapsed time: 0.03212094306945801 seconds
+  viteration 3 elapsed time: 0.06958508491516113 seconds
+  viteration 4 elapsed time: 0.031659841537475586 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.39856505393981934 seconds
+piteration 5 elapsed time: 0.36398911476135254 seconds
+  viteration 1 elapsed time: 0.06729483604431152 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.19059085845947266 seconds
+reached convergance 5538.843892736077
+elapsed time: 4.897053956985474 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:17
+piteration 1 elapsed time: 0.34586191177368164 seconds
+  viteration 1 elapsed time: 0.03172898292541504 seconds
+  viteration 2 elapsed time: 0.06839203834533691 seconds
+  viteration 3 elapsed time: 0.03149104118347168 seconds
+  viteration 4 elapsed time: 0.03235220909118652 seconds
+  viteration 5 elapsed time: 0.06763005256652832 seconds
+  viteration 6 elapsed time: 0.032232046127319336 seconds
+  viteration 7 elapsed time: 0.06895303726196289 seconds
+  viteration 8 elapsed time: 0.03171396255493164 seconds
+  viteration 9 elapsed time: 0.06956005096435547 seconds
+  viteration 10 elapsed time: 0.031649112701416016 seconds
+  viteration 11 elapsed time: 0.03225588798522949 seconds
+  viteration 12 elapsed time: 0.06837606430053711 seconds
+  viteration 13 elapsed time: 0.03212881088256836 seconds
+  viteration 14 elapsed time: 0.06931781768798828 seconds
+  viteration 15 elapsed time: 0.031771183013916016 seconds
+  viteration 16 elapsed time: 0.06894087791442871 seconds
+  viteration 17 elapsed time: 0.03156399726867676 seconds
+viter total elapsed time: 0.8020720481872559 seconds
+piteration 2 elapsed time: 0.34526896476745605 seconds
+  viteration 1 elapsed time: 0.03221917152404785 seconds
+  viteration 2 elapsed time: 0.06834888458251953 seconds
+  viteration 3 elapsed time: 0.03230094909667969 seconds
+  viteration 4 elapsed time: 0.06813883781433105 seconds
+  viteration 5 elapsed time: 0.03195619583129883 seconds
+  viteration 6 elapsed time: 0.06820416450500488 seconds
+  viteration 7 elapsed time: 0.03145408630371094 seconds
+  viteration 8 elapsed time: 0.03233504295349121 seconds
+  viteration 9 elapsed time: 0.06736993789672852 seconds
+  viteration 10 elapsed time: 0.03226590156555176 seconds
+  viteration 11 elapsed time: 0.06989884376525879 seconds
+  viteration 12 elapsed time: 0.03189897537231445 seconds
+  viteration 13 elapsed time: 0.06823301315307617 seconds
+  viteration 14 elapsed time: 0.031494855880737305 seconds
+  viteration 15 elapsed time: 0.03231406211853027 seconds
+  viteration 16 elapsed time: 0.06735491752624512 seconds
+  viteration 17 elapsed time: 0.032208919525146484 seconds
+viter total elapsed time: 0.8000850677490234 seconds
+piteration 3 elapsed time: 0.3489418029785156 seconds
+  viteration 1 elapsed time: 0.06801795959472656 seconds
+  viteration 2 elapsed time: 0.03217506408691406 seconds
+  viteration 3 elapsed time: 0.06849098205566406 seconds
+  viteration 4 elapsed time: 0.03174304962158203 seconds
+  viteration 5 elapsed time: 0.06839799880981445 seconds
+  viteration 6 elapsed time: 0.03296995162963867 seconds
+  viteration 7 elapsed time: 0.04185199737548828 seconds
+  viteration 8 elapsed time: 0.08057498931884766 seconds
+  viteration 9 elapsed time: 0.04373478889465332 seconds
+  viteration 10 elapsed time: 0.0829458236694336 seconds
+  viteration 11 elapsed time: 0.03144192695617676 seconds
+  viteration 12 elapsed time: 0.07016777992248535 seconds
+  viteration 13 elapsed time: 0.03144383430480957 seconds
+  viteration 14 elapsed time: 0.03212881088256836 seconds
+  viteration 15 elapsed time: 0.06814193725585938 seconds
+probably reached convergance 5538.87656419221
+viter total elapsed time: 1.2107610702514648 seconds
+piteration 4 elapsed time: 0.4095890522003174 seconds
+  viteration 1 elapsed time: 0.06334400177001953 seconds
+  viteration 2 elapsed time: 0.13983917236328125 seconds
+probably reached convergance 5538.843899318221
+viter total elapsed time: 0.5272130966186523 seconds
+piteration 5 elapsed time: 0.39916491508483887 seconds
+  viteration 1 elapsed time: 0.05647993087768555 seconds
+  viteration 2 elapsed time: 0.08589291572570801 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.4356060028076172 seconds
+piteration 6 elapsed time: 0.39929914474487305 seconds
+  viteration 1 elapsed time: 0.04071187973022461 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.23691987991333008 seconds
+reached convergance 5538.843892736077
+elapsed time: 6.61163592338562 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:18
+piteration 1 elapsed time: 0.41025805473327637 seconds
+  viteration 1 elapsed time: 0.08829903602600098 seconds
+  viteration 2 elapsed time: 0.0402369499206543 seconds
+  viteration 3 elapsed time: 0.13694000244140625 seconds
+  viteration 4 elapsed time: 0.03820610046386719 seconds
+  viteration 5 elapsed time: 0.040724992752075195 seconds
+  viteration 6 elapsed time: 0.08959007263183594 seconds
+  viteration 7 elapsed time: 0.041008949279785156 seconds
+  viteration 8 elapsed time: 0.0875389575958252 seconds
+  viteration 9 elapsed time: 0.03898501396179199 seconds
+  viteration 10 elapsed time: 0.09078502655029297 seconds
+  viteration 11 elapsed time: 0.04012918472290039 seconds
+  viteration 12 elapsed time: 0.04095816612243652 seconds
+  viteration 13 elapsed time: 0.08746910095214844 seconds
+  viteration 14 elapsed time: 0.04037594795227051 seconds
+  viteration 15 elapsed time: 0.09953093528747559 seconds
+  viteration 16 elapsed time: 0.04145503044128418 seconds
+  viteration 17 elapsed time: 0.08735013008117676 seconds
+  viteration 18 elapsed time: 0.04370284080505371 seconds
+viter total elapsed time: 1.1753599643707275 seconds
+piteration 2 elapsed time: 0.40828609466552734 seconds
+  viteration 1 elapsed time: 0.09009981155395508 seconds
+  viteration 2 elapsed time: 0.04050898551940918 seconds
+  viteration 3 elapsed time: 0.042594194412231445 seconds
+  viteration 4 elapsed time: 0.10170292854309082 seconds
+  viteration 5 elapsed time: 0.04171395301818848 seconds
+  viteration 6 elapsed time: 0.09100484848022461 seconds
+  viteration 7 elapsed time: 0.04110312461853027 seconds
+  viteration 8 elapsed time: 0.042639970779418945 seconds
+  viteration 9 elapsed time: 0.09003090858459473 seconds
+  viteration 10 elapsed time: 0.04168391227722168 seconds
+  viteration 11 elapsed time: 0.10474109649658203 seconds
+  viteration 12 elapsed time: 0.0401768684387207 seconds
+  viteration 13 elapsed time: 0.10385608673095703 seconds
+  viteration 14 elapsed time: 0.0404508113861084 seconds
+  viteration 15 elapsed time: 0.03969883918762207 seconds
+  viteration 16 elapsed time: 0.08949780464172363 seconds
+  viteration 17 elapsed time: 0.04206705093383789 seconds
+  viteration 18 elapsed time: 0.09231686592102051 seconds
+viter total elapsed time: 1.1777799129486084 seconds
+piteration 3 elapsed time: 0.4073829650878906 seconds
+  viteration 1 elapsed time: 0.040576934814453125 seconds
+  viteration 2 elapsed time: 0.09328079223632812 seconds
+  viteration 3 elapsed time: 0.039875030517578125 seconds
+  viteration 4 elapsed time: 0.0926048755645752 seconds
+  viteration 5 elapsed time: 0.03873777389526367 seconds
+  viteration 6 elapsed time: 0.043821096420288086 seconds
+  viteration 7 elapsed time: 0.08969402313232422 seconds
+  viteration 8 elapsed time: 0.04181623458862305 seconds
+  viteration 9 elapsed time: 0.10399794578552246 seconds
+  viteration 10 elapsed time: 0.040329933166503906 seconds
+  viteration 11 elapsed time: 0.08798503875732422 seconds
+probably reached convergance 5538.871169517474
+viter total elapsed time: 1.246495008468628 seconds
+piteration 4 elapsed time: 0.4047098159790039 seconds
+  viteration 1 elapsed time: 0.0426640510559082 seconds
+  viteration 2 elapsed time: 0.09156203269958496 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.39697885513305664 seconds
+piteration 5 elapsed time: 0.41268014907836914 seconds
+  viteration 1 elapsed time: 0.03975796699523926 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.18362998962402344 seconds
+reached convergance 5538.843892736077
+elapsed time: 6.600744009017944 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:19
+piteration 1 elapsed time: 0.39968395233154297 seconds
+  viteration 1 elapsed time: 0.1017768383026123 seconds
+  viteration 2 elapsed time: 0.0801398754119873 seconds
+  viteration 3 elapsed time: 0.06951212882995605 seconds
+  viteration 4 elapsed time: 0.09416508674621582 seconds
+  viteration 5 elapsed time: 0.0384669303894043 seconds
+  viteration 6 elapsed time: 0.09218096733093262 seconds
+  viteration 7 elapsed time: 0.0423579216003418 seconds
+  viteration 8 elapsed time: 0.09014105796813965 seconds
+  viteration 9 elapsed time: 0.042099952697753906 seconds
+  viteration 10 elapsed time: 0.04128909111022949 seconds
+  viteration 11 elapsed time: 0.08807802200317383 seconds
+  viteration 12 elapsed time: 0.039608001708984375 seconds
+  viteration 13 elapsed time: 0.08844518661499023 seconds
+  viteration 14 elapsed time: 0.04047203063964844 seconds
+  viteration 15 elapsed time: 0.0979921817779541 seconds
+  viteration 16 elapsed time: 0.03589797019958496 seconds
+  viteration 17 elapsed time: 0.04187893867492676 seconds
+  viteration 18 elapsed time: 0.08872103691101074 seconds
+  viteration 19 elapsed time: 0.03253912925720215 seconds
+viter total elapsed time: 1.2481791973114014 seconds
+piteration 2 elapsed time: 0.34525012969970703 seconds
+  viteration 1 elapsed time: 0.06850409507751465 seconds
+  viteration 2 elapsed time: 0.03181195259094238 seconds
+  viteration 3 elapsed time: 0.0688772201538086 seconds
+  viteration 4 elapsed time: 0.031440019607543945 seconds
+  viteration 5 elapsed time: 0.04121994972229004 seconds
+  viteration 6 elapsed time: 0.08466601371765137 seconds
+  viteration 7 elapsed time: 0.04069018363952637 seconds
+  viteration 8 elapsed time: 0.07427787780761719 seconds
+  viteration 9 elapsed time: 0.03193497657775879 seconds
+  viteration 10 elapsed time: 0.0694570541381836 seconds
+  viteration 11 elapsed time: 0.031419992446899414 seconds
+  viteration 12 elapsed time: 0.03240203857421875 seconds
+  viteration 13 elapsed time: 0.06772804260253906 seconds
+  viteration 14 elapsed time: 0.032093048095703125 seconds
+  viteration 15 elapsed time: 0.0780789852142334 seconds
+  viteration 16 elapsed time: 0.040219783782958984 seconds
+  viteration 17 elapsed time: 0.08928799629211426 seconds
+  viteration 18 elapsed time: 0.03915095329284668 seconds
+  viteration 19 elapsed time: 0.03957390785217285 seconds
+viter total elapsed time: 0.9947600364685059 seconds
+piteration 3 elapsed time: 0.45910191535949707 seconds
+  viteration 1 elapsed time: 0.035540103912353516 seconds
+  viteration 2 elapsed time: 0.044003963470458984 seconds
+  viteration 3 elapsed time: 0.09475398063659668 seconds
+  viteration 4 elapsed time: 0.04185199737548828 seconds
+  viteration 5 elapsed time: 0.0900111198425293 seconds
+  viteration 6 elapsed time: 0.0399320125579834 seconds
+  viteration 7 elapsed time: 0.08605408668518066 seconds
+  viteration 8 elapsed time: 0.039479970932006836 seconds
+  viteration 9 elapsed time: 0.03996992111206055 seconds
+  viteration 10 elapsed time: 0.09153604507446289 seconds
+  viteration 11 elapsed time: 0.03878498077392578 seconds
+probably reached convergance 5538.844793412812
+viter total elapsed time: 0.7379128932952881 seconds
+piteration 4 elapsed time: 0.458751916885376 seconds
+  viteration 1 elapsed time: 0.0856781005859375 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.27364611625671387 seconds
+reached convergance 5538.843892736077
+elapsed time: 5.332599878311157 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:20
+piteration 1 elapsed time: 0.4283449649810791 seconds
+  viteration 1 elapsed time: 0.040075063705444336 seconds
+  viteration 2 elapsed time: 0.08713412284851074 seconds
+  viteration 3 elapsed time: 0.03937101364135742 seconds
+  viteration 4 elapsed time: 0.08671307563781738 seconds
+  viteration 5 elapsed time: 0.04035019874572754 seconds
+  viteration 6 elapsed time: 0.041619062423706055 seconds
+  viteration 7 elapsed time: 0.09080290794372559 seconds
+  viteration 8 elapsed time: 0.03992795944213867 seconds
+  viteration 9 elapsed time: 0.09032201766967773 seconds
+  viteration 10 elapsed time: 0.03966498374938965 seconds
+  viteration 11 elapsed time: 0.03985905647277832 seconds
+  viteration 12 elapsed time: 0.10401511192321777 seconds
+  viteration 13 elapsed time: 0.05400800704956055 seconds
+  viteration 14 elapsed time: 0.09185910224914551 seconds
+  viteration 15 elapsed time: 0.040528059005737305 seconds
+  viteration 16 elapsed time: 0.09623599052429199 seconds
+  viteration 17 elapsed time: 0.04071307182312012 seconds
+  viteration 18 elapsed time: 0.040142059326171875 seconds
+  viteration 19 elapsed time: 0.08372116088867188 seconds
+  viteration 20 elapsed time: 0.04125809669494629 seconds
+viter total elapsed time: 1.2302629947662354 seconds
+piteration 2 elapsed time: 0.4077780246734619 seconds
+  viteration 1 elapsed time: 0.0850369930267334 seconds
+  viteration 2 elapsed time: 0.04105687141418457 seconds
+  viteration 3 elapsed time: 0.09189200401306152 seconds
+  viteration 4 elapsed time: 0.03985881805419922 seconds
+  viteration 5 elapsed time: 0.08729100227355957 seconds
+  viteration 6 elapsed time: 0.03844594955444336 seconds
+  viteration 7 elapsed time: 0.041787147521972656 seconds
+  viteration 8 elapsed time: 0.08627104759216309 seconds
+  viteration 9 elapsed time: 0.04032301902770996 seconds
+  viteration 10 elapsed time: 0.09184408187866211 seconds
+  viteration 11 elapsed time: 0.0404658317565918 seconds
+  viteration 12 elapsed time: 0.09425592422485352 seconds
+  viteration 13 elapsed time: 0.03928709030151367 seconds
+  viteration 14 elapsed time: 0.04025983810424805 seconds
+  viteration 15 elapsed time: 0.10062694549560547 seconds
+  viteration 16 elapsed time: 0.04189181327819824 seconds
+  viteration 17 elapsed time: 0.09818196296691895 seconds
+  viteration 18 elapsed time: 0.04045510292053223 seconds
+  viteration 19 elapsed time: 0.09552979469299316 seconds
+  viteration 20 elapsed time: 0.04166102409362793 seconds
+viter total elapsed time: 1.2781920433044434 seconds
+piteration 3 elapsed time: 0.4185330867767334 seconds
+  viteration 1 elapsed time: 0.03960108757019043 seconds
+  viteration 2 elapsed time: 0.08783721923828125 seconds
+  viteration 3 elapsed time: 0.04121088981628418 seconds
+  viteration 4 elapsed time: 0.08615589141845703 seconds
+  viteration 5 elapsed time: 0.04045295715332031 seconds
+  viteration 6 elapsed time: 0.08609414100646973 seconds
+  viteration 7 elapsed time: 0.040199995040893555 seconds
+  viteration 8 elapsed time: 0.04093503952026367 seconds
+  viteration 9 elapsed time: 0.08492612838745117 seconds
+  viteration 10 elapsed time: 0.041455984115600586 seconds
+  viteration 11 elapsed time: 0.0868220329284668 seconds
+probably reached convergance 5538.848591521768
+viter total elapsed time: 0.9183471202850342 seconds
+piteration 4 elapsed time: 0.4011850357055664 seconds
+  viteration 1 elapsed time: 0.04364800453186035 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.2868361473083496 seconds
+reached convergance 5538.843892736077
+elapsed time: 5.723294973373413 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:21
+piteration 1 elapsed time: 0.40930795669555664 seconds
+  viteration 1 elapsed time: 0.09241700172424316 seconds
+  viteration 2 elapsed time: 0.03984689712524414 seconds
+  viteration 3 elapsed time: 0.09095287322998047 seconds
+  viteration 4 elapsed time: 0.0388641357421875 seconds
+  viteration 5 elapsed time: 0.03902792930603027 seconds
+  viteration 6 elapsed time: 0.0918431282043457 seconds
+  viteration 7 elapsed time: 0.04260087013244629 seconds
+  viteration 8 elapsed time: 0.09338808059692383 seconds
+  viteration 9 elapsed time: 0.041394948959350586 seconds
+  viteration 10 elapsed time: 0.08886098861694336 seconds
+  viteration 11 elapsed time: 0.03984999656677246 seconds
+  viteration 12 elapsed time: 0.041871070861816406 seconds
+  viteration 13 elapsed time: 0.08851003646850586 seconds
+  viteration 14 elapsed time: 0.04163217544555664 seconds
+  viteration 15 elapsed time: 0.09293293952941895 seconds
+  viteration 16 elapsed time: 0.04033803939819336 seconds
+  viteration 17 elapsed time: 0.1773850917816162 seconds
+  viteration 18 elapsed time: 0.039823055267333984 seconds
+  viteration 19 elapsed time: 0.03902316093444824 seconds
+  viteration 20 elapsed time: 0.06825685501098633 seconds
+  viteration 21 elapsed time: 0.03217601776123047 seconds
+viter total elapsed time: 1.3634388446807861 seconds
+piteration 2 elapsed time: 0.3452799320220947 seconds
+  viteration 1 elapsed time: 0.06659483909606934 seconds
+  viteration 2 elapsed time: 0.032199859619140625 seconds
+  viteration 3 elapsed time: 0.08277297019958496 seconds
+  viteration 4 elapsed time: 0.03906106948852539 seconds
+  viteration 5 elapsed time: 0.1296539306640625 seconds
+  viteration 6 elapsed time: 0.03142809867858887 seconds
+  viteration 7 elapsed time: 0.032360076904296875 seconds
+  viteration 8 elapsed time: 0.06827688217163086 seconds
+  viteration 9 elapsed time: 0.03216195106506348 seconds
+  viteration 10 elapsed time: 0.06823492050170898 seconds
+  viteration 11 elapsed time: 0.03175497055053711 seconds
+  viteration 12 elapsed time: 0.06830310821533203 seconds
+  viteration 13 elapsed time: 0.03152585029602051 seconds
+  viteration 14 elapsed time: 0.03557896614074707 seconds
+  viteration 15 elapsed time: 0.08954405784606934 seconds
+  viteration 16 elapsed time: 0.039578914642333984 seconds
+  viteration 17 elapsed time: 0.08089804649353027 seconds
+  viteration 18 elapsed time: 0.045905113220214844 seconds
+  viteration 19 elapsed time: 0.1387009620666504 seconds
+  viteration 20 elapsed time: 0.04101204872131348 seconds
+  viteration 21 elapsed time: 0.03943300247192383 seconds
+viter total elapsed time: 1.2272958755493164 seconds
+piteration 3 elapsed time: 0.4058499336242676 seconds
+  viteration 1 elapsed time: 0.08579897880554199 seconds
+  viteration 2 elapsed time: 0.040975093841552734 seconds
+  viteration 3 elapsed time: 0.10480713844299316 seconds
+  viteration 4 elapsed time: 0.041081905364990234 seconds
+  viteration 5 elapsed time: 0.09247016906738281 seconds
+  viteration 6 elapsed time: 0.039823055267333984 seconds
+  viteration 7 elapsed time: 0.04015398025512695 seconds
+  viteration 8 elapsed time: 0.08840203285217285 seconds
+probably reached convergance 5538.8891732842585
+viter total elapsed time: 0.8757688999176025 seconds
+piteration 4 elapsed time: 0.4201688766479492 seconds
+  viteration 1 elapsed time: 0.04415082931518555 seconds
+  viteration 2 elapsed time: 0.10141396522521973 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.3044109344482422 seconds
+piteration 5 elapsed time: 0.42376112937927246 seconds
+  viteration 1 elapsed time: 0.0411989688873291 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.3444070816040039 seconds
+reached convergance 5538.843892736077
+elapsed time: 6.439340829849243 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:22
+piteration 1 elapsed time: 0.41457080841064453 seconds
+  viteration 1 elapsed time: 0.09096693992614746 seconds
+  viteration 2 elapsed time: 0.042062997817993164 seconds
+  viteration 3 elapsed time: 0.09435105323791504 seconds
+  viteration 4 elapsed time: 0.03961896896362305 seconds
+  viteration 5 elapsed time: 0.09981012344360352 seconds
+  viteration 6 elapsed time: 0.03991198539733887 seconds
+  viteration 7 elapsed time: 0.04052996635437012 seconds
+  viteration 8 elapsed time: 0.08770084381103516 seconds
+  viteration 9 elapsed time: 0.04183316230773926 seconds
+  viteration 10 elapsed time: 0.09129786491394043 seconds
+  viteration 11 elapsed time: 0.03921985626220703 seconds
+  viteration 12 elapsed time: 0.09222292900085449 seconds
+  viteration 13 elapsed time: 0.04003000259399414 seconds
+  viteration 14 elapsed time: 0.04056096076965332 seconds
+  viteration 15 elapsed time: 0.08903694152832031 seconds
+  viteration 16 elapsed time: 0.04110407829284668 seconds
+  viteration 17 elapsed time: 0.08796286582946777 seconds
+  viteration 18 elapsed time: 0.04059886932373047 seconds
+  viteration 19 elapsed time: 0.08697795867919922 seconds
+  viteration 20 elapsed time: 0.03943204879760742 seconds
+  viteration 21 elapsed time: 0.042324066162109375 seconds
+  viteration 22 elapsed time: 0.09569406509399414 seconds
+viter total elapsed time: 1.4068138599395752 seconds
+piteration 2 elapsed time: 0.4022338390350342 seconds
+  viteration 1 elapsed time: 0.03981900215148926 seconds
+  viteration 2 elapsed time: 0.0931389331817627 seconds
+  viteration 3 elapsed time: 0.047142982482910156 seconds
+  viteration 4 elapsed time: 0.09221982955932617 seconds
+  viteration 5 elapsed time: 0.039250850677490234 seconds
+  viteration 6 elapsed time: 0.04113197326660156 seconds
+  viteration 7 elapsed time: 0.08733797073364258 seconds
+  viteration 8 elapsed time: 0.07315301895141602 seconds
+  viteration 9 elapsed time: 0.11647701263427734 seconds
+  viteration 10 elapsed time: 0.039553165435791016 seconds
+  viteration 11 elapsed time: 0.09049010276794434 seconds
+  viteration 12 elapsed time: 0.039170026779174805 seconds
+  viteration 13 elapsed time: 0.039608001708984375 seconds
+  viteration 14 elapsed time: 0.08511805534362793 seconds
+  viteration 15 elapsed time: 0.039938926696777344 seconds
+  viteration 16 elapsed time: 0.09589219093322754 seconds
+  viteration 17 elapsed time: 0.04121994972229004 seconds
+  viteration 18 elapsed time: 0.08800101280212402 seconds
+  viteration 19 elapsed time: 0.038681983947753906 seconds
+  viteration 20 elapsed time: 0.042001962661743164 seconds
+  viteration 21 elapsed time: 0.13747787475585938 seconds
+  viteration 22 elapsed time: 0.04178309440612793 seconds
+viter total elapsed time: 1.4516348838806152 seconds
+piteration 3 elapsed time: 0.4206418991088867 seconds
+  viteration 1 elapsed time: 0.0853118896484375 seconds
+  viteration 2 elapsed time: 0.04071807861328125 seconds
+  viteration 3 elapsed time: 0.0919179916381836 seconds
+  viteration 4 elapsed time: 0.03970694541931152 seconds
+  viteration 5 elapsed time: 0.08988618850708008 seconds
+  viteration 6 elapsed time: 0.03790402412414551 seconds
+  viteration 7 elapsed time: 0.03910112380981445 seconds
+probably reached convergance 5538.938496557772
+viter total elapsed time: 0.7125058174133301 seconds
+piteration 4 elapsed time: 0.48325300216674805 seconds
+  viteration 1 elapsed time: 0.04130697250366211 seconds
+  viteration 2 elapsed time: 0.04172706604003906 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.3764040470123291 seconds
+piteration 5 elapsed time: 0.40705394744873047 seconds
+  viteration 1 elapsed time: 0.09120392799377441 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.2733299732208252 seconds
+reached convergance 5538.843892736077
+elapsed time: 6.703293800354004 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:23
+piteration 1 elapsed time: 0.40578317642211914 seconds
+  viteration 1 elapsed time: 0.03953886032104492 seconds
+  viteration 2 elapsed time: 0.08680987358093262 seconds
+  viteration 3 elapsed time: 0.04210710525512695 seconds
+  viteration 4 elapsed time: 0.08598184585571289 seconds
+  viteration 5 elapsed time: 0.03175091743469238 seconds
+  viteration 6 elapsed time: 0.0695960521697998 seconds
+  viteration 7 elapsed time: 0.031514883041381836 seconds
+  viteration 8 elapsed time: 0.03212308883666992 seconds
+  viteration 9 elapsed time: 0.06751298904418945 seconds
+  viteration 10 elapsed time: 0.032206058502197266 seconds
+  viteration 11 elapsed time: 0.06851601600646973 seconds
+  viteration 12 elapsed time: 0.03161907196044922 seconds
+  viteration 13 elapsed time: 0.032295942306518555 seconds
+  viteration 14 elapsed time: 0.0680549144744873 seconds
+  viteration 15 elapsed time: 0.032135009765625 seconds
+  viteration 16 elapsed time: 0.06837797164916992 seconds
+  viteration 17 elapsed time: 0.04045701026916504 seconds
+  viteration 18 elapsed time: 0.08127903938293457 seconds
+  viteration 19 elapsed time: 0.04021096229553223 seconds
+  viteration 20 elapsed time: 0.03302597999572754 seconds
+  viteration 21 elapsed time: 0.06873488426208496 seconds
+  viteration 22 elapsed time: 0.03217887878417969 seconds
+  viteration 23 elapsed time: 0.0679938793182373 seconds
+viter total elapsed time: 1.1865959167480469 seconds
+piteration 2 elapsed time: 0.3758540153503418 seconds
+  viteration 1 elapsed time: 0.04118680953979492 seconds
+  viteration 2 elapsed time: 0.11887907981872559 seconds
+  viteration 3 elapsed time: 0.04813694953918457 seconds
+  viteration 4 elapsed time: 0.09714698791503906 seconds
+  viteration 5 elapsed time: 0.03997206687927246 seconds
+  viteration 6 elapsed time: 0.0423579216003418 seconds
+  viteration 7 elapsed time: 0.08787989616394043 seconds
+  viteration 8 elapsed time: 0.049565792083740234 seconds
+  viteration 9 elapsed time: 0.09839200973510742 seconds
+  viteration 10 elapsed time: 0.041555166244506836 seconds
+  viteration 11 elapsed time: 0.09102582931518555 seconds
+  viteration 12 elapsed time: 0.03987407684326172 seconds
+  viteration 13 elapsed time: 0.04196810722351074 seconds
+  viteration 14 elapsed time: 0.0839078426361084 seconds
+  viteration 15 elapsed time: 0.033490896224975586 seconds
+  viteration 16 elapsed time: 0.07930302619934082 seconds
+  viteration 17 elapsed time: 0.035119056701660156 seconds
+  viteration 18 elapsed time: 0.09292197227478027 seconds
+  viteration 19 elapsed time: 0.04181718826293945 seconds
+  viteration 20 elapsed time: 0.0413060188293457 seconds
+  viteration 21 elapsed time: 0.09856200218200684 seconds
+  viteration 22 elapsed time: 0.04210996627807617 seconds
+  viteration 23 elapsed time: 0.09141397476196289 seconds
+viter total elapsed time: 1.4798798561096191 seconds
+piteration 3 elapsed time: 0.40734195709228516 seconds
+  viteration 1 elapsed time: 0.04221296310424805 seconds
+  viteration 2 elapsed time: 0.09731602668762207 seconds
+  viteration 3 elapsed time: 0.04056382179260254 seconds
+  viteration 4 elapsed time: 0.044638872146606445 seconds
+  viteration 5 elapsed time: 0.08600878715515137 seconds
+  viteration 6 elapsed time: 0.040435075759887695 seconds
+probably reached convergance 5538.845373329728
+viter total elapsed time: 0.6361889839172363 seconds
+piteration 4 elapsed time: 0.407581090927124 seconds
+  viteration 1 elapsed time: 0.09880614280700684 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.12464690208435059 seconds
+reached convergance 5538.843892736077
+elapsed time: 5.552830934524536 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:24
+piteration 1 elapsed time: 0.423969030380249 seconds
+  viteration 1 elapsed time: 0.07732391357421875 seconds
+  viteration 2 elapsed time: 0.09640693664550781 seconds
+  viteration 3 elapsed time: 0.040284156799316406 seconds
+  viteration 4 elapsed time: 0.09551787376403809 seconds
+  viteration 5 elapsed time: 0.04106402397155762 seconds
+  viteration 6 elapsed time: 0.0424809455871582 seconds
+  viteration 7 elapsed time: 0.10362482070922852 seconds
+  viteration 8 elapsed time: 0.041322946548461914 seconds
+  viteration 9 elapsed time: 0.09469795227050781 seconds
+  viteration 10 elapsed time: 0.04838204383850098 seconds
+  viteration 11 elapsed time: 0.09232306480407715 seconds
+  viteration 12 elapsed time: 0.04171919822692871 seconds
+  viteration 13 elapsed time: 0.04016399383544922 seconds
+  viteration 14 elapsed time: 0.08819913864135742 seconds
+  viteration 15 elapsed time: 0.03714895248413086 seconds
+  viteration 16 elapsed time: 0.0915229320526123 seconds
+  viteration 17 elapsed time: 0.04101395606994629 seconds
+  viteration 18 elapsed time: 0.08689379692077637 seconds
+  viteration 19 elapsed time: 0.039697885513305664 seconds
+  viteration 20 elapsed time: 0.038630008697509766 seconds
+  viteration 21 elapsed time: 0.08568501472473145 seconds
+  viteration 22 elapsed time: 0.03939986228942871 seconds
+  viteration 23 elapsed time: 0.09207296371459961 seconds
+  viteration 24 elapsed time: 0.039794921875 seconds
+viter total elapsed time: 1.5381848812103271 seconds
+piteration 2 elapsed time: 0.41516685485839844 seconds
+  viteration 1 elapsed time: 0.08701801300048828 seconds
+  viteration 2 elapsed time: 0.043565988540649414 seconds
+  viteration 3 elapsed time: 0.09437394142150879 seconds
+  viteration 4 elapsed time: 0.04263710975646973 seconds
+  viteration 5 elapsed time: 0.04089498519897461 seconds
+  viteration 6 elapsed time: 0.10417795181274414 seconds
+  viteration 7 elapsed time: 0.03996396064758301 seconds
+  viteration 8 elapsed time: 0.09035611152648926 seconds
+  viteration 9 elapsed time: 0.03941679000854492 seconds
+  viteration 10 elapsed time: 0.0983572006225586 seconds
+  viteration 11 elapsed time: 0.04115700721740723 seconds
+  viteration 12 elapsed time: 0.03889894485473633 seconds
+  viteration 13 elapsed time: 0.08882308006286621 seconds
+  viteration 14 elapsed time: 0.0423891544342041 seconds
+  viteration 15 elapsed time: 0.08936691284179688 seconds
+  viteration 16 elapsed time: 0.04268383979797363 seconds
+  viteration 17 elapsed time: 0.09910798072814941 seconds
+  viteration 18 elapsed time: 0.0411679744720459 seconds
+  viteration 19 elapsed time: 0.041625022888183594 seconds
+  viteration 20 elapsed time: 0.08759212493896484 seconds
+  viteration 21 elapsed time: 0.040971994400024414 seconds
+  viteration 22 elapsed time: 0.09479093551635742 seconds
+  viteration 23 elapsed time: 0.038558006286621094 seconds
+  viteration 24 elapsed time: 0.10180807113647461 seconds
+viter total elapsed time: 1.572282075881958 seconds
+piteration 3 elapsed time: 0.41118311882019043 seconds
+  viteration 1 elapsed time: 0.04106616973876953 seconds
+  viteration 2 elapsed time: 0.03987598419189453 seconds
+  viteration 3 elapsed time: 0.08252096176147461 seconds
+  viteration 4 elapsed time: 0.041290998458862305 seconds
+  viteration 5 elapsed time: 0.08440518379211426 seconds
+  viteration 6 elapsed time: 0.04445600509643555 seconds
+probably reached convergance 5538.897162377748
+viter total elapsed time: 0.41545605659484863 seconds
+piteration 4 elapsed time: 0.4102208614349365 seconds
+  viteration 1 elapsed time: 0.08606696128845215 seconds
+  viteration 2 elapsed time: 0.03955888748168945 seconds
+  viteration 3 elapsed time: 0.09064102172851562 seconds
+probably reached convergance 5538.844222305949
+viter total elapsed time: 0.49709200859069824 seconds
+piteration 5 elapsed time: 0.4236900806427002 seconds
+  viteration 1 elapsed time: 0.04114508628845215 seconds
+  viteration 2 elapsed time: 0.13962101936340332 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.35402703285217285 seconds
+piteration 6 elapsed time: 0.3622910976409912 seconds
+  viteration 1 elapsed time: 0.03172588348388672 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.6392538547515869 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.688645124435425 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:25
+piteration 1 elapsed time: 0.3701169490814209 seconds
+  viteration 1 elapsed time: 0.08960700035095215 seconds
+  viteration 2 elapsed time: 0.04022216796875 seconds
+  viteration 3 elapsed time: 0.04052090644836426 seconds
+  viteration 4 elapsed time: 0.08695411682128906 seconds
+  viteration 5 elapsed time: 0.04102897644042969 seconds
+  viteration 6 elapsed time: 0.08699703216552734 seconds
+  viteration 7 elapsed time: 0.039671897888183594 seconds
+  viteration 8 elapsed time: 0.09011697769165039 seconds
+  viteration 9 elapsed time: 0.04068493843078613 seconds
+  viteration 10 elapsed time: 0.04087996482849121 seconds
+  viteration 11 elapsed time: 0.08936095237731934 seconds
+  viteration 12 elapsed time: 0.040225982666015625 seconds
+  viteration 13 elapsed time: 0.08488202095031738 seconds
+  viteration 14 elapsed time: 0.04157304763793945 seconds
+  viteration 15 elapsed time: 0.08687186241149902 seconds
+  viteration 16 elapsed time: 0.038902997970581055 seconds
+  viteration 17 elapsed time: 0.041773080825805664 seconds
+  viteration 18 elapsed time: 0.08685803413391113 seconds
+  viteration 19 elapsed time: 0.04023385047912598 seconds
+  viteration 20 elapsed time: 0.09345102310180664 seconds
+  viteration 21 elapsed time: 0.04089212417602539 seconds
+  viteration 22 elapsed time: 0.09279894828796387 seconds
+  viteration 23 elapsed time: 0.03852391242980957 seconds
+  viteration 24 elapsed time: 0.040125131607055664 seconds
+  viteration 25 elapsed time: 0.09113001823425293 seconds
+viter total elapsed time: 1.546043872833252 seconds
+piteration 2 elapsed time: 0.3971829414367676 seconds
+  viteration 1 elapsed time: 0.041457176208496094 seconds
+  viteration 2 elapsed time: 0.08664894104003906 seconds
+  viteration 3 elapsed time: 0.042552947998046875 seconds
+  viteration 4 elapsed time: 0.0886528491973877 seconds
+  viteration 5 elapsed time: 0.04020404815673828 seconds
+  viteration 6 elapsed time: 0.04201483726501465 seconds
+  viteration 7 elapsed time: 0.1311800479888916 seconds
+  viteration 8 elapsed time: 0.04170703887939453 seconds
+  viteration 9 elapsed time: 0.09067296981811523 seconds
+  viteration 10 elapsed time: 0.04000687599182129 seconds
+  viteration 11 elapsed time: 0.08776998519897461 seconds
+  viteration 12 elapsed time: 0.03926801681518555 seconds
+  viteration 13 elapsed time: 0.040376901626586914 seconds
+  viteration 14 elapsed time: 0.10510802268981934 seconds
+  viteration 15 elapsed time: 0.04126286506652832 seconds
+  viteration 16 elapsed time: 0.09095001220703125 seconds
+  viteration 17 elapsed time: 0.040409088134765625 seconds
+  viteration 18 elapsed time: 0.09220099449157715 seconds
+  viteration 19 elapsed time: 0.04005908966064453 seconds
+  viteration 20 elapsed time: 0.04054999351501465 seconds
+  viteration 21 elapsed time: 0.12640595436096191 seconds
+  viteration 22 elapsed time: 0.039750099182128906 seconds
+  viteration 23 elapsed time: 0.0889739990234375 seconds
+  viteration 24 elapsed time: 0.04130291938781738 seconds
+  viteration 25 elapsed time: 0.12395715713500977 seconds
+viter total elapsed time: 1.6871840953826904 seconds
+piteration 3 elapsed time: 0.40450501441955566 seconds
+  viteration 1 elapsed time: 0.04284310340881348 seconds
+  viteration 2 elapsed time: 0.08501482009887695 seconds
+  viteration 3 elapsed time: 0.03937101364135742 seconds
+  viteration 4 elapsed time: 0.04230093955993652 seconds
+  viteration 5 elapsed time: 0.08772897720336914 seconds
+  viteration 6 elapsed time: 0.03960299491882324 seconds
+probably reached convergance 5538.870014401346
+viter total elapsed time: 0.4486360549926758 seconds
+piteration 4 elapsed time: 0.4455249309539795 seconds
+  viteration 1 elapsed time: 0.16047310829162598 seconds
+  viteration 2 elapsed time: 0.03954601287841797 seconds
+probably reached convergance 5538.844222305949
+viter total elapsed time: 0.35674309730529785 seconds
+piteration 5 elapsed time: 0.4450409412384033 seconds
+  viteration 1 elapsed time: 0.09120488166809082 seconds
+  viteration 2 elapsed time: 0.04187607765197754 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.18199992179870605 seconds
+piteration 6 elapsed time: 0.414064884185791 seconds
+  viteration 1 elapsed time: 0.0890040397644043 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.37108707427978516 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.262808084487915 seconds
+jameson@julia:~/dp-mapmaker$ 
+
+
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:25
+piteration 1 elapsed time: 0.37015199661254883 seconds
+  viteration 1 elapsed time: 0.07065701484680176 seconds
+  viteration 2 elapsed time: 0.12496495246887207 seconds
+  viteration 3 elapsed time: 0.06936216354370117 seconds
+  viteration 4 elapsed time: 0.07270097732543945 seconds
+  viteration 5 elapsed time: 0.11690592765808105 seconds
+  viteration 6 elapsed time: 0.07064485549926758 seconds
+  viteration 7 elapsed time: 0.1173410415649414 seconds
+  viteration 8 elapsed time: 0.06937694549560547 seconds
+  viteration 9 elapsed time: 0.11966991424560547 seconds
+  viteration 10 elapsed time: 0.06777095794677734 seconds
+  viteration 11 elapsed time: 0.07198810577392578 seconds
+  viteration 12 elapsed time: 0.11609315872192383 seconds
+  viteration 13 elapsed time: 0.07055306434631348 seconds
+  viteration 14 elapsed time: 0.11738991737365723 seconds
+  viteration 15 elapsed time: 0.06945204734802246 seconds
+  viteration 16 elapsed time: 0.11788296699523926 seconds
+  viteration 17 elapsed time: 0.06786489486694336 seconds
+  viteration 18 elapsed time: 0.07163596153259277 seconds
+  viteration 19 elapsed time: 0.11534690856933594 seconds
+  viteration 20 elapsed time: 0.07051205635070801 seconds
+  viteration 21 elapsed time: 0.11753201484680176 seconds
+  viteration 22 elapsed time: 0.06909608840942383 seconds
+  viteration 23 elapsed time: 0.11925816535949707 seconds
+  viteration 24 elapsed time: 0.06812286376953125 seconds
+  viteration 25 elapsed time: 0.07175397872924805 seconds
+viter total elapsed time: 2.2369539737701416 seconds
+piteration 2 elapsed time: 0.3988189697265625 seconds
+  viteration 1 elapsed time: 0.06832003593444824 seconds
+  viteration 2 elapsed time: 0.07118892669677734 seconds
+  viteration 3 elapsed time: 0.1178288459777832 seconds
+  viteration 4 elapsed time: 0.07044601440429688 seconds
+  viteration 5 elapsed time: 0.12125110626220703 seconds
+  viteration 6 elapsed time: 0.06839394569396973 seconds
+  viteration 7 elapsed time: 0.12018203735351562 seconds
+  viteration 8 elapsed time: 0.06806087493896484 seconds
+  viteration 9 elapsed time: 0.07115912437438965 seconds
+  viteration 10 elapsed time: 0.11662697792053223 seconds
+  viteration 11 elapsed time: 0.06944394111633301 seconds
+  viteration 12 elapsed time: 0.1180880069732666 seconds
+  viteration 13 elapsed time: 0.06795692443847656 seconds
+  viteration 14 elapsed time: 0.07207298278808594 seconds
+  viteration 15 elapsed time: 0.11557292938232422 seconds
+  viteration 16 elapsed time: 0.07078313827514648 seconds
+  viteration 17 elapsed time: 0.11651492118835449 seconds
+  viteration 18 elapsed time: 0.06970095634460449 seconds
+  viteration 19 elapsed time: 0.11866092681884766 seconds
+  viteration 20 elapsed time: 0.06816601753234863 seconds
+  viteration 21 elapsed time: 0.07187700271606445 seconds
+  viteration 22 elapsed time: 0.11603903770446777 seconds
+  viteration 23 elapsed time: 0.07082605361938477 seconds
+  viteration 24 elapsed time: 0.11647605895996094 seconds
+  viteration 25 elapsed time: 0.06990289688110352 seconds
+viter total elapsed time: 2.2286388874053955 seconds
+piteration 3 elapsed time: 0.3537330627441406 seconds
+  viteration 1 elapsed time: 0.11661601066589355 seconds
+  viteration 2 elapsed time: 0.06914496421813965 seconds
+  viteration 3 elapsed time: 0.11928915977478027 seconds
+  viteration 4 elapsed time: 0.06809306144714355 seconds
+  viteration 5 elapsed time: 0.07174086570739746 seconds
+  viteration 6 elapsed time: 0.11535096168518066 seconds
+probably reached convergance 5538.870014401346
+viter total elapsed time: 0.5792238712310791 seconds
+piteration 4 elapsed time: 0.3636641502380371 seconds
+  viteration 1 elapsed time: 0.07103204727172852 seconds
+  viteration 2 elapsed time: 0.11609101295471191 seconds
+probably reached convergance 5538.844222305949
+viter total elapsed time: 0.2043468952178955 seconds
+piteration 5 elapsed time: 0.36508798599243164 seconds
+  viteration 1 elapsed time: 0.07097601890563965 seconds
+  viteration 2 elapsed time: 0.11519002914428711 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.20363497734069824 seconds
+piteration 6 elapsed time: 0.36437082290649414 seconds
+  viteration 1 elapsed time: 0.0705709457397461 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.08722615242004395 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.938840866088867 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:26
+piteration 1 elapsed time: 0.34898900985717773 seconds
+  viteration 1 elapsed time: 0.11552619934082031 seconds
+  viteration 2 elapsed time: 0.06991791725158691 seconds
+  viteration 3 elapsed time: 0.11876797676086426 seconds
+  viteration 4 elapsed time: 0.06786680221557617 seconds
+  viteration 5 elapsed time: 0.07165002822875977 seconds
+  viteration 6 elapsed time: 0.11633896827697754 seconds
+  viteration 7 elapsed time: 0.07053589820861816 seconds
+  viteration 8 elapsed time: 0.11702704429626465 seconds
+  viteration 9 elapsed time: 0.06914997100830078 seconds
+  viteration 10 elapsed time: 0.11931800842285156 seconds
+  viteration 11 elapsed time: 0.06765103340148926 seconds
+  viteration 12 elapsed time: 0.07156205177307129 seconds
+  viteration 13 elapsed time: 0.11577606201171875 seconds
+  viteration 14 elapsed time: 0.07038497924804688 seconds
+  viteration 15 elapsed time: 0.11619687080383301 seconds
+  viteration 16 elapsed time: 0.06925797462463379 seconds
+  viteration 17 elapsed time: 0.1191701889038086 seconds
+  viteration 18 elapsed time: 0.06762981414794922 seconds
+  viteration 19 elapsed time: 0.07131004333496094 seconds
+  viteration 20 elapsed time: 0.1146399974822998 seconds
+  viteration 21 elapsed time: 0.07009601593017578 seconds
+  viteration 22 elapsed time: 0.11832785606384277 seconds
+  viteration 23 elapsed time: 0.06913495063781738 seconds
+  viteration 24 elapsed time: 0.11962199211120605 seconds
+  viteration 25 elapsed time: 0.06765294075012207 seconds
+  viteration 26 elapsed time: 0.07122588157653809 seconds
+viter total elapsed time: 2.3389320373535156 seconds
+piteration 2 elapsed time: 0.3982419967651367 seconds
+  viteration 1 elapsed time: 0.06806182861328125 seconds
+  viteration 2 elapsed time: 0.07103586196899414 seconds
+  viteration 3 elapsed time: 0.11530113220214844 seconds
+  viteration 4 elapsed time: 0.07057619094848633 seconds
+  viteration 5 elapsed time: 0.11750507354736328 seconds
+  viteration 6 elapsed time: 0.06820082664489746 seconds
+  viteration 7 elapsed time: 0.11978983879089355 seconds
+  viteration 8 elapsed time: 0.06788396835327148 seconds
+  viteration 9 elapsed time: 0.07106184959411621 seconds
+  viteration 10 elapsed time: 0.11635303497314453 seconds
+  viteration 11 elapsed time: 0.0695040225982666 seconds
+  viteration 12 elapsed time: 0.1184239387512207 seconds
+  viteration 13 elapsed time: 0.06822705268859863 seconds
+  viteration 14 elapsed time: 0.11922287940979004 seconds
+  viteration 15 elapsed time: 0.06779813766479492 seconds
+  viteration 16 elapsed time: 0.07110595703125 seconds
+  viteration 17 elapsed time: 0.11708402633666992 seconds
+  viteration 18 elapsed time: 0.06926202774047852 seconds
+  viteration 19 elapsed time: 0.11797904968261719 seconds
+  viteration 20 elapsed time: 0.06813287734985352 seconds
+  viteration 21 elapsed time: 0.11895298957824707 seconds
+  viteration 22 elapsed time: 0.0678250789642334 seconds
+  viteration 23 elapsed time: 0.07059597969055176 seconds
+  viteration 24 elapsed time: 0.11666202545166016 seconds
+  viteration 25 elapsed time: 0.06933403015136719 seconds
+  viteration 26 elapsed time: 0.11945986747741699 seconds
+viter total elapsed time: 2.338567018508911 seconds
+piteration 3 elapsed time: 0.3509080410003662 seconds
+  viteration 1 elapsed time: 0.06842994689941406 seconds
+  viteration 2 elapsed time: 0.1188349723815918 seconds
+  viteration 3 elapsed time: 0.06771397590637207 seconds
+probably reached convergance 5538.886880101392
+viter total elapsed time: 0.271136999130249 seconds
+piteration 4 elapsed time: 0.36487293243408203 seconds
+  viteration 1 elapsed time: 0.1172640323638916 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.13428902626037598 seconds
+reached convergance 5538.843892736077
+elapsed time: 6.714130163192749 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:27
+piteration 1 elapsed time: 0.3478200435638428 seconds
+  viteration 1 elapsed time: 0.06864380836486816 seconds
+  viteration 2 elapsed time: 0.07193112373352051 seconds
+  viteration 3 elapsed time: 0.11375093460083008 seconds
+  viteration 4 elapsed time: 0.07122492790222168 seconds
+  viteration 5 elapsed time: 0.11651897430419922 seconds
+  viteration 6 elapsed time: 0.06911301612854004 seconds
+  viteration 7 elapsed time: 0.11975407600402832 seconds
+  viteration 8 elapsed time: 0.06760811805725098 seconds
+  viteration 9 elapsed time: 0.07137513160705566 seconds
+  viteration 10 elapsed time: 0.11503219604492188 seconds
+  viteration 11 elapsed time: 0.07039904594421387 seconds
+  viteration 12 elapsed time: 0.11748385429382324 seconds
+  viteration 13 elapsed time: 0.06938695907592773 seconds
+  viteration 14 elapsed time: 0.11864805221557617 seconds
+  viteration 15 elapsed time: 0.06734585762023926 seconds
+  viteration 16 elapsed time: 0.0715630054473877 seconds
+  viteration 17 elapsed time: 0.11533808708190918 seconds
+  viteration 18 elapsed time: 0.0702660083770752 seconds
+  viteration 19 elapsed time: 0.11800789833068848 seconds
+  viteration 20 elapsed time: 0.06894588470458984 seconds
+  viteration 21 elapsed time: 0.11815094947814941 seconds
+  viteration 22 elapsed time: 0.06751799583435059 seconds
+  viteration 23 elapsed time: 0.07137203216552734 seconds
+  viteration 24 elapsed time: 0.11552619934082031 seconds
+  viteration 25 elapsed time: 0.07045698165893555 seconds
+  viteration 26 elapsed time: 0.1170341968536377 seconds
+  viteration 27 elapsed time: 0.06854701042175293 seconds
+viter total elapsed time: 2.4042789936065674 seconds
+piteration 2 elapsed time: 0.3542780876159668 seconds
+  viteration 1 elapsed time: 0.11661314964294434 seconds
+  viteration 2 elapsed time: 0.06841015815734863 seconds
+  viteration 3 elapsed time: 0.11969184875488281 seconds
+  viteration 4 elapsed time: 0.06783103942871094 seconds
+  viteration 5 elapsed time: 0.07106590270996094 seconds
+  viteration 6 elapsed time: 0.1167290210723877 seconds
+  viteration 7 elapsed time: 0.06961512565612793 seconds
+  viteration 8 elapsed time: 0.11857390403747559 seconds
+  viteration 9 elapsed time: 0.06802487373352051 seconds
+  viteration 10 elapsed time: 0.11965203285217285 seconds
+  viteration 11 elapsed time: 0.06777215003967285 seconds
+  viteration 12 elapsed time: 0.07074594497680664 seconds
+  viteration 13 elapsed time: 0.11629605293273926 seconds
+  viteration 14 elapsed time: 0.06937694549560547 seconds
+  viteration 15 elapsed time: 0.11895394325256348 seconds
+  viteration 16 elapsed time: 0.06802701950073242 seconds
+  viteration 17 elapsed time: 0.07191300392150879 seconds
+  viteration 18 elapsed time: 0.11527609825134277 seconds
+  viteration 19 elapsed time: 0.07063102722167969 seconds
+  viteration 20 elapsed time: 0.11753606796264648 seconds
+  viteration 21 elapsed time: 0.06925702095031738 seconds
+  viteration 22 elapsed time: 0.11979794502258301 seconds
+  viteration 23 elapsed time: 0.06770706176757812 seconds
+  viteration 24 elapsed time: 0.07212114334106445 seconds
+  viteration 25 elapsed time: 0.11556506156921387 seconds
+  viteration 26 elapsed time: 0.07075119018554688 seconds
+  viteration 27 elapsed time: 0.11725211143493652 seconds
+viter total elapsed time: 2.458623170852661 seconds
+piteration 3 elapsed time: 0.35108399391174316 seconds
+  viteration 1 elapsed time: 0.06999397277832031 seconds
+  viteration 2 elapsed time: 0.11535811424255371 seconds
+  viteration 3 elapsed time: 0.0696258544921875 seconds
+  viteration 4 elapsed time: 0.1182861328125 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.39083218574523926 seconds
+piteration 4 elapsed time: 0.36540889739990234 seconds
+  viteration 1 elapsed time: 0.06843709945678711 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.08357810974121094 seconds
+reached convergance 5538.843892736077
+elapsed time: 6.9256720542907715 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:28
+piteration 1 elapsed time: 0.34716796875 seconds
+  viteration 1 elapsed time: 0.11869001388549805 seconds
+  viteration 2 elapsed time: 0.06780600547790527 seconds
+  viteration 3 elapsed time: 0.07248401641845703 seconds
+  viteration 4 elapsed time: 0.11712980270385742 seconds
+  viteration 5 elapsed time: 0.07001495361328125 seconds
+  viteration 6 elapsed time: 0.11715984344482422 seconds
+  viteration 7 elapsed time: 0.0686028003692627 seconds
+  viteration 8 elapsed time: 0.11970400810241699 seconds
+  viteration 9 elapsed time: 0.06761384010314941 seconds
+  viteration 10 elapsed time: 0.07168078422546387 seconds
+  viteration 11 elapsed time: 0.11440014839172363 seconds
+  viteration 12 elapsed time: 0.06992697715759277 seconds
+  viteration 13 elapsed time: 0.11684608459472656 seconds
+  viteration 14 elapsed time: 0.06854701042175293 seconds
+  viteration 15 elapsed time: 0.11934781074523926 seconds
+  viteration 16 elapsed time: 0.06770086288452148 seconds
+  viteration 17 elapsed time: 0.07113885879516602 seconds
+  viteration 18 elapsed time: 0.11501407623291016 seconds
+  viteration 19 elapsed time: 0.06986093521118164 seconds
+  viteration 20 elapsed time: 0.11724019050598145 seconds
+  viteration 21 elapsed time: 0.0682210922241211 seconds
+  viteration 22 elapsed time: 0.11835908889770508 seconds
+  viteration 23 elapsed time: 0.0678398609161377 seconds
+  viteration 24 elapsed time: 0.07121396064758301 seconds
+  viteration 25 elapsed time: 0.11597704887390137 seconds
+  viteration 26 elapsed time: 0.06983494758605957 seconds
+  viteration 27 elapsed time: 0.11707210540771484 seconds
+  viteration 28 elapsed time: 0.06870412826538086 seconds
+viter total elapsed time: 2.5215649604797363 seconds
+piteration 2 elapsed time: 0.3537590503692627 seconds
+  viteration 1 elapsed time: 0.11728215217590332 seconds
+  viteration 2 elapsed time: 0.06788396835327148 seconds
+  viteration 3 elapsed time: 0.07207608222961426 seconds
+  viteration 4 elapsed time: 0.11477088928222656 seconds
+  viteration 5 elapsed time: 0.07080197334289551 seconds
+  viteration 6 elapsed time: 0.1161808967590332 seconds
+  viteration 7 elapsed time: 0.0691981315612793 seconds
+  viteration 8 elapsed time: 0.12018489837646484 seconds
+  viteration 9 elapsed time: 0.06766700744628906 seconds
+  viteration 10 elapsed time: 0.07203197479248047 seconds
+  viteration 11 elapsed time: 0.11683392524719238 seconds
+  viteration 12 elapsed time: 0.07062602043151855 seconds
+  viteration 13 elapsed time: 0.11572694778442383 seconds
+  viteration 14 elapsed time: 0.06912899017333984 seconds
+  viteration 15 elapsed time: 0.11859321594238281 seconds
+  viteration 16 elapsed time: 0.06753420829772949 seconds
+  viteration 17 elapsed time: 0.07198619842529297 seconds
+  viteration 18 elapsed time: 0.11485791206359863 seconds
+  viteration 19 elapsed time: 0.0704350471496582 seconds
+  viteration 20 elapsed time: 0.11827611923217773 seconds
+  viteration 21 elapsed time: 0.06914901733398438 seconds
+  viteration 22 elapsed time: 0.11973714828491211 seconds
+  viteration 23 elapsed time: 0.06736612319946289 seconds
+  viteration 24 elapsed time: 0.07176899909973145 seconds
+  viteration 25 elapsed time: 0.11495280265808105 seconds
+  viteration 26 elapsed time: 0.07069110870361328 seconds
+  viteration 27 elapsed time: 0.11633920669555664 seconds
+  viteration 28 elapsed time: 0.06922197341918945 seconds
+viter total elapsed time: 2.524799108505249 seconds
+piteration 3 elapsed time: 0.35497403144836426 seconds
+  viteration 1 elapsed time: 0.11678695678710938 seconds
+  viteration 2 elapsed time: 0.06864213943481445 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.2020559310913086 seconds
+piteration 4 elapsed time: 0.3651549816131592 seconds
+  viteration 1 elapsed time: 0.11618995666503906 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.1331801414489746 seconds
+reached convergance 5538.843892736077
+elapsed time: 6.972171068191528 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:29
+piteration 1 elapsed time: 0.34747886657714844 seconds
+  viteration 1 elapsed time: 0.0687708854675293 seconds
+  viteration 2 elapsed time: 0.11932182312011719 seconds
+  viteration 3 elapsed time: 0.06751012802124023 seconds
+  viteration 4 elapsed time: 0.07197213172912598 seconds
+  viteration 5 elapsed time: 0.11541295051574707 seconds
+  viteration 6 elapsed time: 0.07019305229187012 seconds
+  viteration 7 elapsed time: 0.11712908744812012 seconds
+  viteration 8 elapsed time: 0.068511962890625 seconds
+  viteration 9 elapsed time: 0.11943411827087402 seconds
+  viteration 10 elapsed time: 0.06787705421447754 seconds
+  viteration 11 elapsed time: 0.07115793228149414 seconds
+  viteration 12 elapsed time: 0.11687207221984863 seconds
+  viteration 13 elapsed time: 0.06972217559814453 seconds
+  viteration 14 elapsed time: 0.1183621883392334 seconds
+  viteration 15 elapsed time: 0.06846308708190918 seconds
+  viteration 16 elapsed time: 0.11950397491455078 seconds
+  viteration 17 elapsed time: 0.06798291206359863 seconds
+  viteration 18 elapsed time: 0.0709218978881836 seconds
+  viteration 19 elapsed time: 0.11706995964050293 seconds
+  viteration 20 elapsed time: 0.0699000358581543 seconds
+  viteration 21 elapsed time: 0.11805009841918945 seconds
+  viteration 22 elapsed time: 0.06819987297058105 seconds
+  viteration 23 elapsed time: 0.11854696273803711 seconds
+  viteration 24 elapsed time: 0.06793093681335449 seconds
+  viteration 25 elapsed time: 0.07112407684326172 seconds
+  viteration 26 elapsed time: 0.11671900749206543 seconds
+  viteration 27 elapsed time: 0.06966710090637207 seconds
+  viteration 28 elapsed time: 0.11812591552734375 seconds
+  viteration 29 elapsed time: 0.0681610107421875 seconds
+viter total elapsed time: 2.596169948577881 seconds
+piteration 2 elapsed time: 0.35343098640441895 seconds
+  viteration 1 elapsed time: 0.11843419075012207 seconds
+  viteration 2 elapsed time: 0.06775689125061035 seconds
+  viteration 3 elapsed time: 0.07223010063171387 seconds
+  viteration 4 elapsed time: 0.11456799507141113 seconds
+  viteration 5 elapsed time: 0.0708920955657959 seconds
+  viteration 6 elapsed time: 0.1167440414428711 seconds
+  viteration 7 elapsed time: 0.0688788890838623 seconds
+  viteration 8 elapsed time: 0.11936807632446289 seconds
+  viteration 9 elapsed time: 0.0674748420715332 seconds
+  viteration 10 elapsed time: 0.07172989845275879 seconds
+  viteration 11 elapsed time: 0.11580681800842285 seconds
+  viteration 12 elapsed time: 0.07048678398132324 seconds
+  viteration 13 elapsed time: 0.11665701866149902 seconds
+  viteration 14 elapsed time: 0.06899380683898926 seconds
+  viteration 15 elapsed time: 0.12054705619812012 seconds
+  viteration 16 elapsed time: 0.06784486770629883 seconds
+  viteration 17 elapsed time: 0.07170891761779785 seconds
+  viteration 18 elapsed time: 0.11713695526123047 seconds
+  viteration 19 elapsed time: 0.07005715370178223 seconds
+  viteration 20 elapsed time: 0.11694788932800293 seconds
+  viteration 21 elapsed time: 0.06880021095275879 seconds
+  viteration 22 elapsed time: 0.11822795867919922 seconds
+  viteration 23 elapsed time: 0.06778597831726074 seconds
+  viteration 24 elapsed time: 0.07156705856323242 seconds
+  viteration 25 elapsed time: 0.11702203750610352 seconds
+  viteration 26 elapsed time: 0.07032918930053711 seconds
+  viteration 27 elapsed time: 0.11718392372131348 seconds
+  viteration 28 elapsed time: 0.06887292861938477 seconds
+  viteration 29 elapsed time: 0.11784195899963379 seconds
+viter total elapsed time: 2.645442008972168 seconds
+piteration 3 elapsed time: 0.35114097595214844 seconds
+  viteration 1 elapsed time: 0.0683279037475586 seconds
+  viteration 2 elapsed time: 0.11820387840270996 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.2038559913635254 seconds
+piteration 4 elapsed time: 0.3663041591644287 seconds
+  viteration 1 elapsed time: 0.06858992576599121 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.08563613891601562 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.121503114700317 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:30
+piteration 1 elapsed time: 0.3491699695587158 seconds
+  viteration 1 elapsed time: 0.12103605270385742 seconds
+  viteration 2 elapsed time: 0.0672609806060791 seconds
+  viteration 3 elapsed time: 0.07216405868530273 seconds
+  viteration 4 elapsed time: 0.11663603782653809 seconds
+  viteration 5 elapsed time: 0.06979703903198242 seconds
+  viteration 6 elapsed time: 0.11766910552978516 seconds
+  viteration 7 elapsed time: 0.06828999519348145 seconds
+  viteration 8 elapsed time: 0.11858892440795898 seconds
+  viteration 9 elapsed time: 0.06787800788879395 seconds
+  viteration 10 elapsed time: 0.07081484794616699 seconds
+  viteration 11 elapsed time: 0.11597704887390137 seconds
+  viteration 12 elapsed time: 0.0694880485534668 seconds
+  viteration 13 elapsed time: 0.11845588684082031 seconds
+  viteration 14 elapsed time: 0.0680549144744873 seconds
+  viteration 15 elapsed time: 0.07201910018920898 seconds
+  viteration 16 elapsed time: 0.11649799346923828 seconds
+  viteration 17 elapsed time: 0.07068800926208496 seconds
+  viteration 18 elapsed time: 0.11597490310668945 seconds
+  viteration 19 elapsed time: 0.06951093673706055 seconds
+  viteration 20 elapsed time: 0.11957788467407227 seconds
+  viteration 21 elapsed time: 0.06791090965270996 seconds
+  viteration 22 elapsed time: 0.07207512855529785 seconds
+  viteration 23 elapsed time: 0.11573290824890137 seconds
+  viteration 24 elapsed time: 0.07063817977905273 seconds
+  viteration 25 elapsed time: 0.11896896362304688 seconds
+  viteration 26 elapsed time: 0.06935715675354004 seconds
+  viteration 27 elapsed time: 0.11790204048156738 seconds
+  viteration 28 elapsed time: 0.06786298751831055 seconds
+  viteration 29 elapsed time: 0.07184386253356934 seconds
+  viteration 30 elapsed time: 0.11622190475463867 seconds
+viter total elapsed time: 2.718675136566162 seconds
+piteration 2 elapsed time: 0.351578950881958 seconds
+  viteration 1 elapsed time: 0.07153511047363281 seconds
+  viteration 2 elapsed time: 0.11502194404602051 seconds
+  viteration 3 elapsed time: 0.07115602493286133 seconds
+  viteration 4 elapsed time: 0.1174311637878418 seconds
+  viteration 5 elapsed time: 0.06872797012329102 seconds
+  viteration 6 elapsed time: 0.1192171573638916 seconds
+  viteration 7 elapsed time: 0.06797599792480469 seconds
+  viteration 8 elapsed time: 0.07138490676879883 seconds
+  viteration 9 elapsed time: 0.11597299575805664 seconds
+  viteration 10 elapsed time: 0.07001519203186035 seconds
+  viteration 11 elapsed time: 0.11768603324890137 seconds
+  viteration 12 elapsed time: 0.06831097602844238 seconds
+  viteration 13 elapsed time: 0.11856389045715332 seconds
+  viteration 14 elapsed time: 0.06778407096862793 seconds
+  viteration 15 elapsed time: 0.07111191749572754 seconds
+  viteration 16 elapsed time: 0.11623477935791016 seconds
+  viteration 17 elapsed time: 0.0700540542602539 seconds
+  viteration 18 elapsed time: 0.11696314811706543 seconds
+  viteration 19 elapsed time: 0.0684349536895752 seconds
+  viteration 20 elapsed time: 0.11944007873535156 seconds
+  viteration 21 elapsed time: 0.06810402870178223 seconds
+  viteration 22 elapsed time: 0.07105779647827148 seconds
+  viteration 23 elapsed time: 0.11811089515686035 seconds
+  viteration 24 elapsed time: 0.06959915161132812 seconds
+  viteration 25 elapsed time: 0.11858296394348145 seconds
+  viteration 26 elapsed time: 0.06840014457702637 seconds
+  viteration 27 elapsed time: 0.12030220031738281 seconds
+  viteration 28 elapsed time: 0.0677330493927002 seconds
+  viteration 29 elapsed time: 0.0709371566772461 seconds
+  viteration 30 elapsed time: 0.11615610122680664 seconds
+viter total elapsed time: 2.715700149536133 seconds
+piteration 3 elapsed time: 0.35212206840515137 seconds
+  viteration 1 elapsed time: 0.07023501396179199 seconds
+  viteration 2 elapsed time: 0.11631393432617188 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.20363807678222656 seconds
+piteration 4 elapsed time: 0.3660709857940674 seconds
+  viteration 1 elapsed time: 0.07001900672912598 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.08621096611022949 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.3102099895477295 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:31
+piteration 1 elapsed time: 0.3472411632537842 seconds
+  viteration 1 elapsed time: 0.11704611778259277 seconds
+  viteration 2 elapsed time: 0.06995987892150879 seconds
+  viteration 3 elapsed time: 0.11924409866333008 seconds
+  viteration 4 elapsed time: 0.06792712211608887 seconds
+  viteration 5 elapsed time: 0.07191109657287598 seconds
+  viteration 6 elapsed time: 0.11519408226013184 seconds
+  viteration 7 elapsed time: 0.07101702690124512 seconds
+  viteration 8 elapsed time: 0.1159811019897461 seconds
+  viteration 9 elapsed time: 0.06919503211975098 seconds
+  viteration 10 elapsed time: 0.11938714981079102 seconds
+  viteration 11 elapsed time: 0.06763601303100586 seconds
+  viteration 12 elapsed time: 0.07216191291809082 seconds
+  viteration 13 elapsed time: 0.11548304557800293 seconds
+  viteration 14 elapsed time: 0.07058095932006836 seconds
+  viteration 15 elapsed time: 0.1155710220336914 seconds
+  viteration 16 elapsed time: 0.06922698020935059 seconds
+  viteration 17 elapsed time: 0.11860489845275879 seconds
+  viteration 18 elapsed time: 0.06737494468688965 seconds
+  viteration 19 elapsed time: 0.07162904739379883 seconds
+  viteration 20 elapsed time: 0.11473894119262695 seconds
+  viteration 21 elapsed time: 0.07046389579772949 seconds
+  viteration 22 elapsed time: 0.11663699150085449 seconds
+  viteration 23 elapsed time: 0.06902909278869629 seconds
+  viteration 24 elapsed time: 0.11885690689086914 seconds
+  viteration 25 elapsed time: 0.06753087043762207 seconds
+  viteration 26 elapsed time: 0.07203483581542969 seconds
+  viteration 27 elapsed time: 0.11657500267028809 seconds
+  viteration 28 elapsed time: 0.0705258846282959 seconds
+  viteration 29 elapsed time: 0.11629486083984375 seconds
+  viteration 30 elapsed time: 0.06892013549804688 seconds
+  viteration 31 elapsed time: 0.11983704566955566 seconds
+viter total elapsed time: 2.830458879470825 seconds
+piteration 2 elapsed time: 0.35103583335876465 seconds
+  viteration 1 elapsed time: 0.06823182106018066 seconds
+  viteration 2 elapsed time: 0.11855602264404297 seconds
+  viteration 3 elapsed time: 0.06781506538391113 seconds
+  viteration 4 elapsed time: 0.07196187973022461 seconds
+  viteration 5 elapsed time: 0.11602401733398438 seconds
+  viteration 6 elapsed time: 0.06979894638061523 seconds
+  viteration 7 elapsed time: 0.11928701400756836 seconds
+  viteration 8 elapsed time: 0.06830596923828125 seconds
+  viteration 9 elapsed time: 0.11949896812438965 seconds
+  viteration 10 elapsed time: 0.06808900833129883 seconds
+  viteration 11 elapsed time: 0.07136702537536621 seconds
+  viteration 12 elapsed time: 0.11598610877990723 seconds
+  viteration 13 elapsed time: 0.06958198547363281 seconds
+  viteration 14 elapsed time: 0.11877107620239258 seconds
+  viteration 15 elapsed time: 0.0682981014251709 seconds
+  viteration 16 elapsed time: 0.11861395835876465 seconds
+  viteration 17 elapsed time: 0.0680229663848877 seconds
+  viteration 18 elapsed time: 0.07107281684875488 seconds
+  viteration 19 elapsed time: 0.11707615852355957 seconds
+  viteration 20 elapsed time: 0.06954693794250488 seconds
+  viteration 21 elapsed time: 0.11797785758972168 seconds
+  viteration 22 elapsed time: 0.06798100471496582 seconds
+  viteration 23 elapsed time: 0.11930990219116211 seconds
+  viteration 24 elapsed time: 0.06813812255859375 seconds
+  viteration 25 elapsed time: 0.07102394104003906 seconds
+  viteration 26 elapsed time: 0.11786103248596191 seconds
+  viteration 27 elapsed time: 0.06962394714355469 seconds
+  viteration 28 elapsed time: 0.11720800399780273 seconds
+  viteration 29 elapsed time: 0.06800007820129395 seconds
+probably reached convergance 5538.985139371569
+viter total elapsed time: 2.613917827606201 seconds
+piteration 3 elapsed time: 0.36379408836364746 seconds
+  viteration 1 elapsed time: 0.11799883842468262 seconds
+  viteration 2 elapsed time: 0.06742596626281738 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.20325493812561035 seconds
+piteration 4 elapsed time: 0.3651859760284424 seconds
+  viteration 1 elapsed time: 0.11789608001708984 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.13521313667297363 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.379781007766724 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:32
+piteration 1 elapsed time: 0.3480570316314697 seconds
+  viteration 1 elapsed time: 0.06872701644897461 seconds
+  viteration 2 elapsed time: 0.07218217849731445 seconds
+  viteration 3 elapsed time: 0.11490416526794434 seconds
+  viteration 4 elapsed time: 0.0712440013885498 seconds
+  viteration 5 elapsed time: 0.11736917495727539 seconds
+  viteration 6 elapsed time: 0.0692758560180664 seconds
+  viteration 7 elapsed time: 0.11987709999084473 seconds
+  viteration 8 elapsed time: 0.0674891471862793 seconds
+  viteration 9 elapsed time: 0.07189297676086426 seconds
+  viteration 10 elapsed time: 0.11494183540344238 seconds
+  viteration 11 elapsed time: 0.07068681716918945 seconds
+  viteration 12 elapsed time: 0.11644697189331055 seconds
+  viteration 13 elapsed time: 0.06917905807495117 seconds
+  viteration 14 elapsed time: 0.12036800384521484 seconds
+  viteration 15 elapsed time: 0.0674741268157959 seconds
+  viteration 16 elapsed time: 0.07171893119812012 seconds
+  viteration 17 elapsed time: 0.11448001861572266 seconds
+  viteration 18 elapsed time: 0.07042908668518066 seconds
+  viteration 19 elapsed time: 0.11685705184936523 seconds
+  viteration 20 elapsed time: 0.06902503967285156 seconds
+  viteration 21 elapsed time: 0.12030601501464844 seconds
+  viteration 22 elapsed time: 0.0677790641784668 seconds
+  viteration 23 elapsed time: 0.07149004936218262 seconds
+  viteration 24 elapsed time: 0.11700201034545898 seconds
+  viteration 25 elapsed time: 0.07045698165893555 seconds
+  viteration 26 elapsed time: 0.1169440746307373 seconds
+  viteration 27 elapsed time: 0.06880497932434082 seconds
+  viteration 28 elapsed time: 0.11908411979675293 seconds
+  viteration 29 elapsed time: 0.06783318519592285 seconds
+  viteration 30 elapsed time: 0.0713651180267334 seconds
+  viteration 31 elapsed time: 0.11565184593200684 seconds
+  viteration 32 elapsed time: 0.07016992568969727 seconds
+viter total elapsed time: 2.855329990386963 seconds
+piteration 2 elapsed time: 0.35260701179504395 seconds
+  viteration 1 elapsed time: 0.11504197120666504 seconds
+  viteration 2 elapsed time: 0.06963801383972168 seconds
+  viteration 3 elapsed time: 0.11885595321655273 seconds
+  viteration 4 elapsed time: 0.06808590888977051 seconds
+  viteration 5 elapsed time: 0.11976504325866699 seconds
+  viteration 6 elapsed time: 0.0678260326385498 seconds
+  viteration 7 elapsed time: 0.07088088989257812 seconds
+  viteration 8 elapsed time: 0.11727309226989746 seconds
+  viteration 9 elapsed time: 0.06947898864746094 seconds
+  viteration 10 elapsed time: 0.1184699535369873 seconds
+  viteration 11 elapsed time: 0.06807613372802734 seconds
+  viteration 12 elapsed time: 0.07206106185913086 seconds
+  viteration 13 elapsed time: 0.11612510681152344 seconds
+  viteration 14 elapsed time: 0.0708000659942627 seconds
+  viteration 15 elapsed time: 0.1164250373840332 seconds
+  viteration 16 elapsed time: 0.06955313682556152 seconds
+  viteration 17 elapsed time: 0.11886000633239746 seconds
+  viteration 18 elapsed time: 0.06797385215759277 seconds
+  viteration 19 elapsed time: 0.07212615013122559 seconds
+  viteration 20 elapsed time: 0.1166081428527832 seconds
+  viteration 21 elapsed time: 0.07079911231994629 seconds
+  viteration 22 elapsed time: 0.1176609992980957 seconds
+  viteration 23 elapsed time: 0.0690760612487793 seconds
+  viteration 24 elapsed time: 0.11861181259155273 seconds
+  viteration 25 elapsed time: 0.06754803657531738 seconds
+  viteration 26 elapsed time: 0.07219290733337402 seconds
+  viteration 27 elapsed time: 0.11470198631286621 seconds
+  viteration 28 elapsed time: 0.07058882713317871 seconds
+  viteration 29 elapsed time: 0.11592578887939453 seconds
+probably reached convergance 5539.041558760671
+viter total elapsed time: 2.6660690307617188 seconds
+piteration 3 elapsed time: 0.3648500442504883 seconds
+  viteration 1 elapsed time: 0.07050895690917969 seconds
+  viteration 2 elapsed time: 0.11425209045410156 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.20209789276123047 seconds
+piteration 4 elapsed time: 0.3665318489074707 seconds
+  viteration 1 elapsed time: 0.07023191452026367 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.0865938663482666 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.411930084228516 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:33
+piteration 1 elapsed time: 0.3481099605560303 seconds
+  viteration 1 elapsed time: 0.11705589294433594 seconds
+  viteration 2 elapsed time: 0.06959891319274902 seconds
+  viteration 3 elapsed time: 0.12032008171081543 seconds
+  viteration 4 elapsed time: 0.06756901741027832 seconds
+  viteration 5 elapsed time: 0.0722200870513916 seconds
+  viteration 6 elapsed time: 0.1148531436920166 seconds
+  viteration 7 elapsed time: 0.07028484344482422 seconds
+  viteration 8 elapsed time: 0.11671805381774902 seconds
+  viteration 9 elapsed time: 0.06868100166320801 seconds
+  viteration 10 elapsed time: 0.11823797225952148 seconds
+  viteration 11 elapsed time: 0.06758499145507812 seconds
+  viteration 12 elapsed time: 0.07167410850524902 seconds
+  viteration 13 elapsed time: 0.11650300025939941 seconds
+  viteration 14 elapsed time: 0.07024288177490234 seconds
+  viteration 15 elapsed time: 0.11809611320495605 seconds
+  viteration 16 elapsed time: 0.06884503364562988 seconds
+  viteration 17 elapsed time: 0.11894011497497559 seconds
+  viteration 18 elapsed time: 0.06776189804077148 seconds
+  viteration 19 elapsed time: 0.07131814956665039 seconds
+  viteration 20 elapsed time: 0.11690783500671387 seconds
+  viteration 21 elapsed time: 0.06997299194335938 seconds
+  viteration 22 elapsed time: 0.11747384071350098 seconds
+  viteration 23 elapsed time: 0.06869888305664062 seconds
+  viteration 24 elapsed time: 0.11898994445800781 seconds
+  viteration 25 elapsed time: 0.067626953125 seconds
+  viteration 26 elapsed time: 0.07109785079956055 seconds
+  viteration 27 elapsed time: 0.11531305313110352 seconds
+  viteration 28 elapsed time: 0.06978321075439453 seconds
+  viteration 29 elapsed time: 0.1187591552734375 seconds
+  viteration 30 elapsed time: 0.06822991371154785 seconds
+  viteration 31 elapsed time: 0.11976003646850586 seconds
+  viteration 32 elapsed time: 0.06772089004516602 seconds
+  viteration 33 elapsed time: 0.07117891311645508 seconds
+viter total elapsed time: 2.9721028804779053 seconds
+piteration 2 elapsed time: 0.35208916664123535 seconds
+  viteration 1 elapsed time: 0.11386799812316895 seconds
+  viteration 2 elapsed time: 0.0708310604095459 seconds
+  viteration 3 elapsed time: 0.11642217636108398 seconds
+  viteration 4 elapsed time: 0.06904006004333496 seconds
+  viteration 5 elapsed time: 0.12018990516662598 seconds
+  viteration 6 elapsed time: 0.06789803504943848 seconds
+  viteration 7 elapsed time: 0.07220697402954102 seconds
+  viteration 8 elapsed time: 0.1140439510345459 seconds
+  viteration 9 elapsed time: 0.07072186470031738 seconds
+  viteration 10 elapsed time: 0.11557483673095703 seconds
+  viteration 11 elapsed time: 0.06935882568359375 seconds
+  viteration 12 elapsed time: 0.11944794654846191 seconds
+  viteration 13 elapsed time: 0.0676579475402832 seconds
+  viteration 14 elapsed time: 0.07189798355102539 seconds
+  viteration 15 elapsed time: 0.11594080924987793 seconds
+  viteration 16 elapsed time: 0.07084798812866211 seconds
+  viteration 17 elapsed time: 0.1190340518951416 seconds
+  viteration 18 elapsed time: 0.06920886039733887 seconds
+  viteration 19 elapsed time: 0.11852192878723145 seconds
+  viteration 20 elapsed time: 0.06778097152709961 seconds
+  viteration 21 elapsed time: 0.07219815254211426 seconds
+  viteration 22 elapsed time: 0.11399197578430176 seconds
+  viteration 23 elapsed time: 0.07055401802062988 seconds
+  viteration 24 elapsed time: 0.1188821792602539 seconds
+  viteration 25 elapsed time: 0.06922078132629395 seconds
+  viteration 26 elapsed time: 0.11950922012329102 seconds
+  viteration 27 elapsed time: 0.0675668716430664 seconds
+  viteration 28 elapsed time: 0.07154417037963867 seconds
+probably reached convergance 5539.065141285126
+viter total elapsed time: 2.5500919818878174 seconds
+piteration 3 elapsed time: 0.410844087600708 seconds
+  viteration 1 elapsed time: 0.06806302070617676 seconds
+  viteration 2 elapsed time: 0.07145500183105469 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.15560603141784668 seconds
+piteration 4 elapsed time: 0.4126100540161133 seconds
+  viteration 1 elapsed time: 0.06820201873779297 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.08409404754638672 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.453648090362549 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:34
+piteration 1 elapsed time: 0.3470430374145508 seconds
+  viteration 1 elapsed time: 0.0709371566772461 seconds
+  viteration 2 elapsed time: 0.11500811576843262 seconds
+  viteration 3 elapsed time: 0.07138609886169434 seconds
+  viteration 4 elapsed time: 0.11822891235351562 seconds
+  viteration 5 elapsed time: 0.0687248706817627 seconds
+  viteration 6 elapsed time: 0.11871099472045898 seconds
+  viteration 7 elapsed time: 0.06777095794677734 seconds
+  viteration 8 elapsed time: 0.07143998146057129 seconds
+  viteration 9 elapsed time: 0.115081787109375 seconds
+  viteration 10 elapsed time: 0.07029104232788086 seconds
+  viteration 11 elapsed time: 0.11727786064147949 seconds
+  viteration 12 elapsed time: 0.068389892578125 seconds
+  viteration 13 elapsed time: 0.11792993545532227 seconds
+  viteration 14 elapsed time: 0.06797099113464355 seconds
+  viteration 15 elapsed time: 0.07129311561584473 seconds
+  viteration 16 elapsed time: 0.11572408676147461 seconds
+  viteration 17 elapsed time: 0.06998085975646973 seconds
+  viteration 18 elapsed time: 0.11808395385742188 seconds
+  viteration 19 elapsed time: 0.06856298446655273 seconds
+  viteration 20 elapsed time: 0.11960792541503906 seconds
+  viteration 21 elapsed time: 0.06753897666931152 seconds
+  viteration 22 elapsed time: 0.07128596305847168 seconds
+  viteration 23 elapsed time: 0.11513495445251465 seconds
+  viteration 24 elapsed time: 0.07006978988647461 seconds
+  viteration 25 elapsed time: 0.1179800033569336 seconds
+  viteration 26 elapsed time: 0.06829309463500977 seconds
+  viteration 27 elapsed time: 0.11917591094970703 seconds
+  viteration 28 elapsed time: 0.0680849552154541 seconds
+  viteration 29 elapsed time: 0.07131004333496094 seconds
+  viteration 30 elapsed time: 0.11635088920593262 seconds
+  viteration 31 elapsed time: 0.06975197792053223 seconds
+  viteration 32 elapsed time: 0.11803007125854492 seconds
+  viteration 33 elapsed time: 0.0681300163269043 seconds
+  viteration 34 elapsed time: 0.11918187141418457 seconds
+viter total elapsed time: 3.0868849754333496 seconds
+piteration 2 elapsed time: 0.349992036819458 seconds
+  viteration 1 elapsed time: 0.0685429573059082 seconds
+  viteration 2 elapsed time: 0.07134795188903809 seconds
+  viteration 3 elapsed time: 0.11414813995361328 seconds
+  viteration 4 elapsed time: 0.07166790962219238 seconds
+  viteration 5 elapsed time: 0.11692690849304199 seconds
+  viteration 6 elapsed time: 0.06958985328674316 seconds
+  viteration 7 elapsed time: 0.12022805213928223 seconds
+  viteration 8 elapsed time: 0.06737804412841797 seconds
+  viteration 9 elapsed time: 0.07191991806030273 seconds
+  viteration 10 elapsed time: 0.11566996574401855 seconds
+  viteration 11 elapsed time: 0.07043600082397461 seconds
+  viteration 12 elapsed time: 0.11788606643676758 seconds
+  viteration 13 elapsed time: 0.06911897659301758 seconds
+  viteration 14 elapsed time: 0.11979007720947266 seconds
+  viteration 15 elapsed time: 0.06779098510742188 seconds
+  viteration 16 elapsed time: 0.07168984413146973 seconds
+  viteration 17 elapsed time: 0.11586308479309082 seconds
+  viteration 18 elapsed time: 0.07027602195739746 seconds
+  viteration 19 elapsed time: 0.11769700050354004 seconds
+  viteration 20 elapsed time: 0.06898283958435059 seconds
+  viteration 21 elapsed time: 0.11917304992675781 seconds
+  viteration 22 elapsed time: 0.06756901741027832 seconds
+  viteration 23 elapsed time: 0.07155609130859375 seconds
+  viteration 24 elapsed time: 0.11531496047973633 seconds
+  viteration 25 elapsed time: 0.07034707069396973 seconds
+probably reached convergance 5539.102785422987
+viter total elapsed time: 2.247070789337158 seconds
+piteration 3 elapsed time: 0.36448216438293457 seconds
+  viteration 1 elapsed time: 0.11556005477905273 seconds
+  viteration 2 elapsed time: 0.07006597518920898 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.20261096954345703 seconds
+piteration 4 elapsed time: 0.3638432025909424 seconds
+  viteration 1 elapsed time: 0.11510705947875977 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.13215112686157227 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.264886140823364 seconds
+main conditions: 
+    jump: 10, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:35
+piteration 1 elapsed time: 0.3502929210662842 seconds
+  viteration 1 elapsed time: 0.07039117813110352 seconds
+  viteration 2 elapsed time: 0.11665987968444824 seconds
+  viteration 3 elapsed time: 0.0692758560180664 seconds
+  viteration 4 elapsed time: 0.12014985084533691 seconds
+  viteration 5 elapsed time: 0.0678548812866211 seconds
+  viteration 6 elapsed time: 0.07161784172058105 seconds
+  viteration 7 elapsed time: 0.11690497398376465 seconds
+  viteration 8 elapsed time: 0.07012200355529785 seconds
+  viteration 9 elapsed time: 0.11716198921203613 seconds
+  viteration 10 elapsed time: 0.06829285621643066 seconds
+  viteration 11 elapsed time: 0.11896586418151855 seconds
+  viteration 12 elapsed time: 0.06803178787231445 seconds
+  viteration 13 elapsed time: 0.07138609886169434 seconds
+  viteration 14 elapsed time: 0.11578893661499023 seconds
+  viteration 15 elapsed time: 0.0698390007019043 seconds
+  viteration 16 elapsed time: 0.11923408508300781 seconds
+  viteration 17 elapsed time: 0.06822681427001953 seconds
+  viteration 18 elapsed time: 0.12081599235534668 seconds
+  viteration 19 elapsed time: 0.06777787208557129 seconds
+  viteration 20 elapsed time: 0.0710599422454834 seconds
+  viteration 21 elapsed time: 0.11603188514709473 seconds
+  viteration 22 elapsed time: 0.06972503662109375 seconds
+  viteration 23 elapsed time: 0.11913299560546875 seconds
+  viteration 24 elapsed time: 0.06836509704589844 seconds
+  viteration 25 elapsed time: 0.11810898780822754 seconds
+  viteration 26 elapsed time: 0.06772303581237793 seconds
+  viteration 27 elapsed time: 0.07098793983459473 seconds
+  viteration 28 elapsed time: 0.11713910102844238 seconds
+  viteration 29 elapsed time: 0.06945085525512695 seconds
+  viteration 30 elapsed time: 0.1196129322052002 seconds
+  viteration 31 elapsed time: 0.06800293922424316 seconds
+  viteration 32 elapsed time: 0.0720210075378418 seconds
+  viteration 33 elapsed time: 0.11477994918823242 seconds
+  viteration 34 elapsed time: 0.07101011276245117 seconds
+  viteration 35 elapsed time: 0.11761999130249023 seconds
+viter total elapsed time: 3.1636481285095215 seconds
+piteration 2 elapsed time: 0.34992313385009766 seconds
+  viteration 1 elapsed time: 0.07018017768859863 seconds
+  viteration 2 elapsed time: 0.11541414260864258 seconds
+  viteration 3 elapsed time: 0.0698251724243164 seconds
+  viteration 4 elapsed time: 0.11902308464050293 seconds
+  viteration 5 elapsed time: 0.06782793998718262 seconds
+  viteration 6 elapsed time: 0.07175898551940918 seconds
+  viteration 7 elapsed time: 0.11497187614440918 seconds
+  viteration 8 elapsed time: 0.07049894332885742 seconds
+  viteration 9 elapsed time: 0.11726212501525879 seconds
+  viteration 10 elapsed time: 0.06833100318908691 seconds
+  viteration 11 elapsed time: 0.11935186386108398 seconds
+  viteration 12 elapsed time: 0.06759095191955566 seconds
+  viteration 13 elapsed time: 0.07163786888122559 seconds
+  viteration 14 elapsed time: 0.11488008499145508 seconds
+  viteration 15 elapsed time: 0.07032203674316406 seconds
+  viteration 16 elapsed time: 0.11763882637023926 seconds
+  viteration 17 elapsed time: 0.06884884834289551 seconds
+  viteration 18 elapsed time: 0.11753296852111816 seconds
+  viteration 19 elapsed time: 0.06755590438842773 seconds
+  viteration 20 elapsed time: 0.07150912284851074 seconds
+  viteration 21 elapsed time: 0.11671090126037598 seconds
+  viteration 22 elapsed time: 0.07015299797058105 seconds
+  viteration 23 elapsed time: 0.11750006675720215 seconds
+  viteration 24 elapsed time: 0.06890392303466797 seconds
+probably reached convergance 5539.034408766346
+viter total elapsed time: 2.166804075241089 seconds
+piteration 3 elapsed time: 0.3657541275024414 seconds
+  viteration 1 elapsed time: 0.11746978759765625 seconds
+  viteration 2 elapsed time: 0.06825709342956543 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.20218992233276367 seconds
+piteration 4 elapsed time: 0.3647181987762451 seconds
+  viteration 1 elapsed time: 0.1167750358581543 seconds
+probably reached convergance 5538.843892736077
+viter total elapsed time: 0.1328580379486084 seconds
+reached convergance 5538.843892736077
+elapsed time: 7.268599987030029 seconds
+jameson@julia:~/dp-mapmaker$ 
+

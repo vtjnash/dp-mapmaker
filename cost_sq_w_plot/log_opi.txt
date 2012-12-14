@@ -1,0 +1,842 @@
+cost = (((next_h-h)/1000).^2 + 1).*dist_multiplier
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 32, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:3
+piteration 1 elapsed time: 0.025185108184814453 seconds
+  viteration 1 elapsed time: 0.025037050247192383 seconds
+  viteration 2 elapsed time: 0.024277925491333008 seconds
+  viteration 3 elapsed time: 0.025409936904907227 seconds
+viter total elapsed time: 0.07480001449584961 seconds
+piteration 2 elapsed time: 0.024884939193725586 seconds
+  viteration 1 elapsed time: 0.025252103805541992 seconds
+  viteration 2 elapsed time: 0.0435788631439209 seconds
+  viteration 3 elapsed time: 0.026161909103393555 seconds
+viter total elapsed time: 0.09535789489746094 seconds
+piteration 3 elapsed time: 0.02579188346862793 seconds
+  viteration 1 elapsed time: 0.02484893798828125 seconds
+  viteration 2 elapsed time: 0.026636123657226562 seconds
+  viteration 3 elapsed time: 0.029311180114746094 seconds
+viter total elapsed time: 0.08088397979736328 seconds
+piteration 4 elapsed time: 0.02231907844543457 seconds
+  viteration 1 elapsed time: 0.02088308334350586 seconds
+  viteration 2 elapsed time: 0.03838801383972168 seconds
+  viteration 3 elapsed time: 0.022871017456054688 seconds
+probably reached convergance 709.8258608787438
+viter total elapsed time: 0.0825650691986084 seconds
+piteration 5 elapsed time: 0.026250839233398438 seconds
+  viteration 1 elapsed time: 0.027325153350830078 seconds
+probably reached convergance 709.7675648615877
+viter total elapsed time: 0.02768397331237793 seconds
+reached convergance 709.7675648615877
+elapsed time: 0.597059965133667 seconds
+total viters: 13
+
+julia>
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 16, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:4
+piteration 1 elapsed time: 0.04779505729675293 seconds
+  viteration 1 elapsed time: 0.028925180435180664 seconds
+  viteration 2 elapsed time: 0.026875972747802734 seconds
+  viteration 3 elapsed time: 0.04366493225097656 seconds
+  viteration 4 elapsed time: 0.028457164764404297 seconds
+viter total elapsed time: 0.12800383567810059 seconds
+piteration 2 elapsed time: 0.055957794189453125 seconds
+  viteration 1 elapsed time: 0.026582956314086914 seconds
+  viteration 2 elapsed time: 0.0446469783782959 seconds
+  viteration 3 elapsed time: 0.026636123657226562 seconds
+  viteration 4 elapsed time: 0.027523040771484375 seconds
+viter total elapsed time: 0.12545990943908691 seconds
+piteration 3 elapsed time: 0.058133840560913086 seconds
+  viteration 1 elapsed time: 0.04681706428527832 seconds
+  viteration 2 elapsed time: 0.02799201011657715 seconds
+  viteration 3 elapsed time: 0.029919147491455078 seconds
+  viteration 4 elapsed time: 0.028889179229736328 seconds
+viter total elapsed time: 0.13369107246398926 seconds
+piteration 4 elapsed time: 0.051566123962402344 seconds
+  viteration 1 elapsed time: 0.04202985763549805 seconds
+  viteration 2 elapsed time: 0.027590036392211914 seconds
+  viteration 3 elapsed time: 0.026857852935791016 seconds
+  viteration 4 elapsed time: 0.02838897705078125 seconds
+viter total elapsed time: 0.12493276596069336 seconds
+piteration 5 elapsed time: 0.06605195999145508 seconds
+  viteration 1 elapsed time: 0.038691043853759766 seconds
+  viteration 2 elapsed time: 0.03914785385131836 seconds
+  viteration 3 elapsed time: 0.042088985443115234 seconds
+  viteration 4 elapsed time: 0.05338311195373535 seconds
+viter total elapsed time: 0.17340302467346191 seconds
+piteration 6 elapsed time: 0.054451942443847656 seconds
+  viteration 1 elapsed time: 0.026924848556518555 seconds
+  viteration 2 elapsed time: 0.02812504768371582 seconds
+probably reached convergance 2298.0628920316053
+viter total elapsed time: 0.05595088005065918 seconds
+piteration 7 elapsed time: 0.058934926986694336 seconds
+  viteration 1 elapsed time: 0.04793381690979004 seconds
+probably reached convergance 2298.0628920316053
+viter total elapsed time: 0.04881596565246582 seconds
+reached convergance 2298.0628920316053
+elapsed time: 1.2959349155426025 seconds
+total viters: 23
+
+julia>
+
+julia> require("mapmaker"); x=mapmaker.main();
+Warning: replacing module mapmaker
+main conditions: 
+    jump: 8, alpha: 1, vtol: 1.0e9
+    piter: 1:100, viter: 1:14
+piteration 1 elapsed time: 0.5051510334014893 seconds
+  viteration 1 elapsed time: 0.09641408920288086 seconds
+  viteration 2 elapsed time: 0.0714411735534668 seconds
+  viteration 3 elapsed time: 0.07296895980834961 seconds
+  viteration 4 elapsed time: 0.05399799346923828 seconds
+  viteration 5 elapsed time: 0.07202506065368652 seconds
+  viteration 6 elapsed time: 0.07523894309997559 seconds
+  viteration 7 elapsed time: 0.07176399230957031 seconds
+  viteration 8 elapsed time: 0.07709407806396484 seconds
+  viteration 9 elapsed time: 0.05760502815246582 seconds
+  viteration 10 elapsed time: 0.07387208938598633 seconds
+  viteration 11 elapsed time: 0.07569098472595215 seconds
+  viteration 12 elapsed time: 0.07861018180847168 seconds
+  viteration 13 elapsed time: 0.05376911163330078 seconds
+  viteration 14 elapsed time: 0.0843048095703125 seconds
+viter total elapsed time: 1.015031099319458 seconds
+piteration 2 elapsed time: 0.49925804138183594 seconds
+  viteration 1 elapsed time: 0.07336902618408203 seconds
+  viteration 2 elapsed time: 0.0734701156616211 seconds
+  viteration 3 elapsed time: 0.07517099380493164 seconds
+  viteration 4 elapsed time: 0.07192611694335938 seconds
+  viteration 5 elapsed time: 0.05615091323852539 seconds
+  viteration 6 elapsed time: 0.07094812393188477 seconds
+  viteration 7 elapsed time: 0.07951092720031738 seconds
+  viteration 8 elapsed time: 0.08862900733947754 seconds
+  viteration 9 elapsed time: 0.057641029357910156 seconds
+  viteration 10 elapsed time: 0.07320713996887207 seconds
+  viteration 11 elapsed time: 0.07043981552124023 seconds
+  viteration 12 elapsed time: 0.07301688194274902 seconds
+  viteration 13 elapsed time: 0.07585692405700684 seconds
+  viteration 14 elapsed time: 0.05533003807067871 seconds
+viter total elapsed time: 0.9948980808258057 seconds
+piteration 3 elapsed time: 0.5465309619903564 seconds
+  viteration 1 elapsed time: 0.06111907958984375 seconds
+  viteration 2 elapsed time: 0.08190584182739258 seconds
+  viteration 3 elapsed time: 0.08094215393066406 seconds
+  viteration 4 elapsed time: 0.07967281341552734 seconds
+  viteration 5 elapsed time: 0.05550217628479004 seconds
+  viteration 6 elapsed time: 0.07613110542297363 seconds
+  viteration 7 elapsed time: 0.07141804695129395 seconds
+  viteration 8 elapsed time: 0.07315707206726074 seconds
+  viteration 9 elapsed time: 0.05603790283203125 seconds
+  viteration 10 elapsed time: 0.07938599586486816 seconds
+  viteration 11 elapsed time: 0.07193708419799805 seconds
+  viteration 12 elapsed time: 0.07259392738342285 seconds
+  viteration 13 elapsed time: 0.07845711708068848 seconds
+  viteration 14 elapsed time: 0.0760498046875 seconds
+viter total elapsed time: 1.0145530700683594 seconds
+piteration 4 elapsed time: 0.5196049213409424 seconds
+  viteration 1 elapsed time: 0.056626081466674805 seconds
+  viteration 2 elapsed time: 0.07429885864257812 seconds
+  viteration 3 elapsed time: 0.0774240493774414 seconds
+  viteration 4 elapsed time: 0.07221293449401855 seconds
+  viteration 5 elapsed time: 0.05588889122009277 seconds
+  viteration 6 elapsed time: 0.07013916969299316 seconds
+probably reached convergance 8471.843895571947
+viter total elapsed time: 0.40915703773498535 seconds
+piteration 5 elapsed time: 0.5157020092010498 seconds
+  viteration 1 elapsed time: 0.054121971130371094 seconds
+probably reached convergance 8471.843150804469
+viter total elapsed time: 0.05644702911376953 seconds
+reached convergance 8471.843150804469
+elapsed time: 6.273867845535278 seconds
+total viters: 49
+
+julia> 
+
+
+-----------
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:14
+piteration 9 elapsed time: 8.082154989242554 seconds
+  viteration 1 elapsed time: 0.2346949577331543 seconds
+probably reached convergance 32494.210908045745
+viter total elapsed time: 0.24633002281188965 seconds
+reached convergance 32494.210908045745
+total viters: 90
+elapsed time: 95.6789128780365 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:15
+reached convergance 32494.210908045745
+total viters: 93
+elapsed time: 86.38470911979675 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:16
+reached convergance 32494.210908045745
+total viters: 97
+elapsed time: 85.73538899421692 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:17
+reached convergance 32494.210908045745
+total viters: 103
+elapsed time: 87.63932394981384 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:18
+reached convergance 32494.210908045745
+total viters: 101
+elapsed time: 98.76510310173035 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:19
+reached convergance 32494.210908045745
+total viters: 102
+elapsed time: 87.19803881645203 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:20
+reached convergance 32494.210908045745
+total viters: 107
+elapsed time: 90.8567430973053 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:21
+reached convergance 32494.210908045745
+total viters: 94
+elapsed time: 81.00184202194214 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:22
+reached convergance 32494.210908045745
+total viters: 97
+elapsed time: 80.96252202987671 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:23
+reached convergance 32494.210908045745
+total viters: 102
+elapsed time: 78.33912205696106 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:24
+reached convergance 32494.210908045745
+total viters: 104
+elapsed time: 79.31856298446655 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:25
+reached convergance 32494.210908045745
+total viters: 103
+elapsed time: 87.53366208076477 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:26
+reached convergance 32494.210908045745
+total viters: 108
+total piters: 6
+elapsed time: 71.59494686126709 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:27
+reached convergance 32494.210908045745
+total viters: 109
+total piters: 6
+elapsed time: 71.54522895812988 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:28
+reached convergance 32494.210908045745
+total viters: 111
+total piters: 6
+elapsed time: 71.93813681602478 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:29
+reached convergance 32494.210908045745
+total viters: 111
+total piters: 6
+elapsed time: 74.01138806343079 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:30
+reached convergance 32494.210908045745
+total viters: 121
+total piters: 8
+elapsed time: 90.88671493530273 seconds
+
+ain conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:31
+reached convergance 32494.210908045745
+total viters: 112
+total piters: 6
+elapsed time: 73.32804203033447 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:32
+reached convergance 32494.210908045745
+total viters: 115
+total piters: 6
+elapsed time: 75.2896499633789 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:33
+reached convergance 32494.210908045745
+total viters: 114
+total piters: 7
+elapsed time: 81.81914401054382 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:34
+reached convergance 32494.210908045745
+total viters: 118
+total piters: 6
+elapsed time: 74.34147500991821 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:35
+reached convergance 32494.210908045745
+total viters: 118
+total piters: 7
+elapsed time: 82.8366289138794 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:36
+reached convergance 32494.210908045745
+total viters: 125
+total piters: 6
+elapsed time: 76.27348685264587 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:37
+reached convergance 32494.210908045745
+total viters: 126
+total piters: 6
+elapsed time: 76.4028069972992 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:38
+reached convergance 32494.210908045745
+total viters: 123
+total piters: 6
+elapsed time: 76.43249106407166 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:39
+reached convergance 32494.210908045745
+total viters: 124
+total piters: 6
+elapsed time: 77.11982989311218 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:40
+reached convergance 32494.210908045745
+total viters: 125
+total piters: 5
+elapsed time: 70.94192910194397 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:41
+reached convergance 32494.210908045745
+total viters: 126
+total piters: 5
+elapsed time: 68.413241147995 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:42
+reached convergance 32494.210908045745
+total viters: 128
+total piters: 5
+elapsed time: 69.38190793991089 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:43
+reached convergance 32494.210908045745
+total viters: 130
+total piters: 5
+elapsed time: 70.63698196411133 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:44
+reached convergance 32494.210908045745
+total viters: 131
+total piters: 5
+elapsed time: 70.05575895309448 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:45
+reached convergance 32494.210908045745
+total viters: 134
+total piters: 5
+elapsed time: 70.29871487617493 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:46
+reached convergance 32494.210908045745
+total viters: 136
+total piters: 5
+elapsed time: 71.71928787231445 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:47
+reached convergance 32494.210908045745
+total viters: 133
+total piters: 5
+elapsed time: 69.88142204284668 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:48
+reached convergance 32494.210908045745
+total viters: 137
+total piters: 5
+elapsed time: 72.94054508209229 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:49
+reached convergance 32494.210908045745
+total viters: 136
+total piters: 5
+elapsed time: 73.20667910575867 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:50
+reached convergance 32494.210908045745
+total viters: 139
+total piters: 5
+elapsed time: 72.69921207427979 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:51
+reached convergance 32494.210908045745
+total viters: 128
+total piters: 5
+elapsed time: 70.27860713005066 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:52
+reached convergance 32494.210908045745
+total viters: 129
+total piters: 5
+elapsed time: 72.46343207359314 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:53
+reached convergance 32494.210908045745
+total viters: 132
+total piters: 4
+elapsed time: 62.26888990402222 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:54
+reached convergance 32494.210908045745
+total viters: 129
+total piters: 5
+elapsed time: 70.6117250919342 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:55
+reached convergance 32494.210908045745
+total viters: 128
+total piters: 5
+elapsed time: 69.16623091697693 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:56
+reached convergance 32494.210908045745
+total viters: 130
+total piters: 6
+elapsed time: 79.17809700965881 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:57
+reached convergance 32494.210908045745
+total viters: 132
+total piters: 4
+elapsed time: 65.93465399742126 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:58
+reached convergance 32494.210908045745
+total viters: 134
+total piters: 4
+elapsed time: 63.07712197303772 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:59
+reached convergance 32494.210908045745
+total viters: 134
+total piters: 4
+elapsed time: 63.6613929271698 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:60
+reached convergance 32494.210908045745
+total viters: 134
+total piters: 4
+elapsed time: 63.5220890045166 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:61
+reached convergance 32494.210908045745
+total viters: 136
+total piters: 4
+elapsed time: 64.34679388999939 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:62
+reached convergance 32494.210908045745
+total viters: 137
+total piters: 4
+elapsed time: 67.0038800239563 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:63
+reached convergance 32494.210908045745
+total viters: 137
+total piters: 5
+elapsed time: 74.50643491744995 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:64
+reached convergance 32494.210908045745
+total viters: 138
+total piters: 5
+elapsed time: 71.60448002815247 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:65
+reached convergance 32494.210908045745
+total viters: 138
+total piters: 4
+elapsed time: 64.29740500450134 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:66
+reached convergance 32494.210908045745
+total viters: 140
+total piters: 4
+elapsed time: 67.35933303833008 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:67
+reached convergance 32494.210908045745
+total viters: 142
+total piters: 5
+elapsed time: 72.45319390296936 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:68
+reached convergance 32494.210908045745
+total viters: 144
+total piters: 5
+elapsed time: 74.7089331150055 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:69
+reached convergance 32494.210908045745
+total viters: 146
+total piters: 5
+elapsed time: 77.56856107711792 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:70
+reached convergance 32494.210908045745
+total viters: 148
+total piters: 5
+elapsed time: 75.30195903778076 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:71
+reached convergance 32494.210908045745
+total viters: 150
+total piters: 5
+elapsed time: 81.48400902748108 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:72
+reached convergance 32494.210908045745
+total viters: 151
+total piters: 5
+elapsed time: 77.25739622116089 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:73
+reached convergance 32494.210908045745
+total viters: 150
+total piters: 4
+elapsed time: 73.29416704177856 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:74
+reached convergance 32494.210908045745
+total viters: 152
+total piters: 4
+elapsed time: 69.16278791427612 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:75
+reached convergance 32494.210908045745
+total viters: 153
+total piters: 4
+elapsed time: 69.021409034729 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:76
+reached convergance 32494.210908045745
+total viters: 155
+total piters: 4
+elapsed time: 69.90990805625916 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:77
+reached convergance 32494.210908045745
+total viters: 157
+total piters: 4
+elapsed time: 69.95959496498108 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:78
+reached convergance 32494.210908045745
+total viters: 158
+total piters: 4
+elapsed time: 70.11233019828796 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:79
+reached convergance 32494.210908045745
+total viters: 159
+total piters: 4
+elapsed time: 71.79381203651428 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:80
+reached convergance 32494.210908045745
+total viters: 160
+total piters: 4
+elapsed time: 69.22477698326111 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:81
+reached convergance 32494.210908045745
+total viters: 161
+total piters: 4
+elapsed time: 70.47406697273254 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:82
+reached convergance 32494.210908045745
+total viters: 159
+total piters: 4
+elapsed time: 69.12539887428284 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:83
+reached convergance 32494.210908045745
+total viters: 160
+total piters: 4
+elapsed time: 69.15014100074768 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:84
+reached convergance 32494.210908045745
+total viters: 161
+total piters: 4
+elapsed time: 70.03946900367737 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:86
+reached convergance 32494.210908045745
+total viters: 163
+total piters: 4
+elapsed time: 70.01133608818054 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:87
+reached convergance 32494.210908045745
+total viters: 164
+total piters: 4
+elapsed time: 69.73884892463684 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:88
+reached convergance 32494.210908045745
+total viters: 164
+total piters: 4
+elapsed time: 72.10410499572754 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:89
+reached convergance 32494.210908045745
+total viters: 165
+total piters: 4
+elapsed time: 74.36596393585205 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:90
+reached convergance 32494.210908045745
+total viters: 165
+total piters: 4
+elapsed time: 69.00593209266663 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:91
+reached convergance 32494.210908045745
+total viters: 157
+total piters: 4
+elapsed time: 67.85889387130737 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:92
+reached convergance 32494.210908045745
+total viters: 158
+total piters: 4
+elapsed time: 69.07607507705688 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:93
+reached convergance 32494.210908045745
+total viters: 148
+total piters: 4
+elapsed time: 64.9955689907074 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:94
+reached convergance 32494.210908045745
+total viters: 145
+total piters: 4
+elapsed time: 64.52978014945984 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:95
+reached convergance 32494.210908045745
+total viters: 142
+total piters: 4
+elapsed time: 63.98270320892334 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:96
+reached convergance 32494.210908045745
+total viters: 147
+total piters: 4
+elapsed time: 67.09927105903625 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:97
+reached convergance 32494.210908045745
+total viters: 148
+total piters: 4
+elapsed time: 65.66057419776917 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:98
+reached convergance 32494.210908045745
+total viters: 145
+total piters: 4
+elapsed time: 66.04605102539062 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:99
+reached convergance 32494.210908045745
+total viters: 144
+total piters: 4
+elapsed time: 67.73926401138306 seconds
+
+main conditions: 
+    jump: 4, alpha: 1, vtol: 1.0e9
+    piter: 1:1000, viter: 1:100
+reached convergance 32494.210908045745
+total viters: 147
+total piters: 4
+elapsed time: 69.72837519645691 seconds
+
