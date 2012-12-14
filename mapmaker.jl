@@ -91,14 +91,14 @@ end
 #    703
 #    654
 function main(A,mapinfo,dest,jump,alpha,piter_range,viter_range,vtol)
-    println("main conditions: ")
-    println("    jump: $jump, alpha: $alpha, vtol: $vtol")
-    println("    piter: $piter_range, viter: $viter_range")
     A=A[1:jump:end,1:jump:end]
     W = int(mapinfo.W/jump)
     H = int(mapinfo.H/jump)
     x0 = [int((dest.east - mapinfo.west) / (mapinfo.east - mapinfo.west) * W),
           int((dest.north - mapinfo.south) / (mapinfo.north - mapinfo.south) * H)]
+    println("main conditions: W: $W, H: $H")
+    println("    jump: $jump, alpha: $alpha, vtol: $vtol")
+    println("    piter: $piter_range, viter: $viter_range")
 
     
     ## Init grid (direct) and costs (euclidean)
@@ -211,8 +211,8 @@ function main(A,mapinfo,dest,jump,alpha,piter_range,viter_range,vtol)
     ## Show stats
     show_cost(cost)
     show_control(control)
-    println("total viters: $viter_sum")
-    println("total piters: $piter")
+    println("total value iterations: $viter_sum")
+    println("total policy iterations: $piter")
 
     cost,control
 end
@@ -239,8 +239,8 @@ function main(jump,alpha,piter,viter,vtol)
 end
 
 function main()
-    #(cost,control) = @time main(10, 1, 1:1000, 1:1, 1e9) # (optimistic) policy iteration
-    (cost,control) = @time main(04, 1, 0, 1:10000, 1e-9) # value iteration
+    (cost,control) = @time main(16, 1, 1:1000, 1:1, 1e9) # (optimistic) policy iteration
+    #(cost,control) = @time main(16, 1, 0, 1:10000, 1e-9) # value iteration
 end
 
 function mapkey()
