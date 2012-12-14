@@ -26,12 +26,16 @@ function ntoh!(a::Array)
     a
 end
 
-function show_cost(control)
-    (W,H) = size(control)
-    p = Plot.imagesc((0,W),(H,0),control)
+function show_cost(cost)
+    (W,H) = size(cost)
+    p = Plot.imagesc((0,W),(H,0),cost)
     Plot.tk(p)
 end
-show_control(cost) = show_cost(cost)
+function show_control(control)
+    (W,H) = size(control)
+    p = Plot.imagesc((0,W),(H,0),control,(0,8))
+    Plot.tk(p)
+end
 function show_map(A,mapinfo,dest)
     W = mapinfo.W
     H = mapinfo.H
@@ -40,7 +44,7 @@ function show_map(A,mapinfo,dest)
     p=Plot.imagesc((0,W),(H,0),A);
     add(p,Winston.Point(x0[1],x0[2],"symboltype","asterisk"));
     add(p,Winston.Point(x0[1],x0[2],"symboltype","circle"));
-    Plot.tk(p)
+    Plot.tk(p,"width",1440,"height",720)
 end
 
 
@@ -162,10 +166,11 @@ function main(A,mapinfo,dest,jump,alpha,piter_range,viter_range,vtol)
     end
    
     ## Policy/Value iteration of the actual, best policy/costs
+    local piter, viter_sum = 0
     try
     g = zeros(H*W)
     for piter = piter_range
-        local changed,piter,viter
+        local changed,viter
         if piter != 0
             @time begin
                 cost = policy_iter(x0,W,H,alpha,control,nextx,u_cost,g)
@@ -190,6 +195,7 @@ function main(A,mapinfo,dest,jump,alpha,piter_range,viter_range,vtol)
                     #error(InterruptException())
                 end
             end
+            viter_sum += viter
             print("viter total ")
         end 
         if !changed && viter <= 1
@@ -205,7 +211,9 @@ function main(A,mapinfo,dest,jump,alpha,piter_range,viter_range,vtol)
     ## Show stats
     show_cost(cost)
     show_control(control)
-    
+    println("total viters: $viter_sum")
+    println("total piters: $piter")
+
     cost,control
 end
 
@@ -231,8 +239,12 @@ function main(jump,alpha,piter,viter,vtol)
 end
 
 function main()
-    #(cost,control) = @time main(10, 1, 1:100, 1:1, 1e9) # optimistic policy iteration
-    (cost,control) = @time main(10, 1, 0, 1:1000, 1e-9) # value iteration
+    #(cost,control) = @time main(10, 1, 1:1000, 1:1, 1e9) # (optimistic) policy iteration
+    (cost,control) = @time main(04, 1, 0, 1:10000, 1e-9) # value iteration
+end
+
+function mapkey()
+    (cost,control) = main(zeros(9,9), MapInfo("", 1,3, 1,3, 9,9), MapPoint(2.,2.), 1, 1, 1:0, 1:0, 1e-9)
 end
 
 end
